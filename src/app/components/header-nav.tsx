@@ -17,7 +17,7 @@ export const HeaderNav = () => {
                         alt="Logo"
                         width={200}
                         height={100}
-                        className='mx-4 my-1 w-auto h-auto'
+                        className='mx-4 my-1 w-auto h-auto p-2'
                         priority
                     />
                 </div>
@@ -26,30 +26,30 @@ export const HeaderNav = () => {
                 <div className="hidden lg:flex items-center space-x-10 mx-6">
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold tracking-wider">
                         HOME
-                        <Home size={20} className="ml-4" />
+                        <Home size={20} className="ml-3" />
                     </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold tracking-wider">
                         PRODUCTS
-                        <PackageSearch size={20} className="ml-4" />
+                        <PackageSearch size={20} className="ml-3" />
                     </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
                         SOLUTIONS
-                        <Lightbulb size={20} className="ml-4" />
+                        <Lightbulb size={20} className="ml-3" />
                     </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
                         CONTACT US
-                        <Phone size={20} className="ml-4" />
+                        <Phone size={20} className="ml-3" />
                     </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
-                        <Search size={20} className="mx-4" />
+                        <Search size={20} />
                     </a>
-                    <div className="h-12 w-px bg-gray-300 mx-4"></div>
+                    <div className="h-12 w-px bg-gray-300 mx-2"></div>
                     <button 
                         onClick={toggleMenu}
-                        className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold focus:outline-none"
+                        className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold focus:outline-none ml-4"
                     >
                         MENU
-                        <Menu size={20} className="ml-4" />
+                        <Menu size={20} className="ml-3" />
                     </button>
                 </div>
 
