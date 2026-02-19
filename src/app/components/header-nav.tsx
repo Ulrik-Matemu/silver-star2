@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Image from 'next/image'; //image
+import { Home, Lightbulb, Menu, PackageSearch, Search } from 'lucide-react';
 
 export const HeaderNav = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -22,18 +23,21 @@ export const HeaderNav = () => {
                 </div>
 
                 {/* Desktop Navigation - Hidden on mobile */}
-                <div className="hidden lg:flex items-center space-x-6 mx-6">
+                <div className="hidden lg:flex items-center space-x-10 mx-6">
+                    <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold tracking-wider">
+                        HOME
+                        <Home size={20} className="ml-4" />
+                    </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold tracking-wider">
                         PRODUCTS
-                        <Image src="/icons/products.png" alt="Icon" width={20} height={20} className="ml-4" />
+                        <PackageSearch size={20} className="ml-4" />
                     </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
                         SOLUTIONS
-                        <Image src="/icons/solutions.png" alt="Icon" width={30} height={30} className="ml-4" />
+                        <Lightbulb size={20} className="ml-4" />
                     </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
-                        SEARCH
-                        <Image src="/icons/search.png" alt="Icon" width={20} height={20} className="ml-4" />
+                        <Search size={20} className="mx-4" />
                     </a>
                     <div className="h-12 w-px bg-gray-300 mx-4"></div>
                     <button 
@@ -41,7 +45,7 @@ export const HeaderNav = () => {
                         className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold focus:outline-none"
                     >
                         MENU
-                        <Image src="/icons/icon-menu.svg" alt='Menu' width={20} height={20} className='ml-4' />
+                        <Menu size={20} className="ml-4" />
                     </button>
                 </div>
 
