@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Image from 'next/image'; //image
-import { Home, Lightbulb, Menu, PackageSearch, Search } from 'lucide-react';
+import { Home, Lightbulb, Menu, PackageSearch, Phone, Search } from 'lucide-react';
 
 export const HeaderNav = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,6 +35,10 @@ export const HeaderNav = () => {
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
                         SOLUTIONS
                         <Lightbulb size={20} className="ml-4" />
+                    </a>
+                    <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
+                        CONTACT US
+                        <Phone size={20} className="ml-4" />
                     </a>
                     <a href="#" className="flex items-center text-gray-700 hover:text-blue-600 text-sm font-bold">
                         <Search size={20} className="mx-4" />
