@@ -66,7 +66,7 @@ export const HeroCarousel = () => {
                 {slide.description}
               </p>
              
-              <button className="bg-[#007bc1] hover:bg-[#005a8e] text-white px-6 md:px-8 py-3 rounded-full font-semibold transition-colors uppercase tracking-wide text-sm md:text-base">
+              <button className={`bg-transparent hover:bg-[#005a8e] ${slide.fontColor || 'text-gray-800'}  px-6 md:px-8 py-3 rounded-full font-semibold transition-colors uppercase tracking-wide text-sm md:text-base border border-white`}>
                 {slide.buttonText}
               </button>
             </div>
@@ -77,13 +77,13 @@ export const HeroCarousel = () => {
       {/* Navigation Arrows - Hidden on very small screens or made smaller */}
       <button 
         onClick={prevSlide}
-        className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-[#007bc1] text-white p-1.5 md:p-2 rounded-full shadow-lg hover:scale-110 transition-transform z-10"
+        className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 bg-white border border-blue-800 text-blue-600 p-1.5 md:p-2 rounded-full shadow-lg hover:scale-110 transition-transform z-10"
       >
         <ChevronLeft size={24} className="md:w-[28px] md:h-[28px]" />
       </button>
       <button 
         onClick={nextSlide}
-        className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-[#007bc1] text-white p-1.5 md:p-2 rounded-full shadow-lg hover:scale-110 transition-transform z-10"
+        className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 bg-white border border-blue-800 text-blue-600 p-1.5 md:p-2 rounded-full shadow-lg hover:scale-110 transition-transform z-10"
       >
         <ChevronRight size={24} className="md:w-[28px] md:h-[28px]" />
       </button>
