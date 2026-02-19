@@ -87,7 +87,7 @@ export const Footer = () => {
                 <p>Technical Services at  +255 787 788 288</p>
               </div>
               <div className="pl-6">
-                <p>Customer Service at  +255 713 484 175 / +255 764 009 008</p>
+                <p>General Enquiries at  +255 713 484 175 / +255 764 009 008</p>
               </div>
             </div>
           </div>
