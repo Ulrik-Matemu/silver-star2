@@ -63,9 +63,7 @@ export const Footer = () => {
           <div className="space-y-2">
              {/* Replace with actual MAPEI Logo */}
             <Image src="/silver-star-logo.png" alt="Silver Star Logo" width={150} height={50} className="w-auto h-auto" />
-            <p className="text-[10px] font-bold uppercase tracking-widest text-white leading-tight">
-              Adhesives · Sealants · Chemical Products for Building
-            </p>
+            
           </div>
 
           <div className="space-y-4">
@@ -79,25 +77,17 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div className="space-y-4">
-            <p className="text-sm font-medium text-gray-400">Download apps</p>
-            <div className="flex items-center space-y-1 flex-col w-fit">
-               <div className="bg-[#3b5998] p-2 rounded-lg">
-                  <div className="w-8 h-8 border-2 border-white rounded-full flex items-center justify-center text-white font-bold text-xs">M</div>
-               </div>
-               <span className="text-[10px] font-bold uppercase">MAPEI APP</span>
-            </div>
-          </div>
+          
 
           <div className="space-y-4 pt-4">
             <p className="text-sm font-medium text-gray-400">Contact us</p>
             <div className="space-y-3 text-sm">
               <div className="flex items-start space-x-2">
                 <Phone size={16} className="mt-1 flex-shrink-0" />
-                <p>Technical Services at 1-800-992-6273</p>
+                <p>Technical Services at  +255 787 788 288</p>
               </div>
               <div className="pl-6">
-                <p>Customer Service at 1-800-426-2734 (1-800-42-MAPEI)</p>
+                <p>Customer Service at  +255 713 484 175 / +255 764 009 008</p>
               </div>
             </div>
           </div>
