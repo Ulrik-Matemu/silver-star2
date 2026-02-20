@@ -13,7 +13,7 @@ interface StatItem {
 
 const stats: StatItem[] = [
   { icon: <Smile size={40} />, value: "109", label: "Number of Employees" },
-  { icon: <Coffee size={40} />, value: "26,416", label: "Number of Customer Supplied" },
+  { icon: <Coffee size={40} />, value: "26,416", label: "Number of Customers Supplied" },
   { icon: <Eye size={40} />, value: "85,934", label: "Number of Products Sold" },
   { icon: <Home size={40} />, value: "26,416", label: "Happy Customers" },
 ];
