@@ -18,7 +18,8 @@ const products: Product[] = [
 
 export const ProductsSection = () => {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section className="py-10 px-6 bg-white">
+        <h2 className="text-center text-3xl font-bold mb-6">OUR PRODUCTS</h2>
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {products.map((item, index) => (
