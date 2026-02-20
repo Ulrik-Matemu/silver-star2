@@ -12,10 +12,10 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { icon: <Smile size={40} />, value: "21,560", label: "Plants in\n5 continents in\n42 different Countries" },
-  { icon: <Coffee size={40} />, value: "26,416", label: "Main research centres\nin 22 Countries" },
-  { icon: <Eye size={40} />, value: "1,000+", label: "Employees in the R&D\nDepartment worldwide" },
-  { icon: <Home size={40} />, value: "85,934", label: "Products for the building industry\nof the Mapei Group" },
+  { icon: <Smile size={40} />, value: "21,560", label: "Number of Employees" },
+  { icon: <Coffee size={40} />, value: "26,416", label: "Number of Customer Supplied" },
+  { icon: <Eye size={40} />, value: "1,000+", label: "Products Sold" },
+  { icon: <Home size={40} />, value: "85,934", label: "Happy Customers" },
 ];
 
 /**
