@@ -58,13 +58,13 @@ export const HeroCarousel = () => {
             </div>
 
             {/* Content Section: Below image on mobile, Overlay on Desktop */}
-            <div className="relative flex items-center px-6 py-8 md:px-24 md:h-full md:z-10">
+            <div className="relative flex items-center px-12 md:px-6 py-8 md:px-24 md:h-full md:z-10">
               <div className="max-w-xl animate-fadeIn">
                 <h1 className={`text-2xl md:text-5xl font-extrabold ${slide.fontColor} mb-2 leading-tight md:leading-none`}>
                   {slide.title}
                 </h1>
                 
-                <div className={`w-20 h-[2px] md:w-full md:h-[1px] mb-4 md:mb-2 ${slide.fontColor.includes('white') ? 'bg-white' : 'bg-blue-600'}`}></div>
+                <div className={`w-20 h-[2px] md:w-full md:h-[1px] mb-4 md:mb-2 ${slide.fontColor.includes('white') ? 'bg-blue-600' : 'bg-blue-600'}`}></div>
 
                 <p className={`text-sm md:text-lg ${slide.fontColor} font-medium mb-6 md:mb-8 leading-relaxed opacity-90`}>
                   {slide.description}
