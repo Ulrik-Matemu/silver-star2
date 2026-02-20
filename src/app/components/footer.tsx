@@ -122,7 +122,7 @@ export const Footer = () => {
 };
 
 const SocialIcon = ({ icon }: { icon: React.ReactNode }) => (
-  <div className="w-8 h-8 rounded-full bg-white text-black flex items-center justify-center hover:bg-gray-300 cursor-pointer transition-colors">
+  <div className="w-8 h-8 text-white flex items-center justify-center hover:text-black cursor-pointer transition-colors">
     {icon}
   </div>
 );
