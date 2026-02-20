@@ -3,6 +3,7 @@ import { HeroCarousel } from "./components/hero-caraousel";
 import { Footer } from "./components/footer";
 import { ProductsSection } from "./components/products-section";
 import { WelcomeNote } from "./components/welcome-note";
+import { StatsSection } from "./components/stats";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroCarousel />
       <WelcomeNote />
       <ProductsSection />
+      <StatsSection />
      <Footer />
     </div>
   );
