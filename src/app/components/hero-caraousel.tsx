@@ -70,7 +70,7 @@ export const HeroCarousel = () => {
                   {slide.description}
                 </p>
                
-                <button className={`inline-block bg-blue-700 md:bg-transparent hover:bg-blue-800 text-white md:${slide.fontColor} px-8 py-3 rounded-full font-semibold transition-colors uppercase tracking-wide text-xs md:text-base border border-blue-700 md:border-white`}>
+                <button className={`inline-block bg-blue-700 md:bg-transparent hover:bg-blue-800  md:${slide.fontColor} px-8 py-3 rounded-full font-semibold transition-colors uppercase tracking-wide text-xs md:text-base border border-blue-700 md:border-white`}>
                   {slide.buttonText}
                 </button>
               </div>

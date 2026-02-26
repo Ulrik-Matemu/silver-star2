@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
-import { Smile, Home, Eye, Coffee } from "lucide-react";
+import { Smile, ListCheck, Award } from "lucide-react";
 import { motion, useMotionValue, useSpring, useInView } from "framer-motion";
 
 interface StatItem {
@@ -12,10 +12,10 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { icon: <Smile size={40} />, value: "109", label: "Number of Employees" },
-  { icon: <Coffee size={40} />, value: "26,416", label: "Number of Customers Supplied" },
-  { icon: <Eye size={40} />, value: "85,934", label: "Number of Products Sold" },
-  { icon: <Home size={40} />, value: "26,416", label: "Happy Customers" },
+
+  { icon: <Smile size={40} />, value: "1,260", label: "Happy Customers" },
+  { icon: <ListCheck size={40} />, value: "1,925", label: "Projects Done" },
+  { icon: <Award size={40} />, value: "15", label: "Years of Experience" },
 ];
 
 /**
@@ -71,7 +71,7 @@ export const StatsSection = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-4">
           {stats.map((stat, index) => (
             <motion.div 
               key={index}
