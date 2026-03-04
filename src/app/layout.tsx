@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { HeaderNav } from './components/header-nav'; // Import HeaderNav
+import { Footer } from "./components/footer";
+import  BackToTopButton  from "./components/back-to-top-button";
 
 
 
@@ -28,8 +30,10 @@ export default function RootLayout({
       <body
         className={`${montserrat.variable} antialiased`}
       >
-
+        <HeaderNav />
         {children}
+        <BackToTopButton />
+        <Footer />
       </body>
     </html>
   );

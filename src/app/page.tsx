@@ -9,13 +9,11 @@ import  BackToTopButton  from "./components/back-to-top-button";
 export default function Home() {
   return (
     <div>
-      <HeaderNav />
+      
       <HeroCarousel />
       <WelcomeNote />
       <ProductsSection />
       <StatsSection />
-      <BackToTopButton />
-     <Footer />
     </div>
   );
 }
