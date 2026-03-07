@@ -3,6 +3,8 @@
 export interface OfficeProps {
   name?: string;
   address?: string;
+  secondAddress?: string;
+  thirdAddress?: string;
   phone?: string;
   secondPhone?: string;
   email?: string;
@@ -12,7 +14,9 @@ export interface OfficeProps {
 
 const defaultOffice: OfficeProps = {
   name: "Silver Star - Mikocheni Office",
-  address: "Coca-cola Road, Mikocheni, P.O.Box 11451, Dar es salaam, Tanzania",
+  address: "Coca-cola Road, Mikocheni,",
+  secondAddress: "P. O. Box 11451,",
+  thirdAddress: "Dar es Salaam, Tanzania",
   email: "info@silverstar.co.tz",
   phone: "+255 713 484 175",
   secondPhone: "+255 787 788 288",
@@ -29,6 +33,8 @@ export default function OfficeSection({
   embedUrl = defaultOffice.embedUrl,
   phone = defaultOffice.phone,
   secondPhone = defaultOffice.secondPhone,
+  secondAddress = defaultOffice.secondAddress,
+  thirdAddress = defaultOffice.thirdAddress,
 }: OfficeProps) {
   return (
     <section
@@ -113,26 +119,20 @@ export default function OfficeSection({
                 style={{
                   fontSize: "0.88rem",
                   color: "#444",
-                  lineHeight: 1.65,
                   margin: 0,
                 }}
               >
                 {address}
+                <br />
+                {secondAddress}
+                <br />
+                {thirdAddress}
               </p>
             </div>
 
             {/* Email */}
             <div>
-              <p
-                style={{
-                  fontSize: "0.9rem",
-                  fontWeight: 700,
-                  color: "#1a1a2e",
-                  marginBottom: "6px",
-                }}
-              >
-                Email
-              </p>
+             
               <a
                 href={`mailto:${email}`}
                 style={{
@@ -143,20 +143,11 @@ export default function OfficeSection({
                 onMouseEnter={(e) => (e.currentTarget.style.color = "#1a6fa8")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#444")}
               >
-                {email}
+                E: {email}
               </a>
             </div>
              <div>
-              <p
-                style={{
-                  fontSize: "0.9rem",
-                  fontWeight: 700,
-                  color: "#1a1a2e",
-                  marginBottom: "6px",
-                }}
-              >
-                Phone
-              </p>
+              
               <a
                 href={`tel:${phone}`}
                 style={{
@@ -167,9 +158,9 @@ export default function OfficeSection({
                 onMouseEnter={(e) => (e.currentTarget.style.color = "#1a6fa8")}
                 onMouseLeave={(e) => (e.currentTarget.style.color = "#444")}
               >
-                {phone}
+                T: {phone}
                 <br />
-                {secondPhone}
+                T: {secondPhone}
               </a>
             </div>
 

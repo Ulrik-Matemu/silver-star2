@@ -177,7 +177,7 @@ export default function ContactForm() {
       <div style={containerStyle}>
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "40px" }}>
-          <h1 style={headingStyle}>Silverstar Resource Company Limited</h1>
+          <h1 style={headingStyle}>Mapei Middle East &amp; East Africa</h1>
           <p style={subtitleStyle}>
             Feel free to contact us by filling the below form and we will get back to you soon.
           </p>
@@ -236,17 +236,14 @@ export default function ContactForm() {
             {errors.country && <p style={errorStyle}>{errors.country}</p>}
           </div>
 
-          
+          <div>
+            <input placeholder="Other - Please specify" style={inputStyle(focused, "city")} {...fieldProps("city")} />
+            {errors.city && <p style={errorStyle}>{errors.city}</p>}
+          </div>
         </div>
 
         {/* Other field - full width */}
-        <div style={{ marginTop: "16px" }}>
-          <input
-            placeholder="Other - Please specify"
-            style={inputStyle(focused, "other")}
-            {...fieldProps("other")}
-          />
-        </div>
+        
 
         {/* Message section */}
         <div style={{ marginTop: "36px" }}>
