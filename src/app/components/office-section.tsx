@@ -13,7 +13,7 @@ export interface OfficeProps {
 }
 
 const defaultOffice: OfficeProps = {
-  name: "Silver Star - Mikocheni Office",
+  name: "Silverstar - Mikocheni Office",
   address: "Coca-cola Road, Mikocheni,",
   secondAddress: "P. O. Box 11451,",
   thirdAddress: "Dar es Salaam, Tanzania",
