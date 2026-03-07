@@ -1,30 +1,34 @@
 "use client";
 
-import Image from "next/image";
-
 export interface OfficeProps {
   name?: string;
-  image?: string;
   address?: string;
+  phone?: string;
+  secondPhone?: string;
   email?: string;
   googleMapsUrl?: string;
+  embedUrl?: string; // Added for the iframe source
 }
 
 const defaultOffice: OfficeProps = {
-  name: "Silver Star - Tabuk Plant",
-  image: "/mapei-uae-plant.jpg",
-  address:
-    "Dar es salaam, Tanzania",
+  name: "Silver Star - Mikocheni Office",
+  address: "Coca-cola Road, Mikocheni, P.O.Box 11451, Dar es salaam, Tanzania",
   email: "info@silverstar.co.tz",
-  googleMapsUrl: "https://maps.google.com",
+  phone: "+255 713 484 175",
+  secondPhone: "+255 787 788 288",
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Coca-cola+Road+Mikocheni+Dar+es+salaam",
+  // Standard Google Maps Embed URL for the specific location
+  embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.942475630656!2d39.2486!3d-6.7647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4943f972b93f%3A0x6336a5c3789304a!2sCoca%20Cola%20Rd%2C%20Dar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1709825000000!5m2!1sen!2stz"
 };
 
 export default function OfficeSection({
   name = defaultOffice.name,
-  image = defaultOffice.image,
   address = defaultOffice.address,
   email = defaultOffice.email,
   googleMapsUrl = defaultOffice.googleMapsUrl,
+  embedUrl = defaultOffice.embedUrl,
+  phone = defaultOffice.phone,
+  secondPhone = defaultOffice.secondPhone,
 }: OfficeProps) {
   return (
     <section
@@ -58,7 +62,7 @@ export default function OfficeSection({
             alignItems: "start",
           }}
         >
-          {/* Image */}
+          {/* Map Container */}
           <div
             style={{
               position: "relative",
@@ -67,14 +71,18 @@ export default function OfficeSection({
               borderRadius: "4px",
               overflow: "hidden",
               backgroundColor: "#e0e0e0",
+              border: "none"
             }}
           >
-            <Image
-              src={image!}
-              alt={name!}
-              fill
-              style={{ objectFit: "cover" }}
-              sizes="(max-width: 768px) 100vw, 65vw"
+            <iframe
+              src={embedUrl}
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title={`Map showing location of ${name}`}
             />
           </div>
 
@@ -132,18 +140,40 @@ export default function OfficeSection({
                   color: "#444",
                   textDecoration: "none",
                 }}
-                onMouseEnter={(e) =>
-                  (e.currentTarget.style.color = "#1a6fa8")
-                }
-                onMouseLeave={(e) =>
-                  (e.currentTarget.style.color = "#444")
-                }
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#1a6fa8")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "#444")}
               >
                 {email}
               </a>
             </div>
+             <div>
+              <p
+                style={{
+                  fontSize: "0.9rem",
+                  fontWeight: 700,
+                  color: "#1a1a2e",
+                  marginBottom: "6px",
+                }}
+              >
+                Phone
+              </p>
+              <a
+                href={`tel:${phone}`}
+                style={{
+                  fontSize: "0.88rem",
+                  color: "#444",
+                  textDecoration: "none",
+                }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "#1a6fa8")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "#444")}
+              >
+                {phone}
+                <br />
+                {secondPhone}
+              </a>
+            </div>
 
-            {/* Google Maps button */}
+            {/* Google Maps external link button */}
             <a
               href={googleMapsUrl}
               target="_blank"
@@ -171,7 +201,7 @@ export default function OfficeSection({
                 e.currentTarget.style.transform = "scale(1)";
               }}
             >
-              Find us on Google Maps
+              Open in Google Maps
             </a>
           </div>
         </div>

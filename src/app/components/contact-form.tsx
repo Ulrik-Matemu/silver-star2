@@ -3,26 +3,37 @@
 import { useState } from "react";
 
 const COUNTRIES = [
-  "Afghanistan", "Albania", "Algeria", "Andorra", "Angola", "Argentina", "Armenia", "Australia",
-  "Austria", "Azerbaijan", "Bahrain", "Bangladesh", "Belarus", "Belgium", "Benin", "Bolivia",
-  "Bosnia and Herzegovina", "Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina Faso", "Burundi",
-  "Cambodia", "Cameroon", "Canada", "Chad", "Chile", "China", "Colombia", "Congo", "Costa Rica",
-  "Croatia", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominican Republic",
-  "Ecuador", "Egypt", "El Salvador", "Eritrea", "Estonia", "Eswatini", "Ethiopia", "Finland",
-  "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Greece", "Guatemala", "Guinea",
-  "Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Israel",
-  "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kuwait", "Kyrgyzstan", "Laos",
-  "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Lithuania", "Luxembourg", "Madagascar",
-  "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Mauritania", "Mauritius", "Mexico",
-  "Moldova", "Monaco", "Mongolia", "Montenegro", "Morocco", "Mozambique", "Myanmar", "Namibia",
-  "Nepal", "Netherlands", "New Zealand", "Nicaragua", "Niger", "Nigeria", "North Korea",
-  "North Macedonia", "Norway", "Oman", "Pakistan", "Panama", "Paraguay", "Peru", "Philippines",
-  "Poland", "Portugal", "Qatar", "Romania", "Russia", "Rwanda", "Saudi Arabia", "Senegal",
-  "Serbia", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Somalia", "South Africa",
-  "South Korea", "South Sudan", "Spain", "Sri Lanka", "Sudan", "Sweden", "Switzerland", "Syria",
-  "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Togo", "Tunisia", "Turkey", "Turkmenistan",
-  "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "Uruguay",
-  "Uzbekistan", "Venezuela", "Vietnam", "Yemen", "Zambia", "Zimbabwe",
+  "Arusha",
+  "Dar es Salaam",
+  "Dodoma",
+  "Geita",
+  "Iringa",
+  "Kagera",
+  "Katavi",
+  "Kigoma",
+  "Kilimanjaro",
+  "Lindi",
+  "Manyara",
+  "Mara",
+  "Mbeya",
+  "Morogoro",
+  "Mtwara",
+  "Mwanza",
+  "Njombe",
+  "Pwani",
+  "Rukwa",
+  "Ruvuma",
+  "Shinyanga",
+  "Simiyu",
+  "Singida",
+  "Songwe",
+  "Tabora",
+  "Tanga",
+  "Zanzibar North",
+  "Zanzibar Central/South",
+  "Zanzibar Urban/West",
+  "Pemba North",
+  "Pemba South",
 ];
 
 const MESSAGE_TYPES = [
@@ -166,7 +177,7 @@ export default function ContactForm() {
       <div style={containerStyle}>
         {/* Header */}
         <div style={{ textAlign: "center", marginBottom: "40px" }}>
-          <h1 style={headingStyle}>Mapei Middle East &amp; East Africa</h1>
+          <h1 style={headingStyle}>Silverstar Resource Company Limited</h1>
           <p style={subtitleStyle}>
             Feel free to contact us by filling the below form and we will get back to you soon.
           </p>
@@ -211,7 +222,7 @@ export default function ContactForm() {
               }}
               {...fieldProps("country")}
             >
-              <option value="" disabled>Country*</option>
+              <option value="" disabled>Region</option>
               {COUNTRIES.map((c) => (
                 <option key={c} value={c}>{c}</option>
               ))}
@@ -225,10 +236,7 @@ export default function ContactForm() {
             {errors.country && <p style={errorStyle}>{errors.country}</p>}
           </div>
 
-          <div>
-            <input placeholder="City*" style={inputStyle(focused, "city")} {...fieldProps("city")} />
-            {errors.city && <p style={errorStyle}>{errors.city}</p>}
-          </div>
+          
         </div>
 
         {/* Other field - full width */}
@@ -298,7 +306,7 @@ export default function ContactForm() {
             Processing of personal information
           </p>
           <p style={{ fontSize: "0.82rem", color: "#555", fontStyle: "italic", margin: 0 }}>
-            *Personal information will be used for future Mapei Middle East and East Africa communications.
+            *Personal information will be used for future Silverstar Resource Company Limited communications.
           </p>
         </div>
 
