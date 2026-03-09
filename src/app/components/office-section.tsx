@@ -13,14 +13,14 @@ export interface OfficeProps {
 }
 
 const defaultOffice: OfficeProps = {
-  name: "Silverstar - Mikocheni Office",
-  address: "Coca-cola Road, Mikocheni,",
+  name: "Silverstar - Mwenge Office",
+  address: "Coca-cola Road, Mwenge,",
   secondAddress: "P. O. Box 11451,",
   thirdAddress: "Dar es Salaam, Tanzania",
   email: "info@silverstar.co.tz",
   phone: "+255 713 484 175",
   secondPhone: "+255 787 788 288",
-  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Coca-cola+Road+Mikocheni+Dar+es+salaam",
+  googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Coca-cola+Road+Mwenge+Dar+es+salaam",
   // Standard Google Maps Embed URL for the specific location
   embedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.942475630656!2d39.2486!3d-6.7647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4943f972b93f%3A0x6336a5c3789304a!2sCoca%20Cola%20Rd%2C%20Dar%20es%20Salaam!5e0!3m2!1sen!2stz!4v1709825000000!5m2!1sen!2stz"
 };

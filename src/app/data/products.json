@@ -1,0 +1,19 @@
+
+[
+  {
+    "id": "keraflex-maxi-s1",
+    "name": "Keraflex Maxi S1",
+    "line": "ceramic-stone",
+    "imageUrl": "/products/4_keraflex-maxi-s1-zero-25kg-uae-new_d19f3e1b47cd497aaf7dcc2c61adba8a.png",
+    "description": "KERAFLEX MAXI S1 ZERO is a high-performance, deformable, grey and white cementitious adhesive with no vertical slip, extended open time, designed for ceramic and natural stone tiles, excellent for the installation of large-format ceramic tiles.",
+    "specs": { "color": "Grey/White", "packaging": "25kg bag" }
+  },
+  {
+    "id": "mapelastic-turbo",
+    "name": "Mapelastic Turbo",
+    "line": "building-specialty",
+    "imageUrl": "/products/5_mapelastic-turbo-36kg-uae-new_00c82c701f2c4827b8e9a1f0b4c7e5d3.png",
+    "description": "Two-component, rapid-drying cementitious mortar.",
+    "specs": { "color": "Brownish-grey", "packaging": "36kg kit" }
+  }
+]

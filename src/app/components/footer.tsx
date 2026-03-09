@@ -7,7 +7,8 @@ import {
   Instagram, 
   ChevronDown, 
   Phone,
-  X
+  X,
+  Twitter
 } from 'lucide-react';
 import Image from 'next/image';
 
@@ -78,11 +79,21 @@ export const Footer = () => {
           <div className="space-y-4">
             <p className="text-sm font-medium text-gray-400">Follow us</p>
             <div className="flex space-x-3">
-              <SocialIcon icon={<Facebook size={18} />} />
-              <SocialIcon icon={<X size={18} />} />
-              <SocialIcon icon={<Linkedin size={18} />} />
-              <SocialIcon icon={<Youtube size={18} />} />
-              <SocialIcon icon={<Instagram size={18} />} />
+              <a href='https://www.facebook.com/share/1HP4SuTDfp/'>
+                <SocialIcon icon={<Facebook size={18} />} />
+              </a>
+              <a href='https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.silverstar.co.tz%2F&text=Check%20out%20Silver%20Star%20Resources%20Company%20Limited!'>
+                <SocialIcon icon={<Twitter size={18} />} />
+              </a>
+              <a href='https://www.linkedin.com/in/silverstar-company-tz-81045b3b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'>
+                <SocialIcon icon={<Linkedin size={18} />} />
+              </a>
+              <a href='https://www.youtube.com/'>
+                <SocialIcon icon={<Youtube size={18} />} />
+              </a>
+              <a href='https://www.instagram.com/silverstarcompanytz?igsh=M243d250Z3ExMjJh'>
+                <SocialIcon icon={<Instagram size={18} />} />
+              </a>
             </div>
           </div>
 
