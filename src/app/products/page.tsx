@@ -9,19 +9,19 @@ export default async function ProductsPage() {
         {
             title: "Ceramics and Stone Materials",
             image: "/products/product1.jpeg",
-            href: "/products/ceramics-stone",
+            href: "/products/ceramic-stone",
             accentColor: "#2563eb",
         },
         {
             title: "Complementary Products for Installation Work",
             image: "/products/product2.jpeg",
-            href: "/products/installation",
+            href: "/products/complementary-products-tools",
             accentColor: "#f59e0b",
         },
         {
             title: "Cleaning, Maintaining and Protecting Surfaces",
             image: "/products/product3.jpeg",
-            href: "/products/cleaning-maintaining-protecting",
+            href: "/products/cleaning-maintaining-protecting-surfaces",
             accentColor: "#10b981",
         },
         {
