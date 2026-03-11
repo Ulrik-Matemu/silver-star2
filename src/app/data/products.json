@@ -1,4 +1,3 @@
-
 [
   {
     "id": "keraflex-maxi-s1",
@@ -6,7 +5,10 @@
     "line": "ceramic-stone",
     "imageUrl": "/products/4_keraflex-maxi-s1-zero-25kg-uae-new_d19f3e1b47cd497aaf7dcc2c61adba8a.png",
     "description": "KERAFLEX MAXI S1 ZERO is a high-performance, deformable, grey and white cementitious adhesive with no vertical slip, extended open time, designed for ceramic and natural stone tiles, excellent for the installation of large-format ceramic tiles.",
-    "specs": { "color": "Grey/White", "packaging": "25kg bag" }
+    "specs": {
+      "color": "Grey/White",
+      "packaging": "25kg bag"
+    }
   },
   {
     "id": "mapelastic-turbo",
@@ -14,7 +16,10 @@
     "line": "building-specialty",
     "imageUrl": "/products/5_mapelastic-turbo-36kg-uae-new_00c82c701f2c4827b8e9a1f0b4c7e5d3.png",
     "description": "Two-component, rapid-drying cementitious mortar.",
-    "specs": { "color": "Brownish-grey", "packaging": "36kg kit" }
+    "specs": {
+      "color": "Brownish-grey",
+      "packaging": "36kg kit"
+    }
   },
   {
     "id": "mapecoat-tns-race-track-zero",
@@ -22,7 +27,10 @@
     "line": "sports-flooring",
     "imageUrl": "/products/4_12533-mapecoat-tns-race-track-zero_3281d435abcd4e91bfafe218fb4111c0.png",
     "description": "High-performance, low-VOC, water-based coating for sports surfaces.",
-    "specs": { "color": "Black", "packaging": "20kg bucket" }
+    "specs": {
+      "color": "Black",
+      "packaging": "20kg bucket"
+    }
   },
   {
     "id": "kerapoxy",
@@ -30,7 +38,10 @@
     "line": "ceramic-stone",
     "imageUrl": "/products/4_141-kerapoxy-a-b-5kg-int-9454491_32b514b463cd4b428b0b5438a24e9076.png",
     "description": "KERAPOXY is a two-component acid-resistant high-performance epoxy grout for grouting ceramic tiles and stone material, for joints of at least 1 mm. Can also be used as an adhesive.",
-    "specs": { "color": "Grey/White", "packaging": "5kg kit" }
+    "specs": {
+      "color": "Grey/White",
+      "packaging": "5kg kit"
+    }
   },
   {
     "id": "eco-prim-grip-plus",
@@ -38,7 +49,10 @@
     "line": "ceramic-stone",
     "imageUrl": "/products/42_eco-prim-grip-plus-adv_3c63c41a55454f1f8f4c78fe836d6631.jpg",
     "description": "From Mapei laboratories, the multi-purpose universal primer with almost no odour, non-hazardous for installers and end users, non-flammable and very low VOC content. Suitable for internal and external applications on floors and walls to improve adhesion of skimming compound, cementitious adhesive and render on smooth substrates with low absorbency.",
-    "specs": { "color": "Transparent", "packaging": "5kg bucket" }
+    "specs": {
+      "color": "Transparent",
+      "packaging": "5kg bucket"
+    }
   },
   {
     "id": "mapeguard-um-35",
@@ -46,7 +60,10 @@
     "line": "ceramic-stone",
     "imageUrl": "/products/4_7680-mapeguard-um-35-int_fd56371550b0415fb7a7d4dee6e64ef2.png",
     "description": "Waterproofing, uncoupling and anti-fracture membrane for cracked and damp substrates and substrates that are not fully cured before installing ceramic and stone tiles for internal and external surfaces without having to copy the layout of distribution joints in the substrate.",
-    "specs": { "color": "Blue", "packaging": "15m2 roll (1m x 15m)" }
+    "specs": {
+      "color": "Blue",
+      "packaging": "15m2 roll (1m x 15m)"
+    }
   },
   {
     "id": "pu-gym-refresh",
@@ -54,7 +71,10 @@
     "line": "sports-flooring",
     "imageUrl": "/products/42_pu-gym-refresh_adv_v2_255d309abc424c53897efa51a2d80075.jpg",
     "description": "PU GYM REFRESH is a new coloured polyurethane finish for protecting and refurbishing old sports flooring with a touch of creativity and to give surfaces the level of non-slip finish required for schools and in other settings.",
-    "specs": { "color": "Available in various colors", "packaging": "20kg kit" }
+    "specs": {
+      "color": "Available in various colors",
+      "packaging": "20kg kit"
+    }
   },
   {
     "id": "pu-sealer-750",
@@ -62,7 +82,10 @@
     "line": "sports-flooring",
     "imageUrl": "/products/4_5909-pu-sealer-750-sl-a-b-24-4kg-int_fea22a6a93db49bc9140970d0966f3c4.png",
     "description": "Two-component polyurethane resin-based elastic undercoat and filler for preparing indoor and outdoor playing surfaces",
-    "specs": { "color": "Clear", "packaging": "4kg bucket" }
+    "specs": {
+      "color": "Clear",
+      "packaging": "4kg bucket"
+    }
   },
   {
     "id": "pu-700-sl",
@@ -70,7 +93,10 @@
     "line": "sports-flooring",
     "imageUrl": "/products/4_5907-pu700-sl-a-b-20-9kg-int_099927bd9534497cbaa8694786bbcb3b.png",
     "description": "Two-component self-levelling elastic polyurethane resin for coating indoor and outdoor playing surfaces",
-    "specs": { "color": "Available in various colors", "packaging": "9kg kit" }
+    "specs": {
+      "color": "Available in various colors",
+      "packaging": "9kg kit"
+    }
   },
   {
     "id": "ultraband-sport",
@@ -78,7 +104,10 @@
     "line": "sports-flooring",
     "imageUrl": "/products/4_12533-mapecoat-tns-race-track-zero_3281d435abcd4e91bfafe218fb411c0.png",
     "description": "ULTRABOND SPORT is a two-component polyurethane adhesive specifically developed for installing Mapecomfort R and Mapecomfort PU rubber mat on concrete and asphalt substrates. ULTRABOND SPORT may also be used to restore the flatness of hollows up to 1.00 cm deep and to fill cracks in existing concrete and asphalt paving. ULTRABOND SPORT may also be used to bond synthetic grass on sports surfaces.",
-    "specs": { "color": "white", "packaging": "20kg kit" }
+    "specs": {
+      "color": "white",
+      "packaging": "20kg kit"
+    }
   },
   {
     "id": "consolidante-8020",
@@ -86,7 +115,10 @@
     "line": "renovation-green-building-restoration-historic-buildings",
     "imageUrl": "/products/4_2905-consolidante-8020-10kg-int_c34713ecd20f437ba717951478858761.png",
     "description": "Polymer-based reversible consolidating product in solvent for the conservative restoration and the consolidation of porous stone substrates, lime render and paintwork",
-    "specs": { "color": "Transparent", "packaging": "10kg bucket" }
+    "specs": {
+      "color": "Transparent",
+      "packaging": "10kg bucket"
+    }
   },
   {
     "id": "mape-antique-intonaco-nhl",
@@ -94,7 +126,10 @@
     "line": "renovation-green-building-restoration-historic-buildings",
     "imageUrl": "/products/4_612-mape-antique-intonaco-nhl_b9101fa261c94cafb0f4e8cde4657056.png",
     "description": "Breathable base render made from pure natural hydraulic lime, recycled materials and Eco-Pozzolan, cement-free, for application on existing masonry work, including those of historical interest, and on new constructions",
-    "specs": { "color": "Grey", "packaging": "25kg bag" }
+    "specs": {
+      "color": "Grey",
+      "packaging": "25kg bag"
+    }
   },
   {
     "id": "pp-drain-aqua",
@@ -102,7 +137,11 @@
     "line": "profiles-shower-systems",
     "description": "PP Drain Aqua is a range of linear drains for floor-level showers, suitable for ceramic tiles, natural stone, and other coverings. PP Drain Aqua linear shower drains are made of stainless steel AISI 316 – DIN 1.4404 and are available in a wide selection of covers, with and without frames. All covers can be adapted to coverings with thicknesses from 6 to 18 mm (except Invisible Cover, which is suitable for coverings of any thickness). PP Drain Aqua is available with horizontal-drain siphon DN40 (drainage capacity 50 litres/minute) or direct vertical drain DN50. The linear shower drains with siphons have a floor-level height of 70 mm and a length of covers from 60 to 120 cm. The shower drain body is equipped with a solidly glued waterproofing membrane (compliant with DIN 18534): this guarantees a perfect integration of the linear shower drain itself with the waterproofing system of the shower area. The covers and the frame (when present) have special adjustment supports from 6 to 18 mm, also available in the tile-able vanishing version Invisible Cover for coverings of any thickness.",
     "imageUrl": "/products/4_13285_pp-drain-aqua_1de53ec207d14bcbb301314a0bb9a029.jpg",
-    "specs": { "material": "Stainless Steel AISI 316", "drainageCapacity": "50 litres/minute", "coverLength": "60 to 120 cm" }
+    "specs": {
+      "material": "Stainless Steel AISI 316",
+      "drainageCapacity": "50 litres/minute",
+      "coverLength": "60 to 120 cm"
+    }
   },
   {
     "id": "ultracare-multicleaner",
@@ -110,15 +149,21 @@
     "line": "cleaning-maintaining-protecting-surfaces",
     "description": "ULTRACARE MULTICLEANER is a concentrated neutral cleaner with very high yield for cleaning and maintaining both treated and untreated surfaces.",
     "imageUrl": "/products/42_ultracare-multicleaner_75ab2b75ec234f73810840e12a1fc8d6.jpg",
-    "specs": { "color": "Transparent", "packaging": "5L Gallon" }
+    "specs": {
+      "color": "Transparent",
+      "packaging": "5L Gallon"
+    }
   },
-  { 
+  {
     "id": "ultracare-grout-cleaner",
     "name": "ULTRACARE GROUT CLEANER",
     "line": "cleaning-maintaining-protecting-surfaces",
     "description": "ULTRACARE GROUT CLEANER is a professional concentrated alkaline detergent for cleaning both cementitious and epoxy grouts.",
     "imageUrl": "/products/42_ultracare-grout-cleaner_90524412d8f54047a693c443564addde.jpg",
-    "specs": { "color": "Transparent", "packaging": "5L Gallon" } 
+    "specs": {
+      "color": "Transparent",
+      "packaging": "5L Gallon"
+    }
   },
   {
     "id": "ultracare-5-sides-sealer",
@@ -126,7 +171,10 @@
     "line": "cleaning-maintaining-protecting-surfaces",
     "description": "Natural look, water-based back and four sides sealer designed to prevent superficial efflorescence and stain caused by rising damp.",
     "imageUrl": "/products/4_432-ultracare-5-sides-sealer-jerrycan-5kg_4f75d0c9198c46f78a7d39beb2c4b818.png",
-    "specs": { "color": "Transparent", "packaging": "5kg bucket" }
+    "specs": {
+      "color": "Transparent",
+      "packaging": "5kg bucket"
+    }
   },
   {
     "id": "ultracare-finish-lucida",
@@ -134,15 +182,21 @@
     "line": "cleaning-maintaining-protecting-surfaces",
     "description": "ULTRACARE FINISH LUCIDA is an anti-wear liquid wax with a glossy finish ideal for terracotta, stone, marble (unpolished), recomposed and similar floors in indoor or covered exteriors.",
     "imageUrl": "/products/42_ultracare-finish-lucida_0ea2c61d4235432b9265235eccdd5f88.jpg",
-    "specs": { "color": "Transparent", "packaging": "5L Gallon" }
-  }, 
+    "specs": {
+      "color": "Transparent",
+      "packaging": "5L Gallon"
+    }
+  },
   {
     "id": "ultracare-finish-opaca",
     "name": "ULTRACARE FINISH OPACA",
     "line": "cleaning-maintaining-protecting-surfaces",
     "description": "ULTRACARE FINISH OPACA is an anti-wear liquid wax with a matt finish, ideal for terracotta, stone, marble (unpolished), recomposed and similar floors in indoor or covered exteriors.",
     "imageUrl": "/products/42_ultracare-finish-opaca_7b2a9c8b25e54a098d7d6c09c909aa3d.jpg",
-    "specs": { "color": "Transparent", "packaging": "5L Gallon" } 
+    "specs": {
+      "color": "Transparent",
+      "packaging": "5L Gallon"
+    }
   },
   {
     "id": "ultracare-fuga-fresca",
@@ -150,7 +204,10 @@
     "line": "cleaning-maintaining-protecting-surfaces",
     "description": "ULTRACARE FUGA FRESCA quickly and easily applied is used to refresh and modify the colour of cementitious grout joints in interior.",
     "imageUrl": "/products/42_fuga-fresca_dea822ceda744093801f23eae737678d.jpg",
-    "specs": { "color": "Transparent", "packaging": "160g Bottle" } 
+    "specs": {
+      "color": "Transparent",
+      "packaging": "160g Bottle"
+    }
   },
   {
     "id": "mapecoat-wet-dry-r11",
@@ -158,7 +215,10 @@
     "line": "resilient-lvt-textile-materials",
     "description": "MAPECOAT WET & DRY R11 Two component aliphatic, anti-slip polyurethane finish in water dispersion for resilient floor-coverings",
     "imageUrl": "/products/4_7706-mapecoat-wet-dry-a-b-6kg-int_7e9206596b4f487898995cdecb3da16f.png",
-    "specs": { "color": "Transparent", "packaging": "10kg Pack" } 
+    "specs": {
+      "color": "Transparent",
+      "packaging": "10kg Pack"
+    }
   },
   {
     "id": "ultrabond-eco-tack",
@@ -166,7 +226,10 @@
     "line": "resilient-lvt-textile-materials",
     "description": "Anti-slide tackifier with high residual tack for textile loose-lay tiles",
     "imageUrl": "/products/4_213-ultrabond-eco-tack-15kg-int-945806_f223a8d96e3a4138be4f8662b5e02387.png",
-    "specs": { "color": "Transparent", "packaging": "15kg bucket" }
+    "specs": {
+      "color": "Transparent",
+      "packaging": "15kg bucket"
+    }
   },
   {
     "id": "ultrabond-eco-tx2",
@@ -174,7 +237,10 @@
     "line": "resilient-lvt-textile-materials",
     "description": "High initial grab and long open time adhesive for textile floorings",
     "imageUrl": "/products/4_6517-ultrabond-eco-tx2-16kg-int-945703_7b6ff6d94c26463daa804cdcc864f7f2.png",
-    "specs": { "color": "Transparent", "packaging": "15kg bucket" }
+    "specs": {
+      "color": "Transparent",
+      "packaging": "15kg bucket"
+    }
   },
   {
     "id": "mapei-tile-spacer",
@@ -182,7 +248,10 @@
     "line": "complementary-products-tools",
     "description": "MAPEI TILE SPACER is a range of spacers designed to help installers when positioning tiles. They enable to create perfectly straight and uniform grout lines and to obtain regularly spaced tiling.",
     "imageUrl": "/products/4_mapei-tile-spacer-t_b29817365e84477db93d73c7776bd542.png",
-    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+    "specs": {
+      "material": "Plastic",
+      "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm"
+    }
   },
   {
     "id": "mapelevel-easyclick-system",
@@ -190,7 +259,10 @@
     "line": "complementary-products-tools",
     "description": "MAPELEVEL EASYCLICK SYSTEM is a tile levelling system for ceramic and stone tiles; fast and easy to install and remove, it has been developed to help installers prevent tile lippage and obtain perfectly flat tiling, even when laying large format tiles.",
     "imageUrl": "/products/4_198-mapelevel-easyclick-system_7c2d64ede733421b87aa7f3beb2e23af.png",
-    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+    "specs": {
+      "material": "Plastic",
+      "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm"
+    }
   },
   {
     "id": "mapelevel-prowdg-system",
@@ -198,7 +270,10 @@
     "line": "complementary-products-tools",
     "description": "MAPELEVEL PROWDG SYSTEM is a wedge leveling system for obtaining perfectly flat ceramic and stone floors. Installation with pliers is simple, precise and fast. The Mapei MAPELEVEL PROWDG SYSTEM leveling system makes laying tiles quicker and easier.Easy to apply, it allows to obtain perfectly flat floors and coverings even in the most difficult cases, such as the installation of large format slabs or in case of uneven coverings on deteriorated substrates. With just two elements, the system avoids the formation of lippage between adjacent tiles. For a perfect pose in less time. MAPELEVEL PROWDG SYSTEM is made of regenerated plastic material, respecting the environment.",
     "imageUrl": "/products/4_9301-mapelevel-prowdg-system-mapelevel_modif_f781c241867c46789204dd019fd9e0d1.png",
-    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+    "specs": {
+      "material": "Plastic",
+      "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm"
+    }
   },
   {
     "id": "mapelevel-easy-system",
@@ -206,7 +281,10 @@
     "line": "complementary-products-tools",
     "description": "MAPELEVEL EASY SYSTEM is a tile levelling system for ceramic and stone tiles; it has been developed to help installers prevent tile lippage and obtain perfectly flat tiling. Thanks to the rapid screwing system, MAPELEVEL EASY can be applied more quickly, considerably reducing overall installation time. Tile levelling is even more precise, ensuring a perfect result, even when laying large format tiles. Versatile and complete, MAPELEVEL EASY SYSTEM can be used with a wide range of tiles (up to 21 mm thick) and adapts to all laying patterns, with lower consumption rates compared with the traditional wedge systems. The system consists of: Caps MapeLevel Easy Cap – Screw spacers MapeLevel Easy Spacer L (available in 3 versions: linear, T and X spacer) – Anti-scratch shield MapeLevel Easy Shield",
     "imageUrl": "/products/4_192-mapelevel-easy_8af5f99392964f3997442fd30e0095ec.png",
-    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+    "specs": {
+      "material": "Plastic",
+      "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm"
+    }
   },
   {
     "id": "",
@@ -214,6 +292,655 @@
     "line": "complementary-products-tools",
     "description": "MAPELEVEL EASYWDG SYSTEM is a levelling system for ceramic and stone tiles for perfectly flat floors. Installation is simple and precise, without having to use pliers. MAPELEVEL EASYWDG Levelling System is designed for a faster and easier tile installation. Easy to install, it enables to obtain perfectly flat floor and wall coverings, even in the most difficult cases, such as the installation of large-sized slabs. Just two components and one simple movement are enough to quickly and accurately remove lippage between adjacent tiles. For perfect tiling in less time. MAPELEVEL EASYWDG SYSTEM is mainly made of recycled plastic material, respecting the environment.",
     "imageUrl": "/products/4_mapelevel-easy-wdg_e7a2c94c60764b1d82baafafa74e6243.png",
-    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+    "specs": {
+      "material": "Plastic",
+      "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm"
+    }
+  },
+  {
+    "id": "q-drain",
+    "name": "Q DRAIN",
+    "line": "profiles-shower-systems",
+    "description": "The advantages of a floor-level shower are not just aesthetic but are designed to make the bathroom more elegant and unique. Their great practicality is also worthy of note. With this in mind, Profilpas introduced Q Drain, a range of easy-to-fit floor-level shower drain systems, giving you the freedom to personalize the floor and wall coverings used in the shower. There are four versions available (Classic, Cube, Line, and Tile), and each one has an integrated waterproofing membrane and drains manufactured to EN 1253-1 (minimum flow rate of 24 l/min).  ",
+    "imageUrl": "/products/4_13301_q-drain_b4d732adc15844f39aee5708d324a0cd.jpg",
+    "specs": { 
+      "material": "Stainless Steel AISI 316",
+      "drainageCapacity": "24 litres/minute",
+      "coverLength": "60 to 120 cm"
+    }
+  },
+  {
+    "id": "glass-profiles-gps",
+    "name": "GLASS PROFILES GPS",
+    "line": "profiles-shower-systems",
+    "description": "Glass Profile is one stainless steel line profile that allows you to configure tiled showers flush with the floor accurately. Glass Profile line is developed in order to cover the slope of 2% for the installation of the flush with the floor shower drains. It makes the shower area aesthetically perfect and at one with the modern trends of interior design. The glass profile line solves all the critical points, such as edges, slopes, and glass walls, with details that make the difference. Available in lengths of 98, 120, 148, and 200 cm, right (DX) and left (SX) versions to which is added a profile to be positioned on the wall covering, above the shower drain. they can be assembled in place and allow a vast number of combinations to solve the design of any tiled shower room. Special pieces, like end caps to complete the profile and to hide the section in view of the glass wall, are available. The silicone seals of different sizes complete the Glass Profile range and can be used inside the profiles to keep the glass stable.",
+    "imageUrl": "/products/4_13372_glass-profile-gps_46447cf772ee4764822509052fb556cd.jpg",
+    "specs": { 
+      "material": "Stainless Steel AISI 316",
+      "availableLengths": "98, 120, 148, and 200 cm"
+    }
+  },
+  {
+    "id": "saniboard-alu",
+    "name": "SANIBOARD ALU",
+    "line": "profiles-shower-systems",
+    "description": "Sanibord is a range of technical aluminium, painted, and PVC profiles, perfect for joining ceramic coverings to bathroom fittings, or coverings and work surfaces. Not only do they eliminate any need for silicone sealants, but these products combine visual appeal and high standards of hygiene to perfection, thanks to the characteristic shape, which is easy to clean. Sanibord is also available with a special anti-bacterial coating: this technology reduces the presence of the most dangerous bacteria by up to 99%.",
+    "imageUrl": "/products/4_13343_sanibord-alu_c6258d7b48d643e88ea1ad447d59a73b.jpg",
+    "specs": {
+      "material": "Aluminium",
+      "availableLengths": "98, 120, 148, and 200 cm"
+    }
+  },
+  {
+    "id": "mapei-epoxy-avio",
+    "name": "MAPEI EPOXY AVIO",
+    "line": "airport-pavements",
+    "description": "Epoxy-acrylic resin-based surface treatment for restoring adhesion and protecting paved surfaces from hydrocarbons",
+    "imageUrl": "/products/4_8828-mapei-epoxy-avio-a-b-16-67kg_abd8eb49b5344366831540e50b35e0dd.png",
+    "specs": { 
+      "color": "Grey",
+      "packaging": "16.67kg kit"
+    }
+  },
+  {
+    "id": "mapeflex-pu-50-sl",
+    "name": "MAPEFLEX PU 50 SL",
+    "line": "airport-pavements",
+    "description": "Fluid polyurethane sealant with a low modulus of elasticity for flooring joints",
+    "imageUrl": "/products/4_416-mapeflex-pu50-sl-600ml-int-9581675_199edaa96def45fa9a0955f9eed2a2ee.png",
+    "specs": { 
+      "color": "Grey",
+      "packaging": "600ml cartridge"
+    }
+  },
+  {
+    "id": "eco-prim-grip-plus",
+    "name": "ECO PRIM GRIP PLUS",
+    "line": "wooden-flooring",
+    "description": "From Mapei laboratories, the multi-purpose universal primer with almost no odour, non-hazardous for installers and end users, non-flammable and very low VOC content. Suitable for internal and external applications on floors and walls to improve adhesion of skimming compound, cementitious adhesive and render on smooth substrates with low absorbency.",
+    "imageUrl": "/products/42_eco-prim-grip-plus-adv_3c63c41a55454f1f8f4c78fe836d6631 (1).jpg",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "5kg bucket"
+    }
+  },
+  {
+    "id": "eco-prim-t-plus",
+    "name": "ECO PRIM T PLUS",
+    "line": "wooden-flooring",
+    "description": "ECO PRIM T PLUS is a universal acrylic primer for treating absorbent and non-absorbent substrates before applying levelling compounds. May also be used as a primer on particularly absorbent or slightly dusty substrates before applying dispersion adhesives, cementitious adhesives and silylated polymer-based adhesives.",
+    "imageUrl": "/products/4_2930-eco-prim-t_plus_150x150_3739bc0a27e441bd8b032eb52e07c45d.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "5kg bucket"
+    }
+  },
+  {
+    "id": "",
+    "name": "EPORIP",
+    "line": "wooden-flooring",
+    "description": "Two component solvent-free epoxy adhesive for construction joints and for monolithic sealing of cracks in screeds",
+    "imageUrl": "/products/4_eporip-uae_f2a3bec0433d4bdea37f09f9fe181d17.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "5kg kit"
+    }
+  },
+  {
+    "id": "ultracoat-premium-base",
+    "name": "ULTRACOAT PREMIUM BASE",
+    "line": "wooden-flooring",
+    "description": "ULTRACOAT PREMIUM BASE is a two-component, water-based primer with good insulating properties, with very low emission of volatile organic compounds and zero NMP, for use when applying water-based finishing cycles on wood flooring and is used to prepare traditional and engineered wood flooring and wood flooring that needs to be restored before applying a water-based finishing cycle. ULTRACOAT PREMIUM BASE is a base varnish for parquet with excellent covering properties and good standability; easy to apply. It also minimises the problem of overlaps. ULTRACOAT PREMIUM BASE has been developed to bring out the natural shade of wood without causing unsightly variations in colour in wood rich with tannins or other extracts (oak, teak, etc.), which makes it particularly recommended for more difficult types of wood when you want to prevent it from darkening or reddening.",
+    "imageUrl": "/products/4_4620-ultracoat-premium-base_327d26ee142c4c4db14158dfe642a1a8.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "5kg kit"
+    }
+  },
+  {
+    "id": "triblock-p",
+    "name": "TRIBLOCK P",
+    "line": "wooden-flooring",
+    "description": "Three-component epoxy-cementitious primer for non-absorbent waterproofing damp substrates.",
+    "imageUrl": "/products/4_triblock-p-a-b-c-5-kg-int-9457321_aee56a142aa14156916fae9589db78a9.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "5kg kit"
+    }
+  },
+  {
+    "id": "dynamon-ew200",
+    "name": "DYNAMON EW200",
+    "line": "admixtures-concrete",
+    "description": "perplasticising admixture based on a new generation of polycarboxylate ether for high performance concrete mixes with very low water-cement ratios, high early compressive strengths, long slump retention and self consolidating & self compacting concrete. Dynamon EW200 is a chloride free superplasticizer admixture formulated from technologically advanced molecular chains of polymer modified polycarboxylate ether. It complies with ASTM C494 as Type F and G and EN 934-2, depending on the dosage. PACKAGING: Dynamon EW200 is available in 200 litres drums, 1000 litres IBC containers and in bulk upon request. STORAGE: Dynamon EW200 can be stored for 12 months in closed containers. Protect from frost and direct sunlight.",
+    "imageUrl": "/products/4_dynamon_ew200_d3c19eed5aa3473fa93388f0dbd23d26.jpg",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "200L drum, 1000L IBC container"
+    }
+  },
+  {
+    "id": "dynamon-pc-1100",
+    "name": "DYNAMON PC 1100",
+    "line": "admixtures-concrete",
+    "description": "Special hyperplasticizing admixture for high quality precast concrete and hollow core slabs.",
+    "imageUrl": "/products/4_dynamon_pc1-100_e0fba4219b4e4237aabedbc1ebe5c2bc.jpg",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "200L drum, 1000L IBC container"
+    }
+  },
+  {
+    "id": "dynamon-pc-1800",
+    "name": "DYNAMON PC 1800",
+    "line": "admixtures-concrete",
+    "description": "Special superplasticising admixture for high quality precast concrete & hollow core slabs",
+    "imageUrl": "/products/4_dynamon_pc-1800_af2671c68e3d49158fa4fb19f1c63568.jpg",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "200L drum, 1000L IBC container"
+    }
+  },
+  {
+    "id": "biblock",
+    "name": "BIBLOCK",
+    "line": "admixtures-concrete",
+    "description": "Two-component epoxy curing agent in water dispersion for concrete with consolidating and anti-dust properties",
+    "imageUrl": "/products/4_biblock-a-b_ac2538a7b10942e68a06bedf3e4ed047.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "5kg kit"
+    }
+  },
+  {
+    "id": "mapecure-e30",
+    "name": "MAPECURE E30",
+    "line": "admixtures-concrete",
+    "description": "Anti-evaporation agent in water emulsion for protecting the surface of concrete against quickly drying out when exposed to sunlight and winds.",
+    "imageUrl": "/products/4_800-mapecure-e30_a975c8bb28174e2ca393c58b3624e8ff.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "25kg tank"
+    }
+  },
+  {
+    "id": "expancrete",
+    "name": "EXPANCRETE",
+    "line": "admixtures-concrete",
+    "description": "Expansive agent for concrete. Expancrete is a powder admixture used to manufacture shrinkage-compensated concrete and mortars. Expancrete is suitable for water tight castings and castings that require a contrast to concrete hygrometric shrinkage (water tanks, piping, floors, etc.). Add Expancrete to the mixer at the same time as the other ingredients (cement, aggregates, water). Expancrete is used only for reinforced concrete.",
+    "imageUrl": "/products/4_expancrete-sacco-arodo-20-kg-2024_4e8909fa3c0b49bcb43e66f2f09ddd6b.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "20kg bag"
+    }
+  },
+  {
+    "id": "expanfluid-me",
+    "name": "EXPANFLUID ME",
+    "line": "admixtures-concrete",
+    "description": "Expanding agent for shrinkage-free fluid grouts for post-tension cable injection",
+    "imageUrl": "/products/4_expanfluid-me-uae_4379aa8721674d3da649da9576125a39.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "5kg kit"
+    }
+  },
+  {
+    "id": "icrocrete-dm",
+    "name": "IDROCRETE DM",
+    "line": "admixtures-concrete",
+    "description": "Water repellent/ hydrophobic waterproofing admixture for concrete. Dosage: from 0.2 to 0.6 kg every 100 kg of cement. Packaging: Idrocrete DM is available in 25 kg and 200 l drums, 1000 l tanks, and in bulk.",
+    "imageUrl": "/products/4_773-idrocrete-dm-25kg-9581110_d3e7d150ad3f401c811d0410c70b7f8b.png",
+    "specs": { 
+      "color": "Transparent",
+      "packaging": "25kg bag, 200L drum, 1000L tank"
+    }
+  },
+  {
+    "id": "mapetherm-eps-system",
+    "name": "MAPETHERM EPS SYSTEM",
+    "line": "thermal-insulation",
+    "description": "EXTERNAL THERMAL INSULATION COMPOSITE SYSTEM (ETICS) ETA 21/0947",
+    "imageUrl": "/products/40_mapetherm-eps-system_application_e7474f03ff874a3994162cfc71ed4065.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06150_mapetherm-eps-system_en_1bb511105029454aa782c60d295b1acd.pdf?sfvrsn=be391820_0"}
+  },
+  {
+    "id": "mapetherm-mw-system",
+    "name": "MAPETHERM MW SYSTEM",
+    "line": "thermal-insulation",
+    "description": "EXTERNAL THERMAL INSULATION COMPOSITE SYSTEM (ETICS) ETA 21/0950",
+    "imageUrl": "/products/40_mapetherm-mw-system_application_bf06c9c9bb524d278a0e0b009a3e2571.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/22_06153_mapetherm-mw-system_en_8863cf04ebbb440796eda91f765b0ebc.pdf?sfvrsn=d57494a6_0"}
+  },
+  {
+    "id": "mapetherm-m-wool",
+    "name": "MAPETHERM M. WOOL",
+    "line": "thermal-insulation",
+    "description": "High-density, glass wool insulating panels for thermal insulation systems. ETA 10/0024.",
+    "imageUrl": "/products/4_9021-mapetherm-m--wool-1_49c8aff7a20f4fa583e9bb64de49f843.png",
+    "specs": { "color": "yellow", "Thickness": "cm: 4, 5, 6, 8 and 10", "Dimensions": "cm: 120 x 60"}
+  },
+  {
+    "id": "mapetherm-xps",
+    "name": "MAPETHERM XPS",
+    "line": "thermal-insulation",
+    "description": "Polystyrene insulating panels for thermal insulation systems. ETA 04/0061",
+    "imageUrl": "/products/4_9019-mapetherm-xps_91573bdb11034eb585128c60f8042413.png",
+    "specs": { "color": "Light Blue", "Thickness": "cm: 4, 5, 6, 8 and 10", "Dimensions":"cm: 120 x 60" }
+  },
+  {
+    "id": "elastocolor-net",
+    "name": "ELASTOCOLOR NET",
+    "line": "thermal-insulation",
+    "description": "Glass fibre mesh resistant to alkalis, used for reinforcing smoothing and levelling layers to repair facades and for Mapetherm thermal cladding systems. This product helps the smoothing and levelling product to stick to substrates, improves its tensile strength and improves the thermal cladding system's resistance to temperature changes and abrasion. Mapetherm Net has been tested according to ETAG 004 trial methods, as reported in I.T.C. N° 3500/RP/02. Mapetherm Net is used for reinforcing Mapetherm AR1, Mapetherm AR1 GG and Adesilex FIS13 when applying smoothing and levelling compounds for insulating panels used in thermal insulation systems. It is made with a weft and weave of 4.15 x 3.80 mm. Apply (see page 55 of catalogue 10/2007 for the rest of the text). Pre-mounted aluminium angle iron incorporated with alkali-resistant glass fibre mesh.",
+    "imageUrl": "/products/4_906-elastocolor-net_d0177cb919f6483a94cf276e6dd0da34.png",
+    "specs": { "Weft-Weave": "4.15 x 3.80 mm" }
+  },
+  {
+    "id": "mapefix-ep-100",
+    "name": "MAPEFIX EP 100",
+    "line": "sealing-bonding-anchoring",
+    "description": "MAPEFIX EP 100 is a two-component pure epoxy resin. Certified for chemical anchors for threaded bar and rebar in rough or smooth (core drilled) holes in all types of building material. Also certified for supplementary reinforcing bars in reinforced concrete and for anchoring elements subjected to seismic loads (classes C1 and C2). Ideal for all types of structural strengthening work, construction joints, for use in aggressive environments, damp areas and areas below the water line and for static, dynamic or seismic loads.",
+    "imageUrl": "/products/4_5809_mapefix-ep-100_540ml_113x215_fe41fe8b8b6046a1abaf85d18d095042.png",
+    "specs": { "packaging": "Bottle" }
+  },
+  {
+    "id": "mapeflex-ms-45",
+    "name": "MAPEFLEX MS 45",
+    "line": "sealing-bonding-anchoring",
+    "description": "MAPEFLEX MS 45 is the universal flexible sealant and adhesive, compatible also with damp substrates.",
+    "imageUrl": "/products/42_mapeflex-ms45-adv_ec32554a2fd74ce5873f925d01d1343f.jpg",
+    "specs": { "packaging": "Bottle" }
+  },
+  {
+    "id": "mapesil-ac-eco",
+    "name": "MAPESIL AC ECO",
+    "line": "sealing-bonding-anchoring",
+    "description": "MAPESIL AC ECO is an acetic-crosslinking silicone sealant suitable for sealing glass, ceramic and stainless metals. To increase adhesion and durability, use Mapei Primerseal A on absorbent substrates and Mapei Primerseal M on non-absorbent substrates.",
+    "imageUrl": "/products/42_mapesil-ac-eco-adv_312e1530177d461f8aefd420cfa6de77.jpg",
+    "specs": { "packaging": "Bottle" }
+  },
+  {
+    "id": "mapeflex-fr",
+    "name": "MAPEFLEX FR",
+    "line": "sealing-bonding-anchoring",
+    "description": "MAPEFLEX FR is an acrylic paintable sealant for fire-break joints in walls and passages in residential and industrial buildings and infrastructures.",
+    "imageUrl": "/products/4_8123_mapeflex-fr_550ml_a97505f249e64a5b99d21d24dcf58fd4.png",
+    "specs": { "packaging": "600ml cartridge" }
+  },
+  {
+    "id": "dursilite-level",
+    "name": "DURSILITE LEVEL",
+    "line": "sealing-bonding-anchoring",
+    "description": "White acrylic very low VOC emissions filler and levelling paste for internal use. Ideal for filling small features or skimming entire walls, solve all filling and levelling requirements on substrates prior to a painting cycle. The product has excellent workability and is easy to sand down without shrinking, flaking or cracking.",
+    "imageUrl": "/products/4_6642_dursilite-level-1kg-su-primo-09-iml_945953_1d0676d61f574d11babdd5684e9fa1f4.png",
+    "specs": { "packaging": "1Kg Bucket"}
+  },
+  {
+    "id": "metal-line-100",
+    "name": "METAL LINE 100",
+    "line": "skirting-boards",
+    "description": "Metal Line 100 is an anodised aluminium skirting board that comes in two heights, designed for attachment to panel walls and plasterboard. Thanks to the clean, essential form, it slots in easily to any setting.  It is easy to fit using specific adhesives. The final effect is a recessed skirting board, set into the wall.",
+    "imageUrl": "/products/4_13306---metal-line-100_3115e4f547ab41e5a43e07d094b270dc.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13306_metal-line-100_en_f1762ec7831d439a82fab3f499a9b0b7.pdf?sfvrsn=4535be5d_0"}
+  },
+  {
+    "id": "metal-line-105",
+    "name": "METAL LINE 105",
+    "line": "skirting-boards",
+    "description": "Metal Line 105 is an anodized aluminium skirting board characterized by a simple and quick installation system by interlocking on the base profile for fixing art. 105/CB in coextruded PVC fixed to the wall by using screws and plugs. In addition to having a decorative function, it fully satisfies the technical needs, allowing to hide installation inaccuracies and leaving small perimeter expansion spaces in flooring. Special components are available for making fittings with the function of external corners, internal corners, junctions, and terminals, creating uniformity and linearity of finish. ",
+    "imageUrl": "/products/4_13305_metal-line-105_9207d3a3705446a2baf0ead6f2de6962.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13305_metal-line-105_en_a36474d7e6b045e097fd05db2ea85bd5.pdf?sfvrsn=4f11f818_0"}
+  },
+  {
+    "id": "metal-line-94",
+    "name": "METAL LINE 94",
+    "line": "skirting-boards",
+    "description": "Metal Line 94/7SF is a skirting board with a section that facilitates fixing to the wall with cement-based adhesives",
+    "imageUrl": "/products/4_13393_metal-line-94_4cc6149bd1de48c7aac9d31fa3df6e1a.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13393_metal-line-94_en_70498675e1f7464bba5ac92d70ed292a.pdf?sfvrsn=1841afef_0"}
+  },
+  {
+    "id": "pvc-line-148",
+    "name": "PVC LINE 148",
+    "line": "skirting-boards",
+    "description": "PVC Line 148 is a skirting board by Profilpas, suitable for finishing, decorating, and protecting carpet and PVC floor coverings. It comprises two parts: a hard PVC base and a soft PVC clip. Used as a hygienic corner profile, once fitted and the covering re-laid, it forms a rounded shield. The skirting board also acts as a finish, covering the edge of the carpet and PVC laid, and hiding any uneven cuts. Because of these characteristics, it suits communities, hospitals, and schools.",
+    "imageUrl": "/products/4_13321_pvc-line-148_34a8208897844b93b68fd18da02fcd8c.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13321_pvc-line-148-172-173_en_d24c4f87eb764c119a8d2525e4750a71.pdf?sfvrsn=a1d4f45d_0" }
+  },
+  {
+    "id": "pvc-line-8181",
+    "name": "PVC LINE 8181",
+    "line": "skirting-boards",
+    "description": "PVC Line 8181 is a 70 mm high skirting board in plastic-coated PVC, characterized by a special shape that makes it suitable for installation on curved walls. 8181 is particularly suitable for DIY installation, thanks to its quick and easy application. Available in different colours; it can be fixed to the wall with neoprene adhesive. ",
+    "imageUrl": "/products/4_13317_pvc-line-8181_5538b3e4a7f7478aab92080acb4fa081.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13317_pvc-line-8181_en_04a74cad6b9a416ca8fa3bdf202aa0b9.pdf?sfvrsn=740fb2c2_0" }
+  },
+  {
+    "id": "pvc-line-8600",
+    "name": "PVC LINE 8600",
+    "line": "skirting-boards",
+    "description": "PVC Line 8600 is a range of shock-proof foam PVC skirting boards. 70mm high and 9mm thick, these Profilpas components are also suitable for DIY use thanks to the ease and speed with which they can be laid and fixed with adhesive (PP/96). As well as providing protection, 8600 allows you to personalize any room, thanks to the choice of colours available.  ",
+    "imageUrl": "/products/4_13316_pvc-line-8600_2cd86b6f828f4016bcd97957f184dd65.jpg",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13316_pvc-line-8600_en_15de92c3a5dc4cc0ac6509b2f9e42114.pdf?sfvrsn=fd2428bb_0"}
+  },
+  {
+    "id": "idrosilex-pronto-rpf",
+    "name": "IDROSILEX PRONTO RPF",
+    "line": "renders-bedding-mortars-skim-coats",
+    "description": "Osmotic, fibre-reinforced, fine-grained white smoothing compound used for conservative restoration and finishing work on concrete, stone and masonry structures. Idrosilex Pronto RPF is used for thick finishing layers on bearing walls in tunnels, even if there are high levels of damp. Also, thanks to the white colour and low dirt retention of Idrosilex Pronto RPF, it is particularly suitable as a protective layer to increase the amount of light inside underground structures (road and railway tunnels, hydraulic works, wells, passages, caverns, etc.). Idrosilex Pronto RPF is a pre-blended powder smoothing compound which forms an excellent bond on substrates made from cement, selected fine-grained aggregates, polyacrylonitrile fibres, special synthetic resins and water-repelling additives with a high waterproofing capacity, including if there is water under low pressure. Idrosilex Pronto RPF is prepared by mixing a 25 kg of the product with approximately 5-5.75 litres of water. It may be applied by spray or with a trowel at a thickness of 1 to 5 mm on perfectly clean, solid substrates saturated with water. Idrosilex Pronto RPF complies with the minimum requirements of EN 1504-3 for non-structural class R2 mortars and the requirements of EN 1504-2 coating (C) according to principles MC and IR for protecting concrete.",
+    "imageUrl": "/products/4_2261-idrosilex-pronto-rpf_40bfd8c907294b54a6f24f3648dacaf5.png",
+    "specs": { "packaging": "25kg bag", "consumption": "1.5 kg/m² per mm of thickness." } 
+  },
+  {
+    "id": "planitop-105-me",
+    "name": "PLANITOP 105 ME",
+    "line": "renders-bedding-mortars-skim-coats",
+    "description": "One-component, normal setting cementitious blowhole filler and leveling mortar for smoothing concrete surfaces",
+    "imageUrl": "/products/4_planitop-105-me_b719aab6821141bc852f415feb2be901.png",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_01352_planitop-105-me_en-ae_b9bce7d8ca4142cab57642f12ad8f459.pdf?sfvrsn=c4d6360a_0"}
+  },
+  {
+    "id": "nivoplan",
+    "name": "NIVOPLAN",
+    "line": "renders-bedding-mortars-skim-coats",
+    "description": "Smoothing mortar for internal and external walls and ceilings for thicknesses from 2 to 20 mm.",
+    "imageUrl": "/products/4_nivoplan-uae_e514ae04b14e40d9951d6c505a77c842.png",
+    "specs": { "packaging": "25kg bag", "storage": "12 months", "appplication": "Trowel"}
+  },
+  {
+    "id": "planitop-560",
+    "name": "PLANITOP 560",
+    "line": "renders-bedding-mortars-skim-coats",
+    "description": "Lime-cement skimming mortar with an ultra-fine-textured finish for render.",
+    "imageUrl": "/products/4_1058-planitop-560_cc801cdfe75f48e39c0aa31528efd95b.png",
+    "specs": { "packaging": "25kg bag", "storage": "12 months", "appplication": "Trowel"}
+  },
+  {
+    "id": "planitop-200",
+    "name": "PLANITOP 200",
+    "line": "renders-bedding-mortars-skim-coats",
+    "description": "Water-repellent cementitious skimming mortar with a fine-textured, natural finish for concrete and plastic, glass and porcelain coverings.",
+    "imageUrl": "/products/4_1054_planitop-200-grigio_25kg-int-940642_1125_416fe654c67c40f09892c1ef80176b9e.png",
+    "specs": { "max-dimension-aggragate": "0.4 mm.", "packaging": "25kg bag" }
+  },
+  {
+    "id": "porocol",
+    "name": "POROCOL",
+    "line": "renders-bedding-mortars-skim-coats",
+    "description": "mentitious-based adhesive mortar in powder form for breeze-block walls. Porocol is an off-white coloured powder made up of cement, fine graded sand, synthetic resins and special additives. When mixed with water, Porocol forms a highly-adhesive, thixotropic mortar with good workability which is easy to apply on both horizontal and vertical surfaces. Porocol hardens with little or no shrinkage to form a particularly strong layer, and bonds perfectly to all materials normally used in the building industry. It is also resistant to water and freezing weather. Porocol may be used both for building breeze-block walls and as render.",
+    "imageUrl": "/products/4_310-porocol_81818fcc9d9d4da1a8f1e3a06261b8d6.png",
+    "specs": { "appplication": "Trowel", "packaging": "25kg bag" }
+  },
+  {
+    "id": "mapecolor-paste",
+    "name": "MAPECOLOR PASTE",
+    "line": "cementitious-resin-flooring",
+    "description": "System for colouring MAPEFLOOR I 300 SL, MAPEFLOOR I 500 W, MAPEFLOOR PU 410, PRIMER SN, MAPEFLOOR DECOR 700, MAPEFLOOR I 360 AS and MAPEFLOOR I 390 EDF.",
+    "imageUrl": "/products/4_2095-mapecolor-paste-0-7kg-int-9581383_20dd700905ac4f5882746a09106ed3c5.png",
+    "specs": { "appearance": "Paste", "color": "19 different RAL colors", "packaging": "0.7kg Buckets" }
+  },
+  {
+    "id": "mapecrete-lithium-+",
+    "name": "MAPECRETE LITHIUM +",
+    "line": "cementitious-resin-flooring",
+    "description": "Liquid surface treatment with consolidating, water-repellent and protective effect for new or existing concrete floors and concrete surfaces finished with surface mineral hardener",
+    "imageUrl": "/products/4_8948-mapecrete-lithium---25kg-int_f6eed5431688476abbcb7068e1691f8a.png",
+    "specs": { "packaging": "Gallon" }
+  },
+  {
+    "id": "mapefoam",
+    "name": "MAPEFOAM",
+    "line": "cementitious-resin-flooring",
+    "description": "Closed-cell, extruded polyethylene foam cord used as a support for elastomer sealants to gauge the correct size of flexible joints. Supplied in rolls in various lengths according to the diameter of the foam",
+    "imageUrl": "/products/4_407-mapefoam_06d685a74dbf4e958ce2b8a6fd0b6ae9.png",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00407_mapefoam_en_0b69fced9a16481e90370cecaeb28f45.pdf?sfvrsn=d1985306_0"}
+  },
+  {
+    "id": "mapestone-pfd-2-visco",
+    "name": "MAPESTONE PFS 2 VISCO",
+    "line": "architectural-stone-paving",
+    "description": "MAPESTONE PFS2 VISCO is the pre-blended mortar recommended for grouting concrete slabs and blocks of concrete to create paving with better performance properties than traditional technology. The product is available in a neutral version for decorative paving made from light coloured stone elements and in a dark grey version, ideal for decorative paving made from darker coloured stone. It is used to install particularly thick and/or trapezoidal shaped paving elements on compact installation beds, recommended by UNI 11714-1:2018 for classes P4, P5, P6, P7 and P8 and prescribed by the same standard for class P9. Used to install highly durable paving in areas that may get saturated or that are exposed to freeze/thaw cycles where de-icing salts and seawater are present (exposure classes XF4 and XS3 according to EN 206). The Mapestone Line is the line of Mapei solutions created and developed for creating high performance, durable, decorative stone paving, including paving subjected to heavy traffic conditions, which is compliant with current standards and has aesthetic qualities which make it suitable for use in old town and city centres of historical and artistic interest and with all types of stone paving.",
+    "imageUrl": "/products/4_mapestone-pfs2-visco-uae_93e6e2bb7fbc4198a4157a8239e35141.png",
+    "specs": { "datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_01171_mapestone-pfs-2-visco-_en-ae_383c2a6bce9d4c5b8edc0c76d639b7ac.pdf?sfvrsn=9597c8a_0"}
+  },
+  {
+    "id": "mapestone-tfb-60",
+    "name": "MAPESTONE TFB 60",
+    "line": "architectural-stone-paving",
+    "description": "MAPESTONE TFB 60 is the mortar recommended for installing slabs of natural stone San Pietrini cobblestones, stone cubes, smaller bricks, blocks of stone, prefabricated elements, self-blocking stone and thick porcelain with low impact on the environment for paving in piazzas, carparks, on roads, pavements and at roundabouts.",
+    "imageUrl": "/products/4_mapestone-tfb60-uae_d0a532531733454fa708e9838cdf6acb.png",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00495_mapestone-tfb-60_en-ae_3779d25a41a94bdca216957271aa0d7d.pdf?sfvrsn=e44fb161_0"}
+  },
+  {
+    "id": "mapecoat-act-matt",
+    "name": "MAPECOAT ACT MATT",
+    "line": "wall-paints-coatings",
+    "description": "MAPECOAT ACT MATT is an acrylic-based enamel paint for interiors with special biological protection agents with a broad spectrum of action, able to counteract the deposit and proliferation of moulds, viruses and bacteria on surfaces, even when frequently washed and disinfected.",
+    "imageUrl": "/products/4_6637-mapecoat-act-matt-14l-95810497_f64d128374bc4af0b3c772c344afd318.png",
+    "specs": { "packaging": "14L Bucket" }
+  },
+  {
+    "id": "dursilite-matt",
+    "name": "DURSILITE MATT",
+    "line": "wall-paints-coatings",
+    "description": "DURSILITE MATT is an interior wall paint for professional use, based on modified acrylic resins in aqueous dispersion and selected fillers. It gives the surface a pleasant smooth, silky, highly matt and even finish. It stands out for its washability and hiding power.",
+    "imageUrl": "/products/4_6203-dursilite-matt-14l-95810488_eba026c1a130481fbf130f0c92ffae30.png",
+    "specs": {"packaging":"14L Bucket"}
+  },
+  {
+    "id": "quarzolite-paint",
+    "name": "QUARZOLITE PAINT",
+    "line": "wall-paints-coatings",
+    "description": "Acrylic paint with micro-granular quartz with a smooth finish for long-lasting protection of internal and external surfaces.",
+    "imageUrl": "/products/4_3d_quarzolite-pittura-20kg-int-front-9581503_planet_55139af91310448ab9be024fce2ef264.png",
+    "specs": {"packaging":"20kg bucket"}
+  },
+  {
+    "id": "pp-level-duo-maxi",
+    "name": "PP LEVEL DUO MAXI",
+    "line": "raised-floors",
+    "description": "PP level DUO MAXI is the range of adjustable supports for outdoor raised floors by Profilpas. A complete range able to satisfy any installation requirement, from ceramic tiles to single- and multi-format ceramic planks, including decking.",
+    "imageUrl": "/products/4_13202_pp-level-duo-maxi_dbe27ee96e69450ab881b76bd736fae2.jpg",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13202_pp-level-duo-maxi_en_12f3445a76144d08a182d331baff35fb.pdf?sfvrsn=a19ded60_0"}
+  },
+  {
+    "id": "pp-level-maxi-fix",
+    "name": "PP LEVEL MAXI FIX",
+    "line": "raised-floors",
+    "description": "PP level MAXI FIX is a line of adjustable, fixed-head supports for self-supporting outdoor raised floors. Available for heights from 25 to 462 mm, PP level MAXI FIX supports can be adjusted in height from above through the adjustment key and have a head with tabs for 4-mm joints. They are ideal for floor coverings on flat surfaces or when the floor covering must be parallel to the surface on which the support lays.",
+    "imageUrl": "/products/4_13204_pp-level-maxi-fix_a053ad9b8c8f4b56ac86ba2e545478d4.jpg",
+    "specs": { "availableHeights": "25 to 462 mm" }
+  },
+  {
+    "id": "pp-level-grid",
+    "name": "PP LEVEL GRID",
+    "line": "raised-floors",
+    "description": "With the PP level GRID safety grid, installing ceramic tiles and/or stone slabs of different sizes and in different directions will no longer be a problem. In fact, this outdoor raised floor installation tool provides maximum installation flexibility, increased safety in case of slab fragmentation, and improved load distribution.",
+    "imageUrl": "/products/4_1_immagine-prodotto_bceee37ff4274fa58dfbef290d36cdee.jpg",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13421_pp-level-grid_en_f3cf583e6a0947aa89c202d38d1fceba.pdf?sfvrsn=62da4d9a_0"}
+  },
+  {
+    "id": "electric-vacuum-suction-cup",
+    "name": "ELECTRIC VACUUM SUCTION CUP",
+    "line": "raised-floors",
+    "description": "Multi-purpose electric suction cup used to handle and move ceramic tiles, marble and natural stone slabs, glass and other objects.",
+    "imageUrl": "/products/4_ventosa-electric-vacuum-suction-cup-pps-19302-ppl-v_02_b6493ac00e5d4f53ab8f9b36ccb99f78.jpg",
+    "specs": {"contains": "1 electric vacuum suction cup, 2 rechargeable batteries, 1 battery charger"}
+  },
+  {
+    "id": "slab-lifting-handle",
+    "name": "SLAB LIFTING HANDLE",
+    "line": "raised-floors",
+    "description": "SLAB LIFTING HANDLE is a handy and practical lifting device made from metal for moving and installing slabs shimmed in position using raised flooring systems. It may also be used to move many other types of material such as marble and natural stone.",
+    "imageUrl": "/products/4_maniglia-alza-lastra_2_0be5c36735c046d1beb2e3f29dc76c71.png",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13379_slab-lifting-handle_en_96638e5c18724262ab9b25b670a05167.pdf?sfvrsn=c4bb94b2_0"}
+  },
+  {
+    "id": "mapestop",
+    "name": "MAPESTOP",
+    "line": "dehumidification",
+    "description": "Agent applied by injection made from micro-emulsion, concentrated silane and siloxane used to form a chemical barrier against capillary rising damp in masonry.",
+    "imageUrl": "/products/4_2005-mapestop_c21ca69f0286459a861f9ce12a7105b8.png",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_02005_mapestop_en_38b4e5517abc4b3b8813ca43779f1a76.pdf?sfvrsn=4f27c9ca_0"}
+  },
+  {
+    "id": "mape-antique-fc",
+    "name": "MAPE-ANTIQUE FC",
+    "line": "dehumidification",
+    "description": "Salt-resistant, fine-grained lime- and Eco-Pozzolan-based transpirant smoothing mortars applied on lime-based renders. Respectively available in white and light pink. Mape-Antique FC is a light-coloured pre-blended sulphate-resistant mortar used for finishing rougher dehumidifying plasters such as Mape-Antique MC and Mape-Antique LC. Mape-Antique FC is also available in the light pink Mape-Antique FC/R version for finishing Mape-Antique CC plaster. Mape-Antique FC and Mape-Antique FC/R are ready-to-use mortars with a base of hydraulic binders with pozzolanic action, special additives and finely graded natural sand. Mix a 25 kg bag of Mape-Antique FC or Mape-Antique FC/R with 5.75-6.0 l of water with a drill filled with an agitator until completely blended.",
+    "imageUrl": "/products/4_mape-antiquefc_en_d381c3a99a45447eb3f43ac9fcbd201f.jpg",
+    "specs": {"packaging": "25kg bag"}
+  },
+  {
+    "id": "poromap-deumidificante",
+    "name": "POROMAP DEUMIDIFICANTE",
+    "line": "dehumidification",
+    "description": "POROMAP DEUMIDIFICANTE is a single-product, salt-resistant dehumidifying render for restoring masonry deteriorated by rising damp.",
+    "imageUrl": "/products/4_poromap-deumidificante-zero-20kg-int_60e0536fe66f4fa3a1a8d915766a682a.png",
+    "specs": { "packaging": "20kg bag"}
+  },{
+    "id": "mapesilent-panel",
+    "name": "MAPESILENT PANEL",
+    "line": "acoustic-insulation",
+    "description": "MAPESILENT PANEL is a soundproofing system made up of panels specifically developed to effectively guarantee the best soundproofing properties for floors to counteract impact and footstep noise; complies with passive acoustic requirements specified by Prime-ministerial Decree 5-12-97 and meets requirements for the highest acoustic efficiency classes specified by UNI 11367.",
+    "imageUrl": "/products/4_912-mapesilent-panel_096f4a08b98547ed913af04c82478432.png",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00912_mapesilent-panel_en_9e107592afe64eefa5392ad2e5897784.pdf?sfvrsn=854db669_0"}
+  },
+  {
+    "id": "mapesonic-cr",
+    "name": "MAPESONIC CR",
+    "line": "acoustic-insulation",
+    "description": "MAPESONIC CR is the Mapei solution for acoustic living comfort reduces discomfort due to impact and footstep noise (heels, moving chairs and furniture around, impact noise from falling objects, etc.).",
+    "imageUrl": "/products/42_mapesonic-cr-adv-prodotto_c8b1e7c60c544527b4e810f9c5e37981.jpg",
+    "specs": {"datasheet":"https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00915_mapesonic-cr_en_bbb7059c10204b18b7aa707dbfdeafdd.pdf?sfvrsn=67d22bec_2"}
+  },
+  {
+    "id": "planitop-hbc",
+    "name": "PLANITOP HPC",
+    "description": "PLANITOP HPC is a CVT (Technical Evaluation Certificate) and CE certified, fiber-reinforced, two-component mortar for the repair and strengthening of reinforced concrete structures where the use of high flow mortars with very high mechanical performance and high ductility is required, without the introduction of additional reinforcement, in order to reduce the application thickness.",
+    "line": "structural-strengthening",
+    "imageUrl": "/products/4_planitop-hpc-25kg-int-2021_4dd85f07f1ef4d669b85a16c601f7e7c.png",
+    "specs": {"packaging": "25kg bag"}
+  },
+  {
+    "id": "maperoad-c",
+    "name": "MAPEROD C",
+    "line": "structural-strengthening",
+    "description": "High tensile pultruded carbon fibre rebars impregnated with epoxy resin for structural strengthening of damaged concrete, wooden and masonry elements.",
+    "imageUrl": "/products/4_1015-maperod-c---rinforzo_strutturale-0376-hires_f5b78b0bea544c988c70d049c4898358.png",
+    "specs": {"fibreContent": "71%", "modulusOfElasticity":"155,000 N/mm²", "transversalSection": "73.9 mm²"}
+  },
+  {
+    "id": "mapeguard-c",
+    "name": "MAPEGUARD IC",
+    "line": "waterproofing",
+    "description": "Special pieces of MAPEGUARD WP SYSTEM for waterproofing inner corners",
+    "imageUrl": "/products/4_7681-mapeguard-ic_d2b4fd8ff2e543018e02dc9cdde59fa4.png",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_1_02199_mapeguard-wp-200-_en_4b4ba8c92eed468da412202c1b81bd68.pdf?sfvrsn=baf80f44_0"}
+  },
+  {
+    "id": "mapeplastic",
+    "name": "MAPELASTIC",
+    "line": "waterproofing",
+    "description": "MAPELASTIC two-component, elastic cementitious mortar made from cementitious binders, fine-grained selected aggregates, special admixtures and synthetic polymers in dispersed water is the definitive solution to infiltrations of water that damage and shorten the service life of balconies and terraces.",
+    "imageUrl": "/products/4_mapelastic-uae_8abcfe39d4e742e2a6035b461eb013cb.png",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00331_mapelastic_en-ae_2bcf151a9fb94b0a92b654cc3d6839cc.pdf?sfvrsn=933da5f7_0"}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
+  },
+  {
+    "id": "",
+    "name": "",
+    "line": "",
+    "description": "",
+    "imageUrl": "/products/",
+    "specs": {}
   }
 ]
