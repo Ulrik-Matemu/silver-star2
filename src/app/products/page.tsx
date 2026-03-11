@@ -9,7 +9,7 @@ export default async function ProductsPage() {
         {
             title: "Ceramics and Stone Materials",
             image: "/products/product1.jpeg",
-            href: "/products/product1.jpeg",
+            href: "/products/ceramics-stone",
             accentColor: "#2563eb",
         },
         {
@@ -21,13 +21,13 @@ export default async function ProductsPage() {
         {
             title: "Cleaning, Maintaining and Protecting Surfaces",
             image: "/products/product3.jpeg",
-            href: "/products/cleaning",
+            href: "/products/cleaning-maintaining-protecting",
             accentColor: "#10b981",
         },
         {
             title: "Resilient, LVT and Textile Materials",
             image: "/products/product4.jpeg",
-            href: "/products/lvt",
+            href: "/products/resilient-lvt-textile-materials",
             accentColor: "#ef4444",
         },
     ];

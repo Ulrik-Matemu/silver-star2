@@ -4,6 +4,7 @@ import "./globals.css";
 import { HeaderNav } from './components/header-nav'; // Import HeaderNav
 import { Footer } from "./components/footer";
 import  BackToTopButton  from "./components/back-to-top-button";
+import ProductLines from "./components/product-line-bar";
 
 
 
@@ -34,6 +35,7 @@ export default function RootLayout({
         {children}
         <BackToTopButton />
         <Footer />
+        <ProductLines />
       </body>
     </html>
   );

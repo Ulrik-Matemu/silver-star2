@@ -171,11 +171,6 @@ export const Footer = () => {
 
       </div>
 
-      <div className="mt-12 pt-8">
-        <p className="text-center md:text-right text-xs text-gray-500 tracking-wide">
-          Copyright © 2026 Silverstar Resources Company Limited. All rights reserved.
-        </p>
-      </div>
     </footer>
   );
 };

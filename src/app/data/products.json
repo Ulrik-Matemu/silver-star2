@@ -15,5 +15,205 @@
     "imageUrl": "/products/5_mapelastic-turbo-36kg-uae-new_00c82c701f2c4827b8e9a1f0b4c7e5d3.png",
     "description": "Two-component, rapid-drying cementitious mortar.",
     "specs": { "color": "Brownish-grey", "packaging": "36kg kit" }
+  },
+  {
+    "id": "mapecoat-tns-race-track-zero",
+    "name": "Mapecoat TNS RACE TRACK ZERO",
+    "line": "sports-flooring",
+    "imageUrl": "/products/4_12533-mapecoat-tns-race-track-zero_3281d435abcd4e91bfafe218fb4111c0.png",
+    "description": "High-performance, low-VOC, water-based coating for sports surfaces.",
+    "specs": { "color": "Black", "packaging": "20kg bucket" }
+  },
+  {
+    "id": "kerapoxy",
+    "name": "Kerapoxy",
+    "line": "ceramic-stone",
+    "imageUrl": "/products/4_141-kerapoxy-a-b-5kg-int-9454491_32b514b463cd4b428b0b5438a24e9076.png",
+    "description": "KERAPOXY is a two-component acid-resistant high-performance epoxy grout for grouting ceramic tiles and stone material, for joints of at least 1 mm. Can also be used as an adhesive.",
+    "specs": { "color": "Grey/White", "packaging": "5kg kit" }
+  },
+  {
+    "id": "eco-prim-grip-plus",
+    "name": "Eco Prim Grip Plus",
+    "line": "ceramic-stone",
+    "imageUrl": "/products/42_eco-prim-grip-plus-adv_3c63c41a55454f1f8f4c78fe836d6631.jpg",
+    "description": "From Mapei laboratories, the multi-purpose universal primer with almost no odour, non-hazardous for installers and end users, non-flammable and very low VOC content. Suitable for internal and external applications on floors and walls to improve adhesion of skimming compound, cementitious adhesive and render on smooth substrates with low absorbency.",
+    "specs": { "color": "Transparent", "packaging": "5kg bucket" }
+  },
+  {
+    "id": "mapeguard-um-35",
+    "name": "Mapeguard UM 35",
+    "line": "ceramic-stone",
+    "imageUrl": "/products/4_7680-mapeguard-um-35-int_fd56371550b0415fb7a7d4dee6e64ef2.png",
+    "description": "Waterproofing, uncoupling and anti-fracture membrane for cracked and damp substrates and substrates that are not fully cured before installing ceramic and stone tiles for internal and external surfaces without having to copy the layout of distribution joints in the substrate.",
+    "specs": { "color": "Blue", "packaging": "15m2 roll (1m x 15m)" }
+  },
+  {
+    "id": "pu-gym-refresh",
+    "name": "PU Gym Refresh",
+    "line": "sports-flooring",
+    "imageUrl": "/products/42_pu-gym-refresh_adv_v2_255d309abc424c53897efa51a2d80075.jpg",
+    "description": "PU GYM REFRESH is a new coloured polyurethane finish for protecting and refurbishing old sports flooring with a touch of creativity and to give surfaces the level of non-slip finish required for schools and in other settings.",
+    "specs": { "color": "Available in various colors", "packaging": "20kg kit" }
+  },
+  {
+    "id": "pu-sealer-750",
+    "name": "PU Sealer 750",
+    "line": "sports-flooring",
+    "imageUrl": "/products/4_5909-pu-sealer-750-sl-a-b-24-4kg-int_fea22a6a93db49bc9140970d0966f3c4.png",
+    "description": "Two-component polyurethane resin-based elastic undercoat and filler for preparing indoor and outdoor playing surfaces",
+    "specs": { "color": "Clear", "packaging": "4kg bucket" }
+  },
+  {
+    "id": "pu-700-sl",
+    "name": "PU 700 SL",
+    "line": "sports-flooring",
+    "imageUrl": "/products/4_5907-pu700-sl-a-b-20-9kg-int_099927bd9534497cbaa8694786bbcb3b.png",
+    "description": "Two-component self-levelling elastic polyurethane resin for coating indoor and outdoor playing surfaces",
+    "specs": { "color": "Available in various colors", "packaging": "9kg kit" }
+  },
+  {
+    "id": "ultraband-sport",
+    "name": "Ultraband Sport",
+    "line": "sports-flooring",
+    "imageUrl": "/products/4_12533-mapecoat-tns-race-track-zero_3281d435abcd4e91bfafe218fb411c0.png",
+    "description": "ULTRABOND SPORT is a two-component polyurethane adhesive specifically developed for installing Mapecomfort R and Mapecomfort PU rubber mat on concrete and asphalt substrates. ULTRABOND SPORT may also be used to restore the flatness of hollows up to 1.00 cm deep and to fill cracks in existing concrete and asphalt paving. ULTRABOND SPORT may also be used to bond synthetic grass on sports surfaces.",
+    "specs": { "color": "white", "packaging": "20kg kit" }
+  },
+  {
+    "id": "consolidante-8020",
+    "name": "Consolidante 80/20",
+    "line": "renovation-green-building-restoration-historic-buildings",
+    "imageUrl": "/products/4_2905-consolidante-8020-10kg-int_c34713ecd20f437ba717951478858761.png",
+    "description": "Polymer-based reversible consolidating product in solvent for the conservative restoration and the consolidation of porous stone substrates, lime render and paintwork",
+    "specs": { "color": "Transparent", "packaging": "10kg bucket" }
+  },
+  {
+    "id": "mape-antique-intonaco-nhl",
+    "name": "Mape Antique Intonaco NHL",
+    "line": "renovation-green-building-restoration-historic-buildings",
+    "imageUrl": "/products/4_612-mape-antique-intonaco-nhl_b9101fa261c94cafb0f4e8cde4657056.png",
+    "description": "Breathable base render made from pure natural hydraulic lime, recycled materials and Eco-Pozzolan, cement-free, for application on existing masonry work, including those of historical interest, and on new constructions",
+    "specs": { "color": "Grey", "packaging": "25kg bag" }
+  },
+  {
+    "id": "pp-drain-aqua",
+    "name": "PP-Drain Aqua",
+    "line": "profiles-shower-systems",
+    "description": "PP Drain Aqua is a range of linear drains for floor-level showers, suitable for ceramic tiles, natural stone, and other coverings. PP Drain Aqua linear shower drains are made of stainless steel AISI 316 – DIN 1.4404 and are available in a wide selection of covers, with and without frames. All covers can be adapted to coverings with thicknesses from 6 to 18 mm (except Invisible Cover, which is suitable for coverings of any thickness). PP Drain Aqua is available with horizontal-drain siphon DN40 (drainage capacity 50 litres/minute) or direct vertical drain DN50. The linear shower drains with siphons have a floor-level height of 70 mm and a length of covers from 60 to 120 cm. The shower drain body is equipped with a solidly glued waterproofing membrane (compliant with DIN 18534): this guarantees a perfect integration of the linear shower drain itself with the waterproofing system of the shower area. The covers and the frame (when present) have special adjustment supports from 6 to 18 mm, also available in the tile-able vanishing version Invisible Cover for coverings of any thickness.",
+    "imageUrl": "/products/4_13285_pp-drain-aqua_1de53ec207d14bcbb301314a0bb9a029.jpg",
+    "specs": { "material": "Stainless Steel AISI 316", "drainageCapacity": "50 litres/minute", "coverLength": "60 to 120 cm" }
+  },
+  {
+    "id": "ultracare-multicleaner",
+    "name": "Ultracare Multicleaner",
+    "line": "cleaning-maintaining-protecting-surfaces",
+    "description": "ULTRACARE MULTICLEANER is a concentrated neutral cleaner with very high yield for cleaning and maintaining both treated and untreated surfaces.",
+    "imageUrl": "42_ultracare-multicleaner_75ab2b75ec234f73810840e12a1fc8d6.jpg",
+    "specs": { "color": "Transparent", "packaging": "5L Gallon" }
+  },
+  { 
+    "id": "ultracare-grout-cleaner",
+    "name": "ULTRACARE GROUT CLEANER",
+    "line": "cleaning-maintaining-protecting-surfaces",
+    "description": "ULTRACARE GROUT CLEANER is a professional concentrated alkaline detergent for cleaning both cementitious and epoxy grouts.",
+    "imageUrl": "/products/42_ultracare-grout-cleaner_90524412d8f54047a693c443564addde.jpg",
+    "specs": { "color": "Transparent", "packaging": "5L Gallon" } 
+  },
+  {
+    "id": "ultracare-5-sides-sealer",
+    "name": "ULTRACARE 5 SIDES SEALER",
+    "line": "cleaning-maintaining-protecting-surfaces",
+    "description": "Natural look, water-based back and four sides sealer designed to prevent superficial efflorescence and stain caused by rising damp.",
+    "imageUrl": "/products/4_432-ultracare-5-sides-sealer-jerrycan-5kg_4f75d0c9198c46f78a7d39beb2c4b818.png",
+    "specs": { "color": "Transparent", "packaging": "5kg bucket" }
+  },
+  {
+    "id": "ultracare-finish-lucida",
+    "name": "ULTRACARE FINISH LUCIDA",
+    "line": "cleaning-maintaining-protecting-surfaces",
+    "description": "ULTRACARE FINISH LUCIDA is an anti-wear liquid wax with a glossy finish ideal for terracotta, stone, marble (unpolished), recomposed and similar floors in indoor or covered exteriors.",
+    "imageUrl": "/products/42_ultracare-finish-lucida_0ea2c61d4235432b9265235eccdd5f88.jpg",
+    "specs": { "color": "Transparent", "packaging": "5L Gallon" }
+  }, 
+  {
+    "id": "ultracare-finish-opaca",
+    "name": "ULTRACARE FINISH OPACA",
+    "line": "cleaning-maintaining-protecting-surfaces",
+    "description": "ULTRACARE FINISH OPACA is an anti-wear liquid wax with a matt finish, ideal for terracotta, stone, marble (unpolished), recomposed and similar floors in indoor or covered exteriors.",
+    "imageUrl": "/products/42_ultracare-finish-opaca_7b2a9c8b25e54a098d7d6c09c909aa3d.jpg",
+    "specs": { "color": "Transparent", "packaging": "5L Gallon" } 
+  },
+  {
+    "id": "ultracare-fuga-fresca",
+    "name": "ULTRACARE FUGA FRESCA",
+    "line": "cleaning-maintaining-protecting-surfaces",
+    "description": "ULTRACARE FUGA FRESCA quickly and easily applied is used to refresh and modify the colour of cementitious grout joints in interior.",
+    "imageUrl": "/products/42_fuga-fresca_dea822ceda744093801f23eae737678d.jpg",
+    "specs": { "color": "Transparent", "packaging": "160g Bottle" } 
+  },
+  {
+    "id": "mapecoat-wet-dry-r11",
+    "name": "MAPECOAT WET & DRY R11",
+    "line": "resilient-lvt-textile-materials",
+    "description": "MAPECOAT WET & DRY R11 Two component aliphatic, anti-slip polyurethane finish in water dispersion for resilient floor-coverings",
+    "imageUrl": "/products/4_7706-mapecoat-wet-dry-a-b-6kg-int_7e9206596b4f487898995cdecb3da16f.png",
+    "specs": { "color": "Transparent", "packaging": "10kg Pack" } 
+  },
+  {
+    "id": "ultrabond-eco-tack",
+    "name": "ULTRABOND ECO TACK",
+    "line": "resilient-lvt-textile-materials",
+    "description": "Anti-slide tackifier with high residual tack for textile loose-lay tiles",
+    "imageUrl": "/products/4_213-ultrabond-eco-tack-15kg-int-945806_f223a8d96e3a4138be4f8662b5e02387.png",
+    "specs": { "color": "Transparent", "packaging": "15kg bucket" }
+  },
+  {
+    "id": "ultrabond-eco-tx2",
+    "name": "ULTRABOND ECO TX2",
+    "line": "resilient-lvt-textile-materials",
+    "description": "High initial grab and long open time adhesive for textile floorings",
+    "imageUrl": "/products/4_6517-ultrabond-eco-tx2-16kg-int-945703_7b6ff6d94c26463daa804cdcc864f7f2.png",
+    "specs": { "color": "Transparent", "packaging": "15kg bucket" }
+  },
+  {
+    "id": "mapei-tile-spacer",
+    "name": "MAPEI TILE SPACER",
+    "line": "complementary-products-tools",
+    "description": "MAPEI TILE SPACER is a range of spacers designed to help installers when positioning tiles. They enable to create perfectly straight and uniform grout lines and to obtain regularly spaced tiling.",
+    "imageUrl": "/products/4_mapei-tile-spacer-t_b29817365e84477db93d73c7776bd542.png",
+    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+  },
+  {
+    "id": "mapelevel-easyclick-system",
+    "name": "MAPELEVEL EASYCLICK SYSTEM",
+    "line": "complementary-products-tools",
+    "description": "MAPELEVEL EASYCLICK SYSTEM is a tile levelling system for ceramic and stone tiles; fast and easy to install and remove, it has been developed to help installers prevent tile lippage and obtain perfectly flat tiling, even when laying large format tiles.",
+    "imageUrl": "/products/4_198-mapelevel-easyclick-system_7c2d64ede733421b87aa7f3beb2e23af.png",
+    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+  },
+  {
+    "id": "mapelevel-prowdg-system",
+    "name": "MAPELEVEL PROWDG SYSTEM",
+    "line": "complementary-products-tools",
+    "description": "MAPELEVEL PROWDG SYSTEM is a wedge leveling system for obtaining perfectly flat ceramic and stone floors. Installation with pliers is simple, precise and fast. The Mapei MAPELEVEL PROWDG SYSTEM leveling system makes laying tiles quicker and easier.Easy to apply, it allows to obtain perfectly flat floors and coverings even in the most difficult cases, such as the installation of large format slabs or in case of uneven coverings on deteriorated substrates. With just two elements, the system avoids the formation of lippage between adjacent tiles. For a perfect pose in less time. MAPELEVEL PROWDG SYSTEM is made of regenerated plastic material, respecting the environment.",
+    "imageUrl": "/products/4_9301-mapelevel-prowdg-system-mapelevel_modif_f781c241867c46789204dd019fd9e0d1.png",
+    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+  },
+  {
+    "id": "mapelevel-easy-system",
+    "name": "MAPELEVEL EASY SYSTEM",
+    "line": "complementary-products-tools",
+    "description": "MAPELEVEL EASY SYSTEM is a tile levelling system for ceramic and stone tiles; it has been developed to help installers prevent tile lippage and obtain perfectly flat tiling. Thanks to the rapid screwing system, MAPELEVEL EASY can be applied more quickly, considerably reducing overall installation time. Tile levelling is even more precise, ensuring a perfect result, even when laying large format tiles. Versatile and complete, MAPELEVEL EASY SYSTEM can be used with a wide range of tiles (up to 21 mm thick) and adapts to all laying patterns, with lower consumption rates compared with the traditional wedge systems. The system consists of: Caps MapeLevel Easy Cap – Screw spacers MapeLevel Easy Spacer L (available in 3 versions: linear, T and X spacer) – Anti-scratch shield MapeLevel Easy Shield",
+    "imageUrl": "/products/4_192-mapelevel-easy_8af5f99392964f3997442fd30e0095ec.png",
+    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
+  },
+  {
+    "id": "",
+    "name": "MAPELEVEL EASYWDG",
+    "line": "complementary-products-tools",
+    "description": "MAPELEVEL EASYWDG SYSTEM is a levelling system for ceramic and stone tiles for perfectly flat floors. Installation is simple and precise, without having to use pliers. MAPELEVEL EASYWDG Levelling System is designed for a faster and easier tile installation. Easy to install, it enables to obtain perfectly flat floor and wall coverings, even in the most difficult cases, such as the installation of large-sized slabs. Just two components and one simple movement are enough to quickly and accurately remove lippage between adjacent tiles. For perfect tiling in less time. MAPELEVEL EASYWDG SYSTEM is mainly made of recycled plastic material, respecting the environment.",
+    "imageUrl": "/products/4_mapelevel-easy-wdg_e7a2c94c60764b1d82baafafa74e6243.png",
+    "specs": { "material": "Plastic", "availableSizes": "1mm, 2mm, 3mm, 4mm, 5mm, 6mm, 8mm, 10mm" }
   }
 ]

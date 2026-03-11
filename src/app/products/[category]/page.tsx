@@ -1,3 +1,6 @@
+// @src/app/products/[category]/page.tsx
+
+
 import Link from 'next/link';
 import products from '@/app/data/products.json';
 import { notFound } from 'next/navigation';
