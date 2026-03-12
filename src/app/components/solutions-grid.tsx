@@ -159,6 +159,106 @@ export default function SolutionsGrid({
         boxSizing: "border-box",
       }}
     >
+      <style>{`
+        .solutions-grid {
+          max-width: 1100px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 24px;
+        }
+
+        /* Tablet: 2 columns */
+        @media (max-width: 1023px) {
+          .solutions-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+          }
+        }
+
+        /* Mobile: 1 column */
+        @media (max-width: 599px) {
+          .solutions-grid {
+            grid-template-columns: 1fr;
+            gap: 16px;
+          }
+        }
+
+        .solutions-card {
+          text-decoration: none;
+          display: flex;
+          flex-direction: column;
+          border: 1px solid #e8e8e8;
+          border-radius: 4px;
+          overflow: hidden;
+          background-color: #fff;
+          transition: box-shadow 0.3s ease;
+        }
+
+        .solutions-card:hover {
+          box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+        }
+
+        .solutions-card-image-wrapper {
+          position: relative;
+          width: 100%;
+          aspect-ratio: 16 / 9;
+          overflow: hidden;
+        }
+
+        .solutions-card-image {
+          transition: transform 0.4s ease;
+        }
+
+        .solutions-card:hover .solutions-card-image {
+          transform: scale(1.05);
+        }
+
+        .solutions-card-body {
+          padding: 14px 16px 20px;
+        }
+
+        .solutions-card-title {
+          font-size: 0.82rem;
+          line-height: 1.55;
+          color: #222;
+          margin: 0;
+          font-weight: 400;
+          transition: color 0.2s ease;
+        }
+
+        .solutions-card:hover .solutions-card-title {
+          color: #1a6fa8;
+        }
+
+        .solutions-cta-btn {
+          display: inline-block;
+          padding: 14px 40px;
+          border-radius: 50px;
+          background-color: #1a6fa8;
+          color: #ffffff;
+          font-size: 0.78rem;
+          font-weight: 700;
+          letter-spacing: 0.12em;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: background-color 0.25s ease, transform 0.2s ease;
+        }
+
+        .solutions-cta-btn:hover {
+          background-color: #155a8a;
+          transform: scale(1.03);
+        }
+
+        @media (max-width: 599px) {
+          .solutions-cta-btn {
+            width: 100%;
+            text-align: center;
+            padding: 14px 24px;
+          }
+        }
+      `}</style>
+
       {/* Section Header */}
       <div
         style={{
@@ -193,66 +293,33 @@ export default function SolutionsGrid({
       </div>
 
       {/* Grid */}
-      <div
-        style={{
-          maxWidth: "1100px",
-          margin: "0 auto",
-          display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)",
-          gap: "24px",
-        }}
-      >
+      <div className="solutions-grid">
         {solutions.map((solution, index) => (
           <Link
             key={solution.id}
             href={solution.href ?? "#"}
+            className="solutions-card"
             style={{
-              textDecoration: "none",
-              display: "flex",
-              flexDirection: "column",
-              border: "1px solid #e8e8e8",
-              borderRadius: "4px",
-              overflow: "hidden",
-              backgroundColor: "#fff",
               opacity: visible ? 1 : 0,
               transform: visible ? "translateY(0)" : "translateY(28px)",
               transition: `opacity 0.5s ease ${Math.min(index * 40, 400)}ms, transform 0.5s ease ${Math.min(index * 40, 400)}ms, box-shadow 0.3s ease`,
-              boxShadow: hoveredId === solution.id
-                ? "0 8px 28px rgba(0,0,0,0.12)"
-                : "0 1px 4px rgba(0,0,0,0.05)",
             }}
-            onMouseEnter={() => setHoveredId(solution.id)}
-            onMouseLeave={() => setHoveredId(null)}
           >
             {/* Image */}
-            <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", overflow: "hidden" }}>
+            <div className="solutions-card-image-wrapper">
               <Image
                 src={solution.image}
                 alt={solution.title}
                 fill
-                style={{
-                  objectFit: "cover",
-                  transform: hoveredId === solution.id ? "scale(1.05)" : "scale(1)",
-                  transition: "transform 0.4s ease",
-                }}
-                sizes="(max-width: 768px) 100vw, (max-width: 1100px) 50vw, 25vw"
+                className="solutions-card-image"
+                style={{ objectFit: "cover" }}
+                sizes="(max-width: 599px) 100vw, (max-width: 1023px) 50vw, 25vw"
               />
             </div>
 
             {/* Title */}
-            <div style={{ padding: "14px 16px 20px" }}>
-              <p
-                style={{
-                  fontSize: "0.82rem",
-                  lineHeight: 1.55,
-                  color: hoveredId === solution.id ? "#1a6fa8" : "#222",
-                  margin: 0,
-                  fontWeight: 400,
-                  transition: "color 0.2s ease",
-                }}
-              >
-                {solution.title}
-              </p>
+            <div className="solutions-card-body">
+              <p className="solutions-card-title">{solution.title}</p>
             </div>
           </Link>
         ))}
@@ -264,29 +331,12 @@ export default function SolutionsGrid({
           display: "flex",
           justifyContent: "center",
           marginTop: "56px",
+          padding: "0 16px",
           opacity: visible ? 1 : 0,
           transition: "opacity 0.8s ease 0.5s",
         }}
       >
-        <Link
-          href={discoverHref}
-          style={{
-            display: "inline-block",
-            padding: "14px 40px",
-            borderRadius: "50px",
-            backgroundColor: hoveredId === -1 ? "#155a8a" : "#1a6fa8",
-            color: "#ffffff",
-            fontSize: "0.78rem",
-            fontWeight: 700,
-            letterSpacing: "0.12em",
-            textDecoration: "none",
-            textTransform: "uppercase",
-            transition: "background-color 0.25s ease, transform 0.2s ease",
-            transform: hoveredId === -1 ? "scale(1.03)" : "scale(1)",
-          }}
-          onMouseEnter={() => setHoveredId(-1)}
-          onMouseLeave={() => setHoveredId(null)}
-        >
+        <Link href={discoverHref} className="solutions-cta-btn">
           Discover All Our Solutions
         </Link>
       </div>

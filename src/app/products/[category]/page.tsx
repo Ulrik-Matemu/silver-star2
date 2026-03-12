@@ -32,11 +32,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                 description={info?.description || `Explore our high-quality range of Mapei ${category.replace('-', ' ')} solutions.`}
                 backgroundImage={info?.backgroundImage}
             />
-            <div className='px-4'>
-                <h2 className="text-3xl font-extrabold text-center py-8">{info?.subTitle || ''}</h2>
-                <p className="text-justify text-2xl text-gray-600 px-12">{info?.extraDescription || ''}</p>
+            <div className='px-2 md:px-4'>
+                <h2 className="text-xl md:text-3xl font-extrabold text-center py-8">{info?.subTitle || ''}</h2>
+                <p className="text-justify text-xl text-gray-600 px-4 md:px-12">{info?.extraDescription || ''}</p>
             </div>
-            <div className='px-12 py-12'>
+            <div className='px-4 md:px-12 py-12'>
                 <h3 className="text-3xl font-bold text-left mb-4">Explore Products</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {filteredProducts.map((product) => (

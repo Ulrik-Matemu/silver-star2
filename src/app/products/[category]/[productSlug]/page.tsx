@@ -14,7 +14,7 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
         <div className="bg-white min-h-screen font-sans antialiased">
             {/* Subtle Top Progress/Breadcrumb */}
             <div className="border-b border-gray-100">
-                <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center gap-2 text-[11px] uppercase tracking-[0.2em] text-gray-400">
+                <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center gap-2 text-xs lg:text-[11px] uppercase tracking-[0.2em] text-gray-400">
                     <Link href="/products" className="hover:text-black transition-colors">PRODUCTS</Link>
                     <span>/</span>
                     <Link href={`/products/${category}`} className="hover:text-black transition-colors">{category.replace('-', ' ')}</Link>
@@ -24,8 +24,8 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
             </div>
 
             <main className="max-w-6xl mx-auto px-6 py-12 lg:py-20">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-start">
-                    <div className='flex gap-12 lg:gap-24 items-start'>
+                <div className="">
+                    <div className='grid lg:flex gap-12'>
                         <div className="">
                             <div className="relative bg-[#f9f9f9] rounded-2xl p-8 md:p-12 aspect-[4/5] flex items-center justify-center overflow-hidden border border-gray-50">
                                 <img

@@ -47,69 +47,156 @@ const productLines: ProductLine[][] = [
     ],
 ];
 
+// Flatten columns into a single array for mobile/tablet reflow
+const allItems = productLines.flat();
+
 export default function ProductLines() {
     const [hoveredItem, setHoveredItem] = useState<string | null>(null);
 
     return (
-
         <>
-            <section
-                style={{
-                    backgroundColor: "#2A2A2A",
-                    padding: "48px 56px",
-                    fontFamily: "'DM Sans', 'Helvetica Neue', sans-serif",
-                    minHeight: "320px",
-                }}
-            >
+            <style>{`
+                .product-lines-section {
+                    background-color: #2A2A2A;
+                    padding: 48px 56px;
+                    font-family: 'DM Sans', 'Helvetica Neue', sans-serif;
+                    min-height: 320px;
+                }
+
+                .product-lines-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 0 40px;
+                }
+
+                /* Tablet: 2 columns */
+                @media (max-width: 1023px) {
+                    .product-lines-section {
+                        padding: 40px 32px;
+                    }
+                    .product-lines-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 0 28px;
+                    }
+                }
+
+                /* Mobile: 1 column */
+                @media (max-width: 639px) {
+                    .product-lines-section {
+                        padding: 32px 20px;
+                    }
+                    .product-lines-grid {
+                        grid-template-columns: 1fr;
+                        gap: 0;
+                    }
+                }
+
+                .product-lines-column {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    border-top: 1px solid rgba(255,255,255,0.08);
+                }
+
+                .product-lines-item {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 12px;
+                    padding: 11px 0;
+                    border-bottom: 1px solid rgba(255,255,255,0.08);
+                    cursor: pointer;
+                    transition: background 0.15s ease;
+                }
+
+                .product-lines-item:last-child {
+                    border-bottom: 1px solid rgba(255,255,255,0.08);
+                }
+
+                .product-lines-bar {
+                    flex-shrink: 0;
+                    margin-top: 3px;
+                    width: 3px;
+                    height: 14px;
+                    border-radius: 2px;
+                    transition: transform 0.2s ease, opacity 0.2s ease;
+                }
+
+                .product-lines-label {
+                    font-size: 12.5px;
+                    line-height: 1.5;
+                    font-weight: 400;
+                    letter-spacing: 0.01em;
+                    transition: color 0.15s ease;
+                }
+
+                .product-lines-link {
+                    text-decoration: none;
+                    color: inherit;
+                    display: block;
+                    width: 100%;
+                }
+
+                .product-lines-header {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    margin-bottom: 36px;
+                }
+
+                .product-lines-header-bar {
+                    display: inline-block;
+                    width: 24px;
+                    height: 2px;
+                    background-color: #888;
+                    flex-shrink: 0;
+                }
+
+                .product-lines-title {
+                    color: #FFFFFF;
+                    font-size: 11px;
+                    font-weight: 600;
+                    letter-spacing: 0.18em;
+                    text-transform: uppercase;
+                    margin: 0;
+                }
+
+                .footer-bar {
+                    background-color: #1a1a1a;
+                    width: 100%;
+                }
+
+                .footer-inner {
+                    max-width: 1280px;
+                    margin: 0 auto;
+                    padding: 24px 16px;
+                }
+
+                .footer-text {
+                    text-align: right;
+                    font-size: 12px;
+                    color: #6b7280;
+                    letter-spacing: 0.05em;
+                    margin: 0;
+                }
+
+                @media (max-width: 767px) {
+                    .footer-text {
+                        text-align: center;
+                    }
+                }
+            `}</style>
+
+            <section className="product-lines-section">
                 {/* Header */}
-                <div
-                    style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "12px",
-                        marginBottom: "36px",
-                    }}
-                >
-                    <span
-                        style={{
-                            display: "inline-block",
-                            width: "24px",
-                            height: "2px",
-                            backgroundColor: "#888",
-                        }}
-                    />
-                    <h2
-                        style={{
-                            color: "#FFFFFF",
-                            fontSize: "11px",
-                            fontWeight: 600,
-                            letterSpacing: "0.18em",
-                            textTransform: "uppercase",
-                            margin: 0,
-                        }}
-                    >
-                        Product Lines
-                    </h2>
+                <div className="product-lines-header">
+                    <span className="product-lines-header-bar" />
+                    <h2 className="product-lines-title">Product Lines</h2>
                 </div>
 
-                {/* Grid */}
-                <div
-                    style={{
-                        display: "grid",
-                        gridTemplateColumns: "repeat(4, 1fr)",
-                        gap: "0 40px",
-                    }}
-                >
+                {/* Responsive Grid */}
+                <div className="product-lines-grid">
                     {productLines.map((column, colIndex) => (
-                        <ul
-                            key={colIndex}
-                            style={{
-                                listStyle: "none",
-                                margin: 0,
-                                padding: 0,
-                                borderTop: "1px solid rgba(255,255,255,0.08)",
-                            }}
-                        >
+                        <ul key={colIndex} className="product-lines-column">
                             {column.map((item, itemIndex) => {
                                 const itemKey = `${colIndex}-${itemIndex}`;
                                 const isHovered = hoveredItem === itemKey;
@@ -117,54 +204,28 @@ export default function ProductLines() {
                                 return (
                                     <li
                                         key={itemIndex}
+                                        className="product-lines-item"
                                         onMouseEnter={() => setHoveredItem(itemKey)}
                                         onMouseLeave={() => setHoveredItem(null)}
-                                        style={{
-                                            display: "flex",
-                                            alignItems: "flex-start",
-                                            gap: "12px",
-                                            padding: "11px 0",
-                                            borderBottom: "1px solid rgba(255,255,255,0.08)",
-                                            cursor: "pointer",
-                                            transition: "background 0.15s ease",
-                                        }}
                                     >
                                         {/* Colored bar */}
                                         <span
+                                            className="product-lines-bar"
                                             style={{
-                                                flexShrink: 0,
-                                                marginTop: "3px",
-                                                width: "3px",
-                                                height: "14px",
-                                                borderRadius: "2px",
                                                 backgroundColor: item.color,
-                                                transition: "transform 0.2s ease, opacity 0.2s ease",
                                                 transform: isHovered ? "scaleY(1.3)" : "scaleY(1)",
                                                 opacity: isHovered ? 1 : 0.85,
                                             }}
                                         />
-                                        <a
-                                            href={item.link}
-                                            style={{
-                                                textDecoration: "none",
-                                                color: "inherit",
-                                                display: "block",
-                                                width: "100%",
-                                            }}
-                                        >
-                                        {/* Label */}
-                                        <span
-                                            style={{
-                                                fontSize: "12.5px",
-                                                lineHeight: "1.5",
-                                                fontWeight: 400,
-                                                letterSpacing: "0.01em",
-                                                color: isHovered ? "#FFFFFF" : "rgba(255,255,255,0.65)",
-                                                transition: "color 0.15s ease",
-                                            }}
-                                        >
-                                            {item.label}
-                                        </span>
+                                        <a href={item.link} className="product-lines-link">
+                                            <span
+                                                className="product-lines-label"
+                                                style={{
+                                                    color: isHovered ? "#FFFFFF" : "rgba(255,255,255,0.65)",
+                                                }}
+                                            >
+                                                {item.label}
+                                            </span>
                                         </a>
                                     </li>
                                 );
@@ -173,9 +234,10 @@ export default function ProductLines() {
                     ))}
                 </div>
             </section>
-            <div className="bg-[#1a1a1a] w-full">
-                <div className="max-w-7xl mx-auto px-4 py-6">
-                    <p className="text-center md:text-right text-xs text-gray-500 tracking-wide">
+
+            <div className="footer-bar">
+                <div className="footer-inner">
+                    <p className="footer-text">
                         Copyright © 2026 Silverstar Resources Company Limited. All rights reserved.
                     </p>
                 </div>
