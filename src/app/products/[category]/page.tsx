@@ -30,6 +30,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
             <CleanProductHero
                 title={info?.title || category.replace('-', ' ')}
                 description={info?.description || `Explore our high-quality range of Mapei ${category.replace('-', ' ')} solutions.`}
+                backgroundImage={info?.backgroundImage}
             />
             <div className='px-4'>
                 <h2 className="text-3xl font-extrabold text-center py-8">{info?.subTitle || ''}</h2>
@@ -56,7 +57,15 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                             <h3 className="text-xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors">
                                 {product.name}
                             </h3>
-                            <p className="text-gray-600 text-sm line-clamp-2 mt-2">
+                            <p
+                                className="text-gray-600 text-sm mt-2"
+                                style={{
+                                    display: '-webkit-box',
+                                    WebkitLineClamp: 2,
+                                    WebkitBoxOrient: 'vertical',
+                                    overflow: 'hidden',
+                                }}
+                            >
                                 {product.description}
                             </p>
                             <div className="mt-4 flex items-center text-blue-600 font-medium text-sm">

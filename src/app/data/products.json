@@ -848,60 +848,60 @@
     "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_00331_mapelastic_en-ae_2bcf151a9fb94b0a92b654cc3d6839cc.pdf?sfvrsn=933da5f7_0"}
   },
   {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
+    "id": "mapestone-pfs-visco",
+    "name": "MAPESTONE PFS 2 VISCO",
+    "line": "urban-paving",
+    "description": "MAPESTONE PFS2 VISCO is the pre-blended mortar recommended for grouting concrete slabs and blocks of concrete to create paving with better performance properties than traditional technology.",
+    "imageUrl": "/products/4_mapestone-pfs2-visco-uae_93e6e2bb7fbc4198a417a8239e35141.png",
+    "specs": {"packaging": "20kg bag"}
   },
   {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
+    "id": "mapegroup-drain-fill-nv",
+    "name": "MAPEGROUT DRAIN FILL NV",
+    "line": "urban-paving",
+    "description": "Filler mortar for semi-flexible floors",
+    "imageUrl": "/products/4_8562-mapegrout-drain-fill-nv-bag-23kg_7abd98a58a4749609af1d900a9082016.png",
+    "specs": {"packaging": "23kg Bag"}
   },
   {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
+    "id": "cerfix-proangle",
+    "name": "CERFIX PROANGLE",
+    "line": "profiles-floors-coverings",
+    "description": "Proangle is the range of 'L' profiles designed by Profilpas to suit a variety of applications: from closing the external corners of ceramic wall coverings to joining floor coverings of the same level, as well as finishing and protecting the edges of steps, platforms and worktops. Proangle is available in aluminium, stainless steel, brass and PVC, in several finishes including Trend Color and Mapei Color; the latter is the special range offering the perfect colour match between profile and grout.",
+    "imageUrl": "/products/4_13208_cerfix-proangle_46afb32355f14697b7369ebd2805c8eb.jpg",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13208_cerfix-proangle_en_96026e94e5594e8a832b49d3ac5f5a19.pdf?sfvrsn=1dda08a2_0"}
   },
   {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
+    "id": "cerfix-proangle-ax-m-design",
+    "name": "CERFIX PROANGLE AX - M DESIGN",
+    "line": "profiles-floors-coverings",
+    "description": "Proangle AX M Design is vertical seal for coverings, available in aluminium with various finishes, drawing the eye to the elegance of the joint between different sections of the wall. The M Design range was designed for decorators and designers looking for minimal solutions to personalize interiors.",
+    "imageUrl": "/products/4_13322_cerfix-proangle-ax---m-design_ed33f50cfe634e0da0d487373891b77d.jpg",
+    "specs": {"datasheet": "https://cdnmedia.mapei.com/docs/librariesprovider59/products-documents/1_13322_cerfix-proangle-ax---m-design_en_e78964d4601f4b1ca8d5119b67581115.pdf?sfvrsn=26f02b53_0"}
   },
   {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
+    "id": "topcem",
+    "name": "TOPCEM",
+    "line": "screeds-preparation-floor-substrates",
+    "description": "Special fast setting hydraulic binder for the preparation of normal setting and fast drying (4 days) screeds with controlled shrinkage.",
+    "imageUrl": "/products/4_topcem-uae_ebb46c130def4c5fa3fa45d81bf9ffad.png",
+    "specs": {"packaging": "20kg bag", "consumption": "2-2.5 kg/m2 per cm of thickness.", "storage":"12 months"}
   },
   {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
+    "id": "topcem-pronto",
+    "name": "TOPCEM PRONTO",
+    "line": "screeds-preparation-floor-substrates",
+    "description": "TOPCEM PRONTO is a ready-mixed mortar, easy to use with high thermal conductivity, for high-efficiency heated floors. Dries more quickly than normal sand/cement screeds to make your work simpler and quicker.",
+    "imageUrl": "/products/4_topcem-pronto-uae_3c9c044615bb4708a505878a6be1c239.png",
+    "specs": {"packaging":"20kg bag"}
   },
   {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
+    "id": "planitex-l",
+    "name": "PLANITEX L",
+    "line": "screeds-preparation-floor-substrates",
+    "description": "Self-levelling compound for radiant floor systems, with high thermal conductivity, suitable for thicknesses from 3 to 7 cm.",
+    "imageUrl": "/products/42_planitex_l_adv_621c4272d5944bef9368454bd309cfd3.jpg",
+    "specs": {"packaging":"20kg bag"}
   },
   {
     "id": "",
