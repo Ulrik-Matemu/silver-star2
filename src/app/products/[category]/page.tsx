@@ -29,7 +29,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
         <div>
             <CleanProductHero
                 title={info?.title || category.replace('-', ' ')}
-                description={info?.description || `Explore our high-quality range of Mapei ${category.replace('-', ' ')} solutions.`}
+                description={info?.description || `Explore our high-quality range of Silverstar ${category.replace('-', ' ')} solutions.`}
                 backgroundImage={info?.backgroundImage}
             />
             <div className='px-2 md:px-4'>

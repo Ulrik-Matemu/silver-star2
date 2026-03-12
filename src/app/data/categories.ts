@@ -155,7 +155,7 @@ export const categoryInfo: Record<string, { title: string; description: string; 
 "urban-paving": {
     title: "Urban Paving",
     description: "Materials and systems for public paving, plazas and pedestrian areas, engineered for durability and aesthetic integration.",
-    subTitle: "Mapei solutions for safe, durable and sustainable urban paving",
+    subTitle: "Silverstar solutions for safe, durable and sustainable urban paving",
     extraDescription: "Designing and maintaining urban pavements requires reliable materials, advanced technologies, and targeted solutions. Every day, streets, squares, and sidewalks are exposed to heavy traffic, temperature fluctuations, and constant stress — factors that put construction materials and surface durability to the test.",
     backgroundImage: "/product-category-images/urban-paving.jpg"
 },
