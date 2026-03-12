@@ -186,7 +186,7 @@ export default function ProductLines() {
                 }
             `}</style>
 
-            <section className="product-lines-section">
+            <section className="product-lines-section" id="product-line">
                 {/* Header */}
                 <div className="product-lines-header">
                     <span className="product-lines-header-bar" />

@@ -42,7 +42,7 @@ export default function ProductHero({
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
-            href="#product-lines"
+            href="#product-line"
             className="flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-blue-600 hover:bg-blue-700 transition font-semibold"
           >
             Browse Product Lines
