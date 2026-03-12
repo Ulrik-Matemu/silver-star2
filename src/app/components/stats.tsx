@@ -87,7 +87,7 @@ export const StatsSection = () => {
               </div>
 
               {/* Number */}
-              <h2 className="text-4xl md:text-5xl font-black text-white mb-3 tracking-tighter">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-3 tracking-tighter">
                 <Counter value={stat.value} />
               </h2>
 

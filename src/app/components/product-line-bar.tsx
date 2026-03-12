@@ -47,185 +47,131 @@ const productLines: ProductLine[][] = [
     ],
 ];
 
-// Flatten columns into a single array for mobile/tablet reflow
-const allItems = productLines.flat();
-
-export default function ProductLines() {
+export default function ProductLinesRedesign() {
     const [hoveredItem, setHoveredItem] = useState<string | null>(null);
 
     return (
-        <>
+        <section className="pl-container">
             <style>{`
-                .product-lines-section {
-                    background-color: #2A2A2A;
-                    padding: 48px 56px;
-                    font-family: 'DM Sans', 'Helvetica Neue', sans-serif;
-                    min-height: 320px;
+                .pl-container {
+                    background-color: #F9FAFB;
+                    padding: 80px 24px;
+                    font-family: 'DM Sans', sans-serif;
                 }
 
-                .product-lines-grid {
+                .pl-content {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+
+                .pl-header {
+                    margin-bottom: 48px;
+                    text-align: center;
+                }
+
+                .pl-header-tag {
+                    display: block;
+                    font-size: 12px;
+                    font-weight: 700;
+                    letter-spacing: 0.2em;
+                    text-transform: uppercase;
+                    color: #888;
+                    margin-bottom: 8px;
+                }
+
+                .pl-header-title {
+                    font-size: 32px;
+                    font-weight: 500;
+                    color: #111;
+                    letter-spacing: -0.02em;
+                }
+
+                .pl-grid {
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
-                    gap: 0 40px;
+                    gap: 32px;
                 }
 
-                /* Tablet: 2 columns */
-                @media (max-width: 1023px) {
-                    .product-lines-section {
-                        padding: 40px 32px;
-                    }
-                    .product-lines-grid {
-                        grid-template-columns: repeat(2, 1fr);
-                        gap: 0 28px;
-                    }
+                @media (max-width: 1024px) {
+                    .pl-grid { grid-template-columns: repeat(2, 1fr); }
                 }
 
-                /* Mobile: 1 column */
-                @media (max-width: 639px) {
-                    .product-lines-section {
-                        padding: 32px 20px;
-                    }
-                    .product-lines-grid {
-                        grid-template-columns: 1fr;
-                        gap: 0;
-                    }
+                @media (max-width: 640px) {
+                    .pl-grid { grid-template-columns: 1fr; }
+                    .pl-header-title { font-size: 24px; }
                 }
 
-                .product-lines-column {
+                .pl-column {
                     list-style: none;
-                    margin: 0;
                     padding: 0;
-                    border-top: 1px solid rgba(255,255,255,0.08);
+                    margin: 0;
                 }
 
-                .product-lines-item {
-                    display: flex;
-                    align-items: flex-start;
-                    gap: 12px;
-                    padding: 11px 0;
-                    border-bottom: 1px solid rgba(255,255,255,0.08);
-                    cursor: pointer;
-                    transition: background 0.15s ease;
+                .pl-item-wrap {
+                    position: relative;
+                    margin-bottom: 4px;
                 }
 
-                .product-lines-item:last-child {
-                    border-bottom: 1px solid rgba(255,255,255,0.08);
-                }
-
-                .product-lines-bar {
-                    flex-shrink: 0;
-                    margin-top: 3px;
-                    width: 3px;
-                    height: 14px;
-                    border-radius: 2px;
-                    transition: transform 0.2s ease, opacity 0.2s ease;
-                }
-
-                .product-lines-label {
-                    font-size: 12.5px;
-                    line-height: 1.5;
-                    font-weight: 400;
-                    letter-spacing: 0.01em;
-                    transition: color 0.15s ease;
-                }
-
-                .product-lines-link {
-                    text-decoration: none;
-                    color: inherit;
-                    display: block;
-                    width: 100%;
-                }
-
-                .product-lines-header {
+                .pl-link {
                     display: flex;
                     align-items: center;
-                    gap: 12px;
-                    margin-bottom: 36px;
+                    gap: 16px;
+                    padding: 12px;
+                    text-decoration: none;
+                    border-radius: 8px;
+                    transition: all 0.2s ease;
+                    background: transparent;
                 }
 
-                .product-lines-header-bar {
-                    display: inline-block;
-                    width: 24px;
-                    height: 2px;
-                    background-color: #888;
+                .pl-link:hover {
+                    background: #ffffff;
+                    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+                }
+
+                .pl-indicator {
+                    width: 4px;
+                    height: 16px;
+                    border-radius: 2px;
                     flex-shrink: 0;
+                    transition: transform 0.3s ease;
                 }
 
-                .product-lines-title {
-                    color: #FFFFFF;
-                    font-size: 11px;
-                    font-weight: 600;
-                    letter-spacing: 0.18em;
-                    text-transform: uppercase;
-                    margin: 0;
+                .pl-link:hover .pl-indicator {
+                    transform: scaleY(1.8);
                 }
 
-                .footer-bar {
-                    background-color: #1a1a1a;
-                    width: 100%;
+                .pl-label {
+                    font-size: 14px;
+                    line-height: 1.4;
+                    font-weight: 500;
+                    color: #444;
+                    transition: color 0.2s ease;
                 }
 
-                .footer-inner {
-                    max-width: 1280px;
-                    margin: 0 auto;
-                    padding: 24px 16px;
-                }
-
-                .footer-text {
-                    text-align: right;
-                    font-size: 12px;
-                    color: #6b7280;
-                    letter-spacing: 0.05em;
-                    margin: 0;
-                }
-
-                @media (max-width: 767px) {
-                    .footer-text {
-                        text-align: center;
-                    }
+                .pl-link:hover .pl-label {
+                    color: #000;
                 }
             `}</style>
 
-            <section className="product-lines-section" id="product-line">
-                {/* Header */}
-                <div className="product-lines-header">
-                    <span className="product-lines-header-bar" />
-                    <h2 className="product-lines-title">Product Lines</h2>
-                </div>
+            <div className="pl-content">
+                <header className="pl-header">
+                    <span className="pl-header-tag">Solutions</span>
+                    <h2 className="pl-header-title">Explore Our Product Lines</h2>
+                </header>
 
-                {/* Responsive Grid */}
-                <div className="product-lines-grid">
+                <div className="pl-grid">
                     {productLines.map((column, colIndex) => (
-                        <ul key={colIndex} className="product-lines-column">
+                        <ul key={colIndex} className="pl-column">
                             {column.map((item, itemIndex) => {
                                 const itemKey = `${colIndex}-${itemIndex}`;
-                                const isHovered = hoveredItem === itemKey;
-
                                 return (
-                                    <li
-                                        key={itemIndex}
-                                        className="product-lines-item"
-                                        onMouseEnter={() => setHoveredItem(itemKey)}
-                                        onMouseLeave={() => setHoveredItem(null)}
-                                    >
-                                        {/* Colored bar */}
-                                        <span
-                                            className="product-lines-bar"
-                                            style={{
-                                                backgroundColor: item.color,
-                                                transform: isHovered ? "scaleY(1.3)" : "scaleY(1)",
-                                                opacity: isHovered ? 1 : 0.85,
-                                            }}
-                                        />
-                                        <a href={item.link} className="product-lines-link">
-                                            <span
-                                                className="product-lines-label"
-                                                style={{
-                                                    color: isHovered ? "#FFFFFF" : "rgba(255,255,255,0.65)",
-                                                }}
-                                            >
-                                                {item.label}
-                                            </span>
+                                    <li key={itemIndex} className="pl-item-wrap">
+                                        <a href={item.link} className="pl-link">
+                                            <span 
+                                                className="pl-indicator" 
+                                                style={{ backgroundColor: item.color }}
+                                            />
+                                            <span className="pl-label">{item.label}</span>
                                         </a>
                                     </li>
                                 );
@@ -233,15 +179,7 @@ export default function ProductLines() {
                         </ul>
                     ))}
                 </div>
-            </section>
-
-            <div className="footer-bar">
-                <div className="footer-inner">
-                    <p className="footer-text">
-                        Copyright © 2026 Silverstar Resources Company Limited. All rights reserved.
-                    </p>
-                </div>
             </div>
-        </>
+        </section>
     );
 }
