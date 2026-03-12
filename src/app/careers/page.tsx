@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import CareersAccordion from "../components/vacancies";
 
-export default async function CareersPage() {
+export default  function CareersPage() {
     return (
         <>
             <section className="relative w-full h-[500px] md:h-[500px] flex items-center justify-center overflow-hidden">

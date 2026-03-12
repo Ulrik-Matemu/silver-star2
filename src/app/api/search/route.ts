@@ -84,31 +84,31 @@ export async function GET(request: Request) {
             url: '/',
             title: 'Home',
             description: 'Main page of the website'
-        },
+        } as SearchResult,
         {
             type: 'page',
             url: '/products',
             title: 'Products',
             description: 'Browse all our products'
-        },
+        } as SearchResult,
         {
             type: 'page',
             url: '/solutions',
             title: 'Solutions',
             description: 'Discover our solutions'
-        },
+        } as SearchResult,
         {
             type: 'page',
             url: '/careers',
             title: 'Careers',
             description: 'Join our team'
-        },
+        } as SearchResult,
         {
             type: 'page',
             url: '/contact-us',
             title: 'Contact Us',
             description: 'Get in touch with us'
-        }
+        } as SearchResult
     ].filter(page => page.title.toLowerCase().includes(lowerCaseQuery) || page.description.toLowerCase().includes(lowerCaseQuery));
 
     const results = [...pageResults, ...categoryResults, ...productResults];
