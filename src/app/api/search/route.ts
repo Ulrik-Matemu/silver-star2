@@ -109,7 +109,7 @@ export async function GET(request: Request) {
             title: 'Contact Us',
             description: 'Get in touch with us'
         } as SearchResult
-    ].filter(page => page.title.toLowerCase().includes(lowerCaseQuery) || page.description.toLowerCase().includes(lowerCaseQuery));
+    ].filter(page => page.title.toLowerCase().includes(lowerCaseQuery) || page.description?.toLowerCase().includes(lowerCaseQuery));
 
     const results = [...pageResults, ...categoryResults, ...productResults];
 
