@@ -151,6 +151,13 @@ export default function ProductLinesRedesign() {
                 .pl-link:hover .pl-label {
                     color: #000;
                 }
+                
+                .bottom-line {
+                    height: 2px;
+                    margin-top: 50px;
+                    margin-right: 150px;
+                    margin-left: 150px;
+                }
             `}</style>
 
             <div className="pl-content">
@@ -180,6 +187,7 @@ export default function ProductLinesRedesign() {
                     ))}
                 </div>
             </div>
+            <div className="bottom-line bg-gray-300"></div>
         </section>
     );
 }
