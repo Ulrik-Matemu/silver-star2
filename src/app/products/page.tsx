@@ -1,3 +1,4 @@
+import { title } from "process";
 import ProductHero from "../components/product-hero";
 import ProductLinesSection from "../components/product-line";
 import ProductsSolutionsSection from "../components/product-solution";
@@ -6,6 +7,24 @@ import TechnicalDocumentationSection from "../components/tech-doc";
 
 export default async function ProductsPage() {
     const productLines = [
+        {
+            title: "Admixtures for Concrete",
+            image: "/product-category-images/admixtures.jpg",
+            href: "/products/admixtures-concrete",
+            accentColor: "#2563eb"
+        },
+        {
+            title: "Cementitious and Resin Flooring",
+            image: "/product-category-images/cementitious.jpg",
+            href: "/products/cementitious-resin-flooring",
+            accentColor: "#ef4444"
+        },
+        {
+            title: "Sports Flooring",
+            image: "/product-category-images/sportsfloor.jpg",
+            href: "/products/sports-flooring",
+            accentColor: "#10b981"
+        },
         {
             title: "Ceramics and Stone Materials",
             image: "/products/product1.jpeg",
@@ -30,6 +49,12 @@ export default async function ProductsPage() {
             href: "/products/resilient-lvt-textile-materials",
             accentColor: "#ef4444",
         },
+        {
+            title: "Waterproofing",
+            image: "/product-category-images/waterproof.jpg",
+            href: "/products/waterproofing.jpg",
+            accentColor: "#2563eb"
+        }
     ];
 
     return (

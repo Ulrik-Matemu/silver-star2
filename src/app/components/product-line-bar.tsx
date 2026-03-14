@@ -10,7 +10,7 @@ type ProductLine = {
 
 const productLines: ProductLine[][] = [
     [
-        { label: "Installation of ceramics and natural stone", color: "#F5A623", link: "/products/ceramic-stone" },
+        { label: "Admixtures for Concrete", color: "#9E9E9E", link: "/products/admixtures-concrete" },
         { label: "Sports Flooring", color: "#E84B3A", link: "/products/sports-flooring" },
         { label: "Building", color: "#4CAF8A", link: "/products/building" },
         { label: "Renovation, Green building and Restoration of historic buildings", color: "#F5A623", link: "/products/renovation-green-building-restoration-historic-buildings" },
@@ -21,7 +21,7 @@ const productLines: ProductLine[][] = [
     [
         { label: "Complementary products and tools", color: "#F5A623", link: "/products/complementary-products-tools" },
         { label: "Wooden Flooring", color: "#E8763A", link: "/products/wooden-flooring" },
-        { label: "Admixtures for Concrete", color: "#9E9E9E", link: "/products/admixtures-concrete" },
+        { label: "Installation of ceramics and natural stone", color: "#F5A623", link: "/products/ceramic-stone" },
         { label: "Thermal Insulation", color: "#9E9E9E", link: "/products/thermal-insulation" },
         { label: "Sealing, bonding and anchoring", color: "#9E9E9E", link: "/products/sealing-bonding-anchoring" },
         { label: "Skirting boards", color: "#4CAF8A", link: "/products/skirting-boards" },
@@ -32,7 +32,7 @@ const productLines: ProductLine[][] = [
         { label: "Cementitious and Resin Flooring", color: "#9E9E9E", link: "/products/cementitious-resin-flooring" },
         { label: "Architectural Stone Paving", color: "#9E9E9E", link: "/products/architectural-stone-paving" },
         { label: "Wall paints and coatings", color: "#9E9E9E", link: "/products/wall-paints-coatings" },
-        { label: "Cement additives (C-ADD)", color: "#9E9E9E", link: "/products/cement-additives-c-add" },
+        { label: "Tile Adhesives and Grouts", color: "#9E9E9E", link: "/products/tile-adhesives-grout" },
         { label: "Raised floors", color: "#9E9E9E", link: "/products/raised-floors" },
         { label: "Dehumidification", color: "#9E9E9E", link: "/products/dehumidification" },
     ],

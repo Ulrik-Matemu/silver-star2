@@ -1,14 +1,56 @@
 "use client"
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useRouter } from 'next/navigation';
 
 const slides = [
   {
-    title: "Silver Star Color",
-    description: "Petal by petal, we cultivate global innovation.",
+    title: "Concrete Admixtures",
+    description: "This Line appeared in 1992 with the development of the first ever acrylic-based super-plasticiser in Europe. ",
     buttonText: "LEARN MORE",
-    image: "https://cdnmedia.mapei.com/images/librariesprovider59/banner/slider-homepage-mapei-color.jpg?sfvrsn=f9d51b8b_1",
-    fontColor: "text-gray-800"
+    buttonLink: "/products/admixtures-concrete",
+    image: "/product-category-images/additivi-cls.jpg",
+    fontColor: "text-black md:text-white"
+  },
+   {
+    title: " Waterproofing",
+    description: "Advanced solutions for protecting structures from water ingress, from foundations to rooftops. new concept of color for wall coatings.",
+    buttonText: "FIND OUT MORE",
+    buttonLink: "/products/waterproofing",
+    image: "/product-category-images/waterproofing.jpg",
+    fontColor: "text-black"
+  },
+  {
+    title: "Flooring Systems",
+    description: "Durable and stylish flooring solutions for residential, commercial, and industrial spaces (Epoxy, Polyurethane, Sports, etc.)",
+    buttonText: "EXPLORE",
+    buttonLink: "/products",
+    fontColor: "text-black md:text-white",
+    image: "/product-category-images/parquet.jpg"
+  },
+  {
+    title: "Tile Adhesives",
+    description: "Strong, reliable adhesives designed for secure and long-lasting tile installation.",
+    buttonText: "LEARN MORE",
+    buttonLink: "/products/tile-adhesives-grout",
+    image: "/product-category-images/tiling.png",
+    fontColor: "text-black md:text-white"
+  },
+  {
+    title: " Concrete Repair",
+    description: "Reliable solutions for restoring and strengthening damaged or worn concrete surfaces.",
+    buttonText: "LEARN MORE",
+    buttonLink: "/products/admixtures-concrete",
+    image: "/product-category-images/concrete-repair.png",
+    fontColor: "text-black"
+  },
+  {
+    title: "Mapecoat TNS Colorizer",
+    description: "Select the sport you are interested in and color the different areas of the field with the 36 color palette of MAPECOAT TNS.",
+    buttonText: "COLOR YOUR SPORTS FIELD",
+    buttonLink: "/products/sports-flooring",
+    image: "https://cdnmedia.mapei.com/images/librariesprovider59/slider/mapecoat-tns-colorizer.gif?sfvrsn=8ef4b073_0",
+    fontColor: "md:text-white text-gray-800"
   },
   {
     title: "Building a sustainable future together.",
@@ -16,28 +58,19 @@ const slides = [
     buttonText: "EXPLORE CAREERS",
     image: "https://cdnmedia.mapei.com/images/librariesprovider59/banner/zero-co2-cover.jpg?sfvrsn=5af71489_4",
     fontColor: "md:text-white text-gray-800"
-  },
-  {
-    title: "Master Collection",
-    description: "A new concept of color for wall coatings.",
-    buttonText: "FIND OUT MORE",
-    image: "https://cdnmedia.mapei.com/images/librariesprovider59/slider/slider-homepage-2020-master-collection.jpg?sfvrsn=78928771_0",
-    fontColor: "text-gray-800"
-  },
-  {
-    title: "Mapecoat TNS Colorizer",
-    description: "Select the sport you are interested in and color the different areas of the field with the 36 color palette of MAPECOAT TNS.",
-    buttonText: "COLOR YOUR SPORTS FIELD",
-    image: "https://cdnmedia.mapei.com/images/librariesprovider59/slider/mapecoat-tns-colorizer.gif?sfvrsn=8ef4b073_0",
-    fontColor: "md:text-white text-gray-800"
   }
 ];
 
 export const HeroCarousel = () => {
   const [current, setCurrent] = useState(0);
+  const router = useRouter();
 
   const nextSlide = () => setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   const prevSlide = () => setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+
+  const handleClick = (link: string) => {
+    router.push(link);
+  }
 
   return (
     <div className="relative w-full overflow-hidden bg-white font-sans">
@@ -70,7 +103,7 @@ export const HeroCarousel = () => {
                   {slide.description}
                 </p>
                
-                <button className={`inline-block bg-blue-700 md:bg-transparent hover:bg-blue-800  md:${slide.fontColor} px-8 py-3 rounded-full font-semibold transition-colors uppercase tracking-wide text-xs md:text-base border border-blue-700 md:border-white`}>
+                <button className={`inline-block bg-blue-700 md:bg-transparent hover:bg-blue-800  md:${slide.fontColor} px-8 py-3 rounded-full font-semibold transition-colors uppercase tracking-wide text-xs md:text-base border border-blue-700 md:border-white`} onClick={() => slide.buttonLink && handleClick(slide.buttonLink)}>
                   {slide.buttonText}
                 </button>
               </div>

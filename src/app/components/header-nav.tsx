@@ -36,7 +36,7 @@ export const HeaderNav = () => {
                     <div className="flex items-center">
                         <a href="/" className="block">
                             <Image
-                                src="/silver-star-logo.png"
+                                src="/new-silverstar-logo.png"
                                 alt="Logo"
                                 width={180}
                                 height={90}

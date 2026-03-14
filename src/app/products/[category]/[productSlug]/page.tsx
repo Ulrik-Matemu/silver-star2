@@ -31,9 +31,7 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
                                 <img
                                     src={product.imageUrl}
                                     alt={product.name}
-                                    width={400}
-                                    height={500}
-                                    className="object-contain mix-blend-multiply transition-transform duration-700 hover:scale-105"
+                                    className="product-image object-contain mix-blend-multiply transition-transform duration-700 hover:scale-105"
                                 />
                             </div>
                         </div>
@@ -47,9 +45,15 @@ export default async function ProductPage({ params }: { params: Promise<{ catego
                                 </h1>
                             </div>
 
-                            <p className="text-gray-500 text-lg leading-relaxed mb-10 max-w-xl">
+                            <p className="text-gray-800 text-xl leading-relaxed mb-8 max-w-2xl">
                                 {product.description}
                             </p>
+
+                            <ul className="list-disc pl-5 space-y-2 py-4 text-gray-500 text-sm">
+                                {Object.entries(product.features ?? {}).map(([key, value]) => (
+                                    <li key={key}><span className='font-bold'>{key}</span>: {value}</li>
+                                ))}
+                            </ul>
 
                             {/* Tech Specs: The "Elegant" Grid */}
                             <div className="border-t border-gray-100 pt-8 mb-10">

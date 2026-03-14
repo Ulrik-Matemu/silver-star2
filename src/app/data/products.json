@@ -1,4 +1,233 @@
 [
+
+  {
+    "id": "mapeplast-rp100",
+    "name": "MAPEPLAST RP100",
+    "line": "admixtures-concrete",
+    "description": "Mapeplast RP100 is a chloride-free plasticizing admixture formulated from synthetic polymers. It complies with ASTM C494 as Type B and to EN 934-2 as Table 10.",
+    "imageUrl": "/product-category-images/PlaceholderBig.png",
+    "features": {
+      "Advantage":"Mapeplast RP100 reduces the water/cement ratio improving the fresh and hardened concrete properties by maintaining a controlled retardation which allows a long slump retention even in hot climates.",
+      "Dosages": "The optimum dosage of Mapeplast RP100 to meet specific job site requirements should be figured out by site trials using the selected cement, mineral additions, and aggregates. For normal concrete production a dosage of 0.3-0.8 L/100 kg of total cementitious materials.",
+      "Storage": "Mapeplast RP100 can be stored for 12 months in sealed containers. Protect from frost and direct sunlight."
+    },
+    "specs": {"packaging": "25 L jerrycans"}
+  },
+  {
+    "id": "dynamon-sr2600",
+    "name": "DYNAMON SR2600",
+    "line": "admixtures-concrete",
+    "description": "Water-reducing, superplasticiser developed specifically for ready-mix concrete industries; requiring the highest concrete quality and performance",
+    "imageUrl": "/product-category-images/PlaceholderBig.png",
+    "specs": {
+      "packaging": "200 L drums/1000 L IBCs",
+      "storage":"12 months",
+      "consistency": "liquid",
+      "color": "Brown",
+      "density(g/cm³)": "1.08 ± 0.02 at +25ºC"
+    },
+    "features": {
+      "Advantage": "Dynamon SR2600 reduces the water/cement ratio with excellent improvements in the fresh and hardened concrete properties, reduces placing problems in hot weather concreting by improving workability and workability retention. Increases impermeability and durability. It is designed for meeting all the specifications required in OPC and blended mixes.",
+      "Dosages": "Standard concrete production starting dosage is 0.5-3.0 Liters/every 100 kg of total cementitious materials.",
+      "Storage": "Dynamon SR2600 can be stored for 12 months in sealed containers. Protect from frost and direct sunlight"
+    }
+  },
+  {
+    "id": "mapelastic-smart",
+    "name": "MAPELASTIC SMART",
+    "line": "waterproofing",
+    "description": "Two-component, high-flexibility cementitious mortar (with crack-bridging> 2 mm), applied by trowel or with a roller, for waterproofing balconies, terraces, bathrooms and swimming pools",
+    "imageUrl": "/products/4_mapelastic_smart-uae_a1e1635df7e74675818a6115652a1e0e.png",
+    "specs": {"packaging": "30 kg unit: 20 kg bag & 10 kg jerrycan", "consumption By Trowel Or Roller": "approx. 1.6 kg/m² per mm of thickness.", "consumption By Spray": "approx. 2.2 kg/m2 per mm of thickness"},
+    "features": {
+      "Advantage": "High performance: a 2 mm thick film can cover cracks up to 2 mm wide.Excellent mechanical characteristics thanks to the use of Mapetex Sel N reinforcement, CE-marked product according to EN 1504-2 and EN 14891 standards, Excellent elongation at failure (120%), Fluid consistency for easy application.",
+      "Cleaning": "Due to the high adhesion of Mapelastic Smart even on metal, it is advisable to wash working tools with water before the mortar starts to set. Once hardened, cleaning can be carried out only mechanically.",
+      "Storage": "Mapelastic Smart component A can be stored for 12 months in its original packaging in a dry area. Mapelastic Smart component B can be stored for 24 months. Store Mapelastic Smart in a dry place at a temperature of at least +5°C"
+    }
+  },
+  {
+    "id": "mapelastic-foundation",
+    "name": "MAPELASTIC FOUNDATION",
+    "line": "waterproofing",
+    "description": "Two-component, flexible cementitious mortar for waterproofing concrete surfaces subject to both positive and negative water pressure",
+    "imageUrl": "/products/4_2069-mapelastic-foundation-a-b-32kg-int_f50c41b03a214e63be7319f7bad06cc7.png",
+    "specs": {"packaging": "22 kg bag & 10 kg tank.", "consumption By Trowel Or Roller": "1.65 kg/m² per mm of thickness;", "consumption By Spray": "2.2 kg/m² per mm of thickness.", "storage": "12 months"},
+    "features": {
+      "Where To Use": "Waterproofing concrete and masonry structures subject to positive or negative hydrostatic pressure. It is recommended for foundation walls, car-parks and underground environments, basins, channels and swimming pools",
+      "Cleaning": "Due to the high bond strength of Mapelastic Foundation, including to metal surfaces, we recommend washing work tools with water before the mortar sets. Once it has set, cleaning may only be carried out by mechanical means.",
+      "Storage": "Mapelastic Foundation component A may be stored for 12 months in its original packaging in a dry place. Mapelastic Foundation component B may be stored for 24 months."
+    }
+  },
+  {
+    "id": "planiseal-88",
+    "name": "PLANISEAL 88",
+    "line": "waterproofing",
+    "description": "Osmotic cementitious mortar suitable for contact with drinking water, for waterproofing masonry and concrete structures",
+    "imageUrl": "/products/4_planiseal-88-uae_a9bb7047fa264899836231826276c5f5.png",
+    "specs": {
+      "packaging": "25 kg bags",
+      "consumption": "1.5 kg/m² per mm of thickness.",
+      "storage": "12 months"
+    },
+    "features": {
+      "Where To Use": "Waterproofing basins, reservoirs, concrete or masonry tanks containing drinking water. Waterproofing concrete or masonry tanks containing sewage water. Renovation of structures subject to water and moisture seepage including underground structures and similar locations subject to negative pressure up to 1 bar. As a smoothing and waterproofing compound of underground walls before laying of bituminous membranes",
+      "Cleaning": "Planiseal 88 can be removed from tools with water before it hardens. Once hardened, cleaning becomes and can only be carried out by mechanical means",
+      "Storage": "When stored in a dry condition in the original, unopened bags, Planiseal 88 has a shelf life of 12 months. If stored at high temperatures and or high humidity, the shelf life may be reduced."
+    }
+  },
+  {
+    "id": "mepelastic-aquadefense-zero",
+    "name": "MAPELASTIC AQUADEFENSE ZERO",
+    "line": "waterproofing",
+    "description": "Ready-to-use, ultra quick-drying, flexible liquid membrane for waterproofing interior and exterior surfaces.",
+    "imageUrl": "/products/42_co2_zero_ambientate_2024_aquadefense_zero-1_d50dfede5fa74bc1965cd333158ae19a.jpg",
+    "specs": {
+      "packaging": "3.5 kg, 7.5 kg, & 15 kg rectangular bucket",
+      "storage": "24 months",
+      "consumption": "1 kg/m² for 2 coats"
+    },
+    "features": {
+      "Advantage": "Ready to use, Dries quickly, Perfect bond to any substrate, Highly elastic, Easy to apply, Product certified according to EN 14891, waterproofing under tile",
+      "Where To Use": "In bathrooms and shower cubicles, laundry rooms, saunas and damp environments in general, balconies and terraces.",
+      "Cleaning": "Mapelastic AquaDefense Zero can be removed easily from tools and surfaces while still fresh with water."
+    }
+  },
+  {
+    "id": "mapefloor-cpu-mf",
+    "name": "MAPEFLOOR CPU+/MF",
+    "line": "cementitious-resin-flooring",
+    "description": "Mapefloor CPU+/MF is a polyurethane-cement self-smoothing mortar, trowel-applied in 3 to 6 mm thickness, developed by MAPEI’s Research Laboratories, microbe-resistant and easy to sanitize for the protection of industrial floors, featuring high chemical and mechanical performance and thermal shock resistance up to +80°C, with operating temperatures range from -20°C to +70°C, depending on the thickness.",
+    "imageUrl": "/products/4_8990-mapefloor-cpu-_mf-a-b-c_9f0ce52dc576408e9ccf9a686ef7680d.png",
+    "specs": {
+      "packaging": "Mapefloor CPU+ Component B: 2.16 kg pack, Mapefloor CPU+/MF Component C: 20 kg bag, Mapecolor CPU+: 0.23 kg pack.",
+      "storage":"12 months",
+      "consumption as scratch coat (1mm)": "approx. 1.7 kg/m"
+    },
+    "features": {
+      "Where To Use": "Mapefloor CPU+/MF is mainly used to create smooth polyurethane-cement based systems, with a light no-slip property, or as base layer for rough multi-layer systems (Mapefloor System CPU+/DP 4) for industrial floors especially in dry or even occasionally wet, for short periods, production and logistic areas, where a durable, resistant and easy to clean and sanitize surface is required.",
+      "Colors": "Mapefloor CPU+/MF must be mixed with the specific Mapecolor CPU+ pigment available in grey, beige, red, green, ochre, blue and orange colour. Please, always refer to the Mapei Technical Service for a detailed assessment of the most suitable system and colour for the specific case. The colour helps to define the overall performance of the system.",
+      "Systems": "Mapefloor CPU+/MF can be applied both as a self-smoothing and as the basecoat of the multilayer defined profile system (Mapefloor System CPU+/DP 4)."
+    }
+  },
+  {
+    "id": "ultraplan-eco-20",
+    "name": "ULTRAPLAN ECO 20",
+    "line": "cementitious-resin-flooring",
+    "description": "Rapid hydrating, fast-drying self-levelling compound.",
+    "imageUrl": "/products/4_ultraplan-eco-20_689318bce60945179e76a0435ea5c280.png",
+    "specs": {
+      "packaging": "23 kg bags",
+      "storage": "12 months",
+      "color":"Grey",
+      "consumption": "1.6 kg/m² per mm of thickness."
+    },
+    "features": {
+      "Where To Use": "Ultraplan Eco 20 is used in interiors for levelling and smoothing differences in thicknesses from 1 to 10 mm on new or existing substrates, preparing them to receive flooring where high resistance to loads and traffic is required. Ultraplan Eco 20 is especially suitable for areas subject to wheeled service loads such as chairs and trolleys. Classified as CT-C20-F5 according to EN 13813. Ultraplan Eco 20 is for interior use only. Typical applications would include use in hospitals, hotels, theatres, schools and shopping centres.",
+      "Cleaning": "Prior to setting, Ultraplan Eco 20 can be cleaned and removed from tools and hands with water",
+      "Storage": "When stored in dry conditions in the original, unopened bags, Ultraplan Eco 20 has a shelf life of 12 months. If stored at high temperatures and or high humidity conditions the shelf life may be reduced. A longer storage period could determine a slower setting time for Ultraplan Eco 20. However, the performance of the levelling layer in the long term is not significantly affected."
+    }
+  },
+  {
+    "id": "mapeset",
+    "name": "MAPESET",
+    "line": "tile-adhesives-grout",
+    "description": "Cement-based adhesive for tiles.",
+    "imageUrl": "/products/4_mapeset-uae_323085b2d8364a9d962b14a1569a0cdc.png",
+    "specs": {
+      "packaging": "25 kg bags",
+      "storage": "12 months"
+    },
+    "features": {
+      "Where To Use": "Internal and external bonding of ceramic tiles and mosaics, single-fired and double-fired tiles for floors, walls and ceilings.",
+      "Consumption": "Bonding of ceramic mosaics: Small size tiles in general (trowel No. 4; size 4X4 mm): approx. 2 kg/m², normal size tiles (trowel No. 5; size: 5X5 mm): 2.5-3 kg/m², external floor and wall coverings (trowel No. 6; size: 6X6 mm): approx. 5 kg/m²",
+      "Cleaning": "Tools and containers should be cleaned with plenty of water while Mapeset is still fresh. Surfaces should be cleaned with a damp cloth before the adhesive dries."
+    }
+  },
+  {
+    "id": "adesilex-p7",
+    "name": "ADESILEX P7",
+    "line": "tile-adhesives-grout",
+    "description": "High-performance cementitious adhesive with no vertical slip for ceramic and porcelain tiles",
+    "imageUrl": "/products/4_adesilex-p7-uae_1b1264c987884d969d4701ab53fafbf3.png",
+    "specs": {
+      "packaging": "25 kg bags",
+      "storage":"12 months"
+    },
+    "features": {
+      "Where To Use": "Interior and exterior bonding of ceramic tiles, porcelain and mosaics on floors, walls and ceilings. Also suitable for wet areas and spot bonding of insulating materials such as expanded polystyrene, rock and glass wool, Eraclit® (woodcement panels), sound-deadening panels, etc.",
+      "Consumption": "Bonding ceramic tiles: Mosaics and small sizes -in general (trowel n. 4): 2 kg/m² -normal sizes (trowel n. 5): 2.5-3 kg/m² Large sizes, exterior floors (trowel n. 6): 4 kg/m²",
+      "Cleaning": "Tools and containers should be cleaned with plenty of water while Adesilex P7 is still fresh. Surfaces should be cleaned with a damp cloth before the adhesive dries"
+    }
+  },
+  {
+    "id": "keraflex-maxi-s1-2",
+    "name": "Keraflex Maxi S1",
+    "line": "tile-adhesives-grout",
+    "imageUrl": "/products/4_keraflex-maxi-s1-zero-25kg-uae-new_d19f3e1b47cd497aaf7dcc2c61adba8a.png",
+    "description": "KERAFLEX MAXI S1 ZERO is a high-performance, deformable, grey and white cementitious adhesive with no vertical slip, extended open time, designed for ceramic and natural stone tiles, excellent for the installation of large-format ceramic tiles.",
+    "specs": {
+      "color": "Grey/White",
+      "packaging": "25kg bag",
+      "consumption": "1.2 kg/m² per mm of thickness",
+      "storage":"12 months"
+    },
+    "features": {
+      "Where To Use": "Bonding all types and sizes of ceramic tiles (double-fired, single-fired, porcelain tiles, klinker, terracotta, etc.) at thickness up to 15 mm on irregular internal and external substrates and render without skimming the surface prior to bonding ▪ Bonding stone on internal and external surfaces (stable stone, not sensitive to humidity) ▪ Bonding all types of mosaic on interior and exterior surfaces, also in swimming pools",
+      "Grouting and Sealing": "Tile joints may be grouted after 4 to 8 hours on walls and after 24 hours on floors. Use a MAPEI cementitious or epoxy grout, available in a wide variety of colours. Seal expansion joints using a special MAPEI sealant. If necessary, clean, maintain and protect the surfaces with the products from the UltraCare range.",
+      "Cleaning": "Clean tools and containers with water while Keraflex Maxi S1 Zero is still wet. Clean the surface of wall and floor coverings with a damp cloth before the adhesive hardens."
+    }
+  },
+  {
+    "id": "keracolor-ff",
+    "name": " Keracolor FF",
+    "line": "tile-adhesives-grout",
+    "description": "High-performance, polymer-modified, waterrepellent, cementitious grout with DropEffect technology for joints up to 6 mm",
+    "imageUrl": "/products/4_keracolor-ff-20-kg-new_de755faf50014d648304df3a1451ea3f.png",
+    "specs": {
+      "packaging": "20 kg paper bags and 4x5 kg alupacks.",
+      "storage": "2 months for 20 kg and 24 months for 4x5 kg alupack boxes"
+    },
+    "features": {
+      "Where To Use": "Grouting interior and exterior floor and wall tiling (single-fired, double-fired, klinker, porcelain tile, etc.), stone material (natural stones, marble, granite, agglomerates, etc.), glass and marble mosaics",
+      "Advantage": "Water-repellent (DropEffect® Technology) ▪ Durable and strong ▪ Easy workability ▪ Easy to clean ▪ Uniform grouts, without cracks ▪ Good resistance to acids ▪ Very low emission of VOC",
+      "Consumption": "Consumption of Keracolor FF varies depending on the width of the joints, the size and thickness of the tiles"
+    }
+  },
+  {
+    "id": "mapecoat-tns-color",
+    "name": "MAPECOAT TNS COLOR",
+    "line": "cementitious-resin-flooring",
+    "description": "Mapecoat TNS Color is a coloured coating with selected fillers, to be used as pore filler for Mapecoat TNS RP mat or as a coloured top coating for Mapecoat TNS systems, to create sports surfaces such as basketball courts, volleyball courts, futsal pitches and multi-purpose sports surfaces in general.",
+    "imageUrl": "/products/42_mapecoat-tns-color-adv_33c79b0124744154912d24489024ff4c.jpg",
+    "specs": {
+      "packaging": "20kg bag",
+      "storage": "24 months",
+      "appearance": "Thick Liquid",
+      "dry solids content": "Approx. 68%",
+      "bulk density": "Approx. 1.4 g/cm³"
+    },
+    "features": {
+      "Where To Use": "▪ Filler undercoat for the PVC mat Mapecoat TNS RP. ▪ Coloured coating for internal and external surfaces for basketball courts, skating areas, velodromes, multipurpose sports surfaces. ▪ Coloured coating for the creation and restoration of sports surfaces already coated with synthetic resins",
+      "Cleaning": "Clean tools with water while the product is still fresh. Once dry, Mapecoat TNS Color may only be removed mechanically."
+    }
+  },
+  {
+    "id": "aquaflex-s-1k",
+    "name": "AQUAFLEX S 1K",
+    "line": "waterproofing",
+    "description": "Liquid, ready-to-use waterproofing membrane for exposed coverings. Also suitable for terraces and balconies, bathrooms and wet environments",
+    "imageUrl": "/products/42_aquaflex-s-1k-adv_6a3b88fb10434ff2b7863314deecefe5.jpg",
+    "specs": {
+      "packaging": "5 and 15 kg buckets",
+      "storage": "12 months",
+      "color": "Grey",
+      "bulk density": "1.55 g/cm³"
+    },
+    "features": {
+      "Advantage": "▪ Ready to use ▪ Easy to apply ▪ Excellent resistance to standing water ▪ Fast drying ▪ Excellent bond ▪ Resistant to UV rays and fire ▪ Certified durability of 10 years",
+      "Where To Use": "new and existing flat roofs; ▪ terraces and balconies before the application of tiles ▪ bathrooms and damp spaces in general before the application of tiles Aquaflex S 1K can be applied over: ▪ concrete and cementitious screeds; ▪ existing bituminous membranes; ▪ gypsum board panels ▪ metal ▪ PVC features, such as pipework"
+    }
+  },
   {
     "id": "keraflex-maxi-s1",
     "name": "Keraflex Maxi S1",
@@ -902,38 +1131,6 @@
     "description": "Self-levelling compound for radiant floor systems, with high thermal conductivity, suitable for thicknesses from 3 to 7 cm.",
     "imageUrl": "/products/42_planitex_l_adv_621c4272d5944bef9368454bd309cfd3.jpg",
     "specs": {"packaging":"20kg bag"}
-  },
-  {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
-  },
-  {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
-  },
-  {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
-  },
-  {
-    "id": "",
-    "name": "",
-    "line": "",
-    "description": "",
-    "imageUrl": "/products/",
-    "specs": {}
   },
   {
     "id": "",

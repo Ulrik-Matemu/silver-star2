@@ -9,7 +9,7 @@ interface Product {
 }
 
 const products: Product[] = [
-  { title: "Ceramics and Stone", category: "ceramic-stone", image: "/products/product1.jpeg", accentColor: "bg-amber-400" },
+  { title: "Admixtures for Concrete", category: "admixtures-concrete", image: "/product-category-images/admixtures.jpg", accentColor: "bg-amber-400" },
   { title: "Installation Products", category: "complementary-products-tools", image: "/products/product2.jpeg", accentColor: "bg-amber-400" },
   { title: "Surface Protection", category: "cleaning-maintaining-protecting-surfaces", image: "/products/product3.jpeg", accentColor: "bg-slate-400" },
   { title: "Textile Materials", category: "resilient-lvt-textile-materials", image: "/products/product4.jpeg", accentColor: "bg-rose-500" },

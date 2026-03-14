@@ -192,7 +192,7 @@ export default function SolutionsSection() {
           className="text-base md:text-lg max-w-3xl mx-auto leading-relaxed"
           style={{ color: "#444", fontWeight: 400 }}
         >
-          Silverstar solutions enable you to solve any and every type of problem encountered in the
+          Silverstar solutions enable you to solve any and every type of challenge encountered in the
           building sector and, thanks to the use of high quality products, to enhance every type of
           building site with new innovations.
         </p>

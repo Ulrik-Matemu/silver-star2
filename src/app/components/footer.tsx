@@ -69,7 +69,7 @@ export const Footer = () => {
           <div className="md:col-span-4 space-y-8">
             <div className="space-y-2">
               <Image
-                src="/silver-star-logo.png"
+                src="/new-silverstar-logo.png"
                 alt="Silver Star Logo"
                 width={150}
                 height={50}
