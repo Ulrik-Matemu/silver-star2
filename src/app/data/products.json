@@ -236,7 +236,13 @@
     "description": "KERAFLEX MAXI S1 ZERO is a high-performance, deformable, grey and white cementitious adhesive with no vertical slip, extended open time, designed for ceramic and natural stone tiles, excellent for the installation of large-format ceramic tiles.",
     "specs": {
       "color": "Grey/White",
-      "packaging": "25kg bag"
+      "packaging": "25kg bag",
+      "consumption": "1.2 kg/m² per mm of thickness"
+    },
+    "features": {
+      "Advantage": "Can be applied at high thicknesses (up to 15 mm), No sinking of heavy and large tiles into the adhesive on floors, No vertical slip of heavy and large tiles on the walls, Excellent workability Excellent wetting of the tile back, Deformable Highly thixotropic, Extended open time, Very low emission of VOC CO2 fully offset product",
+      "Where To Use": "Bonding all types and sizes of ceramic tiles (double-fired, single-fired, porcelain tiles, klinker, terracotta, etc.) at thickness up to 15 mm on irregular internal and external substrates and render without skimming the surface prior to bonding ▪ Bonding stone on internal and external surfaces (stable stone, not sensitive to humidity) ▪ Bonding all types of mosaic on interior and exterior surfaces, also in swimming pools",
+      "Cleaning": "Clean tools and containers with water while Keraflex Maxi S1 Zero is still wet.Clean the surface of wall and floor coverings with a damp cloth before the adhesive hardens."
     }
   },
   {
@@ -244,10 +250,18 @@
     "name": "Mapelastic Turbo",
     "line": "building-specialty",
     "imageUrl": "/products/42_mapelastic-turbo-zero-adv_3dbd826d8f0c40c7ac91c9d8f80cea41.jpg",
-    "description": "Two-component, rapid-drying cementitious mortar.",
+    "description": "Two-component, rapid-drying elastic cementitious mortar for waterproofing terraces and balconies, including at low temperatures and on substrates not completely dry",
     "specs": {
+      "storage": "12 months",
       "color": "Brownish-grey",
-      "packaging": "36kg kit"
+      "packaging": "36kg kit/18kg Kit",
+      "consumption": "Approx. 2.4 kg/m²"
+    },
+    "features": {
+      "Advantage": "▪ Excellent workability ▪ For new or existing substrates ▪ Rapid-drying in all weather conditions ▪ Suitable for cementitious sublayers not completely dry but sufficiently cured ▪ Low thickness (2 mm) ▪ Coverings applicable directly on waterproofing ▪ Waterproofing for balconies, terraces ▪ Resistant to UV rays ▪ The product is certified EC1 Plus by the GEV Institute as a product with very low emission of volatile organic compounds",
+      "Where To Use": "Rapid waterproofing of concrete structures, cementitious screeds, and old floor and wall coverings, including at low temperatures",
+      "Cleaning": "Due to high adhesion of Mapelastic Turbo Zero even on metal, it is advisable to wash working tools with water before the mortar starts to set. Once hardened, cleaning can be carried out only mechanically"
+
     }
   },
   {
@@ -258,7 +272,14 @@
     "description": "High-performance, low-VOC, water-based coating for sports surfaces.",
     "specs": {
       "color": "Black",
-      "packaging": "20kg bucket"
+      "packaging": "15L Bucket",
+      "storage": "12 months",
+      "spreading rate": "4 - 6 m /l"
+    },
+    "features": {
+      "Advantage": "▪ FIA (Federation Internationale de l'Automobile) homologated ▪ FIM (Fédération Internationale de Motocyclisme) homologated ▪ Limitless colour range ▪ Rapid film forming ▪ CO emissions fully offset ▪ High durability ▪ Protective coating for concrete ▪ Abrasion resistance ▪ Chemical resistance fuel, oil, acid ▪ Easy spray application ▪ Slip resistance",
+      "Where To Use": "▪ kerbs, starting grid, pit lane and edge line markings of racing circuits; ▪ painting of circuits run-off designs by a wide range of colors selection; ▪ painting of sponsor logos for circuits branding; ▪ temporary city circuits line markings",
+      "Cleaning": "Clean tools used to apply the product with water. Once dry, Mapecoat TNS Race Track Zero may only be removed mechanically. Clean all tools and equipment thoroughly immediately after applying the product, particularly spray machines."
     }
   },
   {
