@@ -1,7 +1,8 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react'; // Added useEffect and useCallback
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+
 
 const slides = [
   {
@@ -63,26 +64,49 @@ const slides = [
 
 export const HeroCarousel = () => {
   const [current, setCurrent] = useState(0);
+  const [isPaused, setIsPaused] = useState(false); // State to track hover
   const router = useRouter();
 
-  const nextSlide = () => setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  // Wrap nextSlide in useCallback so it's a stable reference for the useEffect
+  const nextSlide = useCallback(() => {
+    setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+  }, []);
+
   const prevSlide = () => setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+
+  // Autoplay Logic
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+
+    if (!isPaused) {
+      interval = setInterval(() => {
+        nextSlide();
+      }, 3000); // 3000ms = 3 seconds
+    }
+
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [nextSlide, isPaused]); // Re-run if paused state changes
 
   const handleClick = (link: string) => {
     router.push(link);
   }
 
   return (
-    <div className="relative w-full overflow-hidden bg-white font-sans">
+    <div 
+      className="relative w-full overflow-hidden bg-white font-sans"
+      onMouseEnter={() => setIsPaused(true)}  // Pause on hover
+      onMouseLeave={() => setIsPaused(false)} // Resume on leave
+    >
       <div 
         className="flex transition-transform duration-500 ease-in-out"
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {slides.map((slide, index) => (
           <div key={index} className="min-w-full flex flex-col md:relative md:h-[500px]">
-            
-            {/* Image Section: Top on mobile, Background on Desktop */}
-            <div className="w-full  md:h-full md:absolute md:inset-0">
+            {/* ... rest of your slide mapping logic ... */}
+            <div className="w-full md:h-full md:absolute md:inset-0">
               <img 
                 src={slide.image} 
                 alt={slide.title}
@@ -90,7 +114,6 @@ export const HeroCarousel = () => {
               />
             </div>
 
-            {/* Content Section: Below image on mobile, Overlay on Desktop */}
             <div className="relative flex items-center px-12 md:px-6 py-8 md:px-24 md:h-full md:z-10">
               <div className="max-w-xl animate-fadeIn">
                 <h1 className={`text-2xl md:text-5xl font-extrabold ${slide.fontColor} mb-2 leading-tight md:leading-none`}>
@@ -112,7 +135,7 @@ export const HeroCarousel = () => {
         ))}
       </div>
 
-      {/* Navigation - Positioned relative to the whole container */}
+      {/* Navigation */}
       <div className="absolute top-[125px] md:top-1/2 w-full flex justify-between px-2 md:px-4 pointer-events-none">
         <button 
           onClick={prevSlide}

@@ -1,11 +1,4 @@
 export const categoryInfo: Record<string, { title: string; description: string; subTitle?: string; extraDescription?: string; backgroundImage?: string }> = {
-    "admixtures-concrete": {
-        title: "Admixtures for Concrete",
-        description: "Chemical admixtures to modify concrete properties: plasticizers, retarders, accelerators and durability enhancers.",
-        subTitle: "Admixtures for Concrete",
-        extraDescription: "his Line appeared in 1992 with the development of the first ever acrylic-based super-plasticiser in Europe. Today, thanks to technological innovations and the constant development of new products, the admixtures for concrete line now offers solutions for the most varied range of construction needs, from large-scale projects to residential buildings.",
-        backgroundImage: "/product-category-images/additivi-cls.jpg"
-    },
     "ceramic-stone": {
         title: "Ceramic & Stone Materials",
         description: "Industry-leading adhesives, grouts, and preparation products for high-durability tiling and stone installations.",
@@ -19,6 +12,13 @@ export const categoryInfo: Record<string, { title: string; description: string; 
         subTitle: "Quality, professionalism and support: the most complete offer for tiles installation",
         extraDescription: "One of Silverstar’s historic product lines, offering a complete range of reliable, durable and innovative solutions for the installation of ceramic, mosaic and stone coverings. Adhesives, grouts, sealants, primers, crack-isolation membranes, levelling systems, accessories for installation and grouting: a full portfolio designed to meet every requirement of a constantly evolving market and to provide the most suitable solutions for any environment - whether in new-builds or refurbishments - from homes to the most demanding contexts such as swimming pools, steam rooms, façades and commercial buildings. Choosing Silverstar’s experience and product quality means not only having the certainty of results but also benefitting from technical support that anticipates needs, challenges and opportunities.",
         backgroundImage: "/product-category-images/CoverMobile.jpg"
+    },
+    "admixtures-concrete": {
+        title: "Admixtures for Concrete",
+        description: "Chemical admixtures to modify concrete properties: plasticizers, retarders, accelerators and durability enhancers.",
+        subTitle: "Admixtures for Concrete",
+        extraDescription: "his Line appeared in 1992 with the development of the first ever acrylic-based super-plasticiser in Europe. Today, thanks to technological innovations and the constant development of new products, the admixtures for concrete line now offers solutions for the most varied range of construction needs, from large-scale projects to residential buildings.",
+        backgroundImage: "/product-category-images/additivi-cls.jpg"
     },
     "waterproofing": {
         title: "Waterproofing Systems",

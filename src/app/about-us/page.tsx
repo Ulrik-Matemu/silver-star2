@@ -595,7 +595,10 @@ export default function AboutUs() {
         {/* ── INTRO ── */}
         <section className="intro">
           <div>
-            <span className="about-tag reveal">Est. 2011 · Dar es Salaam, Tanzania</span>
+            <div className="grid">
+              <span className="about-tag reveal font-bold">ABOUT US</span>
+              <span className="about-tag reveal">EST. 2011 · Dar es Salaam, Tanzania</span>
+            </div>
             <h1 className="intro-heading reveal delay-1">
               Building with <em>confidence</em>,<br />backed by expertise.
             </h1>

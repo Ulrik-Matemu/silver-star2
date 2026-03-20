@@ -255,7 +255,7 @@ export default function Faqs() {
       <section className="faq-section">
         <div className="faq-inner">
           <div className="faq-header">
-            <p className="faq-eyebrow">Need Answers?</p>
+            <p className="faq-eyebrow">Frequently Asked Questions</p>
             <h2 className="faq-title">Everything You Need to Know</h2>
             <div className="faq-divider" />
           </div>

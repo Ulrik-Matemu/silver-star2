@@ -1,5 +1,30 @@
 [
-
+  {
+    "id": "mapelastic-smart",
+    "name": "MAPELASTIC SMART",
+    "line": "waterproofing",
+    "description": "Two-component, high-flexibility cementitious mortar (with crack-bridging> 2 mm), applied by trowel or with a roller, for waterproofing balconies, terraces, bathrooms and swimming pools",
+    "imageUrl": "/products/4_mapelastic_smart-uae_a1e1635df7e74675818a6115652a1e0e.png",
+    "specs": {"packaging": "30 kg unit: 20 kg bag & 10 kg jerrycan", "consumption By Trowel Or Roller": "approx. 1.6 kg/m² per mm of thickness.", "consumption By Spray": "approx. 2.2 kg/m2 per mm of thickness"},
+    "features": {
+      "Advantage": "High performance: a 2 mm thick film can cover cracks up to 2 mm wide.Excellent mechanical characteristics thanks to the use of Mapetex Sel N reinforcement, CE-marked product according to EN 1504-2 and EN 14891 standards, Excellent elongation at failure (120%), Fluid consistency for easy application.",
+      "Cleaning": "Due to the high adhesion of Mapelastic Smart even on metal, it is advisable to wash working tools with water before the mortar starts to set. Once hardened, cleaning can be carried out only mechanically.",
+      "Storage": "Mapelastic Smart component A can be stored for 12 months in its original packaging in a dry area. Mapelastic Smart component B can be stored for 24 months. Store Mapelastic Smart in a dry place at a temperature of at least +5°C"
+    }
+  },
+  {
+    "id": "mapelastic-foundation",
+    "name": "MAPELASTIC FOUNDATION",
+    "line": "waterproofing",
+    "description": "Two-component, flexible cementitious mortar for waterproofing concrete surfaces subject to both positive and negative water pressure",
+    "imageUrl": "/products/4_2069-mapelastic-foundation-a-b-32kg-int_f50c41b03a214e63be7319f7bad06cc7.png",
+    "specs": {"packaging": "22 kg bag & 10 kg tank.", "consumption By Trowel Or Roller": "1.65 kg/m² per mm of thickness;", "consumption By Spray": "2.2 kg/m² per mm of thickness.", "storage": "12 months"},
+    "features": {
+      "Where To Use": "Waterproofing concrete and masonry structures subject to positive or negative hydrostatic pressure. It is recommended for foundation walls, car-parks and underground environments, basins, channels and swimming pools",
+      "Cleaning": "Due to the high bond strength of Mapelastic Foundation, including to metal surfaces, we recommend washing work tools with water before the mortar sets. Once it has set, cleaning may only be carried out by mechanical means.",
+      "Storage": "Mapelastic Foundation component A may be stored for 12 months in its original packaging in a dry place. Mapelastic Foundation component B may be stored for 24 months."
+    }
+  },
   {
     "id": "mapeplast-rp100",
     "name": "MAPEPLAST RP100",
@@ -30,32 +55,6 @@
       "Advantage": "Dynamon SR2600 reduces the water/cement ratio with excellent improvements in the fresh and hardened concrete properties, reduces placing problems in hot weather concreting by improving workability and workability retention. Increases impermeability and durability. It is designed for meeting all the specifications required in OPC and blended mixes.",
       "Dosages": "Standard concrete production starting dosage is 0.5-3.0 Liters/every 100 kg of total cementitious materials.",
       "Storage": "Dynamon SR2600 can be stored for 12 months in sealed containers. Protect from frost and direct sunlight"
-    }
-  },
-  {
-    "id": "mapelastic-smart",
-    "name": "MAPELASTIC SMART",
-    "line": "waterproofing",
-    "description": "Two-component, high-flexibility cementitious mortar (with crack-bridging> 2 mm), applied by trowel or with a roller, for waterproofing balconies, terraces, bathrooms and swimming pools",
-    "imageUrl": "/products/4_mapelastic_smart-uae_a1e1635df7e74675818a6115652a1e0e.png",
-    "specs": {"packaging": "30 kg unit: 20 kg bag & 10 kg jerrycan", "consumption By Trowel Or Roller": "approx. 1.6 kg/m² per mm of thickness.", "consumption By Spray": "approx. 2.2 kg/m2 per mm of thickness"},
-    "features": {
-      "Advantage": "High performance: a 2 mm thick film can cover cracks up to 2 mm wide.Excellent mechanical characteristics thanks to the use of Mapetex Sel N reinforcement, CE-marked product according to EN 1504-2 and EN 14891 standards, Excellent elongation at failure (120%), Fluid consistency for easy application.",
-      "Cleaning": "Due to the high adhesion of Mapelastic Smart even on metal, it is advisable to wash working tools with water before the mortar starts to set. Once hardened, cleaning can be carried out only mechanically.",
-      "Storage": "Mapelastic Smart component A can be stored for 12 months in its original packaging in a dry area. Mapelastic Smart component B can be stored for 24 months. Store Mapelastic Smart in a dry place at a temperature of at least +5°C"
-    }
-  },
-  {
-    "id": "mapelastic-foundation",
-    "name": "MAPELASTIC FOUNDATION",
-    "line": "waterproofing",
-    "description": "Two-component, flexible cementitious mortar for waterproofing concrete surfaces subject to both positive and negative water pressure",
-    "imageUrl": "/products/4_2069-mapelastic-foundation-a-b-32kg-int_f50c41b03a214e63be7319f7bad06cc7.png",
-    "specs": {"packaging": "22 kg bag & 10 kg tank.", "consumption By Trowel Or Roller": "1.65 kg/m² per mm of thickness;", "consumption By Spray": "2.2 kg/m² per mm of thickness.", "storage": "12 months"},
-    "features": {
-      "Where To Use": "Waterproofing concrete and masonry structures subject to positive or negative hydrostatic pressure. It is recommended for foundation walls, car-parks and underground environments, basins, channels and swimming pools",
-      "Cleaning": "Due to the high bond strength of Mapelastic Foundation, including to metal surfaces, we recommend washing work tools with water before the mortar sets. Once it has set, cleaning may only be carried out by mechanical means.",
-      "Storage": "Mapelastic Foundation component A may be stored for 12 months in its original packaging in a dry place. Mapelastic Foundation component B may be stored for 24 months."
     }
   },
   {
