@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import Image from 'next/image';
 
+
 export const Footer = () => {
   // State to track which dropdown is open
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -20,42 +21,31 @@ export const Footer = () => {
     setOpenSection(openSection === title ? null : title);
   };
 
+  // helper to create simple URL slugs
+  const toSlug = (s: string) =>
+    s
+      .toLowerCase()
+      .replace(/&/g, 'and')
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '');
+
   const menuSections = [
     {
       title: "PRODUCTS",
-      hasDropdown: true,
-      links: ["Products", "Technical Data Sheets", "Safety Data Sheets"],
-    },
-    {
-      title: "SOLUTIONS",
-      hasDropdown: true,
-      links: ["Industrial Solutions", "Commercial Projects", "Residential Systems"],
-    },
-    {
-      title: "REALTÀ MAGAZINE",
       hasDropdown: false,
     },
     {
-      title: "TRAINING AND TECHNICAL SUPPORT",
-      hasDropdown: true,
-      links: ["Training Programs", "Technical Seminars", "Expert Support"],
+      title: "SOLUTIONS",
+      hasDropdown: false,
     },
     {
-      title: "TOOLS & DOWNLOADS",
-      hasDropdown: true,
-      links: ["Product Catalogues", "Project Estimators", "Software Tools"],
-    },
-    {
-      title: "FAQ",
+      title: "FAQS",
       hasDropdown: false,
     },
   ];
 
   const rightSections = [
-    { title: "PROJECTS", hasDropdown: true, links: ["Completed Projects", "Ongoing Projects"] },
-    { title: "ABOUT US", hasDropdown: true, links: ["Our Story", "Team", "Vision & Mission"] },
-    { title: "WHERE TO BUY", hasDropdown: false },
-    { title: "NEWS & EVENTS", hasDropdown: false },
+    { title: "ABOUT US", hasDropdown: false},
     { title: "CAREERS", hasDropdown: false },
     { title: "CONTACT US", hasDropdown: false },
   ];
@@ -114,64 +104,70 @@ export const Footer = () => {
 
           {/* Middle Column: Primary Links */}
           <div className="md:col-span-4">
-            {menuSections.map((section) => (
-              <div key={section.title} className="border-b border-gray-700">
-                <button
-                  onClick={() => section.hasDropdown && toggleSection(section.title)}
-                  className="w-full py-4 flex justify-between items-center hover:text-white transition-colors text-left"
-                >
-                  <span className="text-sm font-bold tracking-wide uppercase">{section.title}</span>
-                  {section.hasDropdown && (
-                    <ChevronDown
-                      size={20}
-                      className={`text-gray-500 transition-transform duration-300 ${openSection === section.title ? 'rotate-180' : ''}`}
-                    />
+            {menuSections.map((section) => {
+              const baseHref = `/${toSlug(section.title)}`;
+              return (
+                <div key={section.title} className="border-b border-gray-700">
+                  {section.hasDropdown ? (
+                    <button
+                      onClick={() => toggleSection(section.title)}
+                      className="w-full py-4 flex justify-between items-center hover:text-white transition-colors text-left"
+                    >
+                      <span className="text-sm font-bold tracking-wide uppercase">{section.title}</span>
+                      <ChevronDown
+                        size={20}
+                        className={`text-gray-500 transition-transform duration-300 ${openSection === section.title ? 'rotate-180' : ''}`}
+                      />
+                    </button>
+                  ) : (
+                    // non-dropdown sections are direct links
+                    <a
+                      href={baseHref}
+                      className="w-full block py-4 flex justify-between items-center hover:text-white transition-colors text-left"
+                    >
+                      <span className="text-sm font-bold tracking-wide uppercase">{section.title}</span>
+                    </a>
                   )}
-                </button>
-                {section.hasDropdown && (
-                  <div className={`overflow-hidden transition-all duration-300 ease-in-out ${openSection === section.title ? 'max-h-48 pb-4' : 'max-h-0'}`}>
-                    {section.links?.map((link) => (
-                      <a key={link} href="#" className="block py-1.5 text-xs text-gray-400 hover:text-white pl-2">
-                        {link}
-                      </a>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
+
+                 
+                 
+                </div>
+              );
+            })}
           </div>
 
           {/* Right Column: Secondary Links */}
           <div className="md:col-span-4">
-            {rightSections.map((section) => (
-              <div key={section.title} className="border-b border-gray-700">
-                <button
-                  onClick={() => section.hasDropdown && toggleSection(section.title)}
-                  className="w-full py-4 flex justify-between items-center hover:text-white transition-colors text-left"
-                >
-                  <span className="text-sm font-bold tracking-wide uppercase">{section.title}</span>
-                  {section.hasDropdown && (
-                    <ChevronDown
-                      size={20}
-                      className={`text-gray-500 transition-transform duration-300 ${openSection === section.title ? 'rotate-180' : ''}`}
-                    />
+            {rightSections.map((section) => {
+              const baseHref = `/${toSlug(section.title)}`;
+              return (
+                <div key={section.title} className="border-b border-gray-700">
+                  {section.hasDropdown ? (
+                    <button
+                      onClick={() => toggleSection(section.title)}
+                      className="w-full py-4 flex justify-between items-center hover:text-white transition-colors text-left"
+                    >
+                      <span className="text-sm font-bold tracking-wide uppercase">{section.title}</span>
+                      <ChevronDown
+                        size={20}
+                        className={`text-gray-500 transition-transform duration-300 ${openSection === section.title ? 'rotate-180' : ''}`}
+                      />
+                    </button>
+                  ) : (
+                    <a
+                      href={baseHref}
+                      className="w-full block py-4 flex justify-between items-center hover:text-white transition-colors text-left"
+                    >
+                      <span className="text-sm font-bold tracking-wide uppercase">{section.title}</span>
+                    </a>
                   )}
-                </button>
-                {section.hasDropdown && (
-                  <div className={`overflow-hidden transition-all duration-300 ease-in-out ${openSection === section.title ? 'max-h-48 pb-4' : 'max-h-0'}`}>
-                    {section.links?.map((link) => (
-                      <a key={link} href="#" className="block py-1.5 text-xs text-gray-400 hover:text-white pl-2">
-                        {link}
-                      </a>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
+                </div>
+              );
+            })}
           </div>
 
         </div>
-        <div className="pt-8 text-right">
+        <div className="text-right">
           <p className="text-right text-sm text-gray-300" style={{ textAlign: 'right' }}>Copyright © 2026 Silverstar Resources Company Limited. All rights reserved.</p>
         </div>
       </footer>
