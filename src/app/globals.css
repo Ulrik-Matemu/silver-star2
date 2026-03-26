@@ -4,8 +4,19 @@ body {
   background-color: white;
 }
 
+.copyright-text p {
+    text-align: right;
+  }
+
 @media screen and (min-width: 1024px) {
     .product-image {
         min-width: 400px;
     }
+}
+
+@media screen and (max-width: 1023px) {
+  .copyright-text p {
+    text-align: center;
+    padding-top: 50px;
+  }
 }

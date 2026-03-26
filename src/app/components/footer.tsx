@@ -167,8 +167,8 @@ export const Footer = () => {
           </div>
 
         </div>
-        <div className="text-right">
-          <p className="text-right text-sm text-gray-300" style={{ textAlign: 'right' }}>Copyright © 2026 Silverstar Resources Company Limited. All rights reserved.</p>
+        <div className="copyright-text">
+          <p className="text-sm text-gray-300">Copyright © 2026 Silverstar Resources Company Limited. All rights reserved.</p>
         </div>
       </footer>
     </>
