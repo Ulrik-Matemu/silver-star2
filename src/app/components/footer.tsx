@@ -75,11 +75,12 @@ export const Footer = () => {
               <div className="space-x-2">
                 <MapPin size={16} className="mb-2 flex-shrink-0 text-white" />
                 <p>Coca-cola Road, Mwenge, Dar es Salaam, Tanzania</p>
+                <p>P. O. Box 11451</p>
+                <p><b>Email:</b> info@silverstars.co.tz</p>
               </div>
 
               <div className="space-x-2">
-                <Mailbox size={16} className="mb-2 flex-shrink-0 text-white" />
-                <p>P. O. Box 11451</p>
+
               </div>
             </div>
 
