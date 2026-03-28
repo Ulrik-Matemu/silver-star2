@@ -10,7 +10,7 @@ const slides = [
     description: "This Line appeared in 1992 with the development of the first ever acrylic-based super-plasticiser in Europe. ",
     buttonText: "LEARN MORE",
     buttonLink: "/products/admixtures-concrete",
-    image: "/product-category-images/additivi-cls.jpg",
+    image: "/products/concrete-hero.png",
     fontColor: "text-black md:text-white"
   },
    {
@@ -25,7 +25,7 @@ const slides = [
     title: "Flooring Systems",
     description: "Durable and stylish flooring solutions for residential, commercial, and industrial spaces (Epoxy, Polyurethane, Sports, etc.)",
     buttonText: "EXPLORE",
-    buttonLink: "/products",
+    buttonLink: "/products/cementitious-resin-flooring",
     fontColor: "text-black md:text-white",
     image: "/product-category-images/parquet.jpg"
   },

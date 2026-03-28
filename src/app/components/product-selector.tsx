@@ -102,7 +102,7 @@ const ProductSelector = () => {
         {/* View More Button */}
         {filteredProducts.length > 3 && (
           <div className="text-center mt-10">
-            <Link href={`/products?line=${selectedCategory}`}>
+            <Link href={`/products/${selectedCategory}`}>
               <div className="inline-flex items-center px-8 py-3 text-base font-bold rounded-full text-white bg-blue-900 hover:bg-blue-800 transition-all duration-200 shadow-md hover:shadow-lg">
                 View All {categoryInfo[selectedCategory].title}
                 <ChevronRight className="ml-2 h-5 w-5" />

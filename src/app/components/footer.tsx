@@ -8,7 +8,9 @@ import {
   ChevronDown,
   Phone,
   X,
-  Twitter
+  Twitter,
+  MapPin,
+  Mailbox
 } from 'lucide-react';
 import Image from 'next/image';
 
@@ -45,7 +47,7 @@ export const Footer = () => {
   ];
 
   const rightSections = [
-    { title: "ABOUT US", hasDropdown: false},
+    { title: "ABOUT US", hasDropdown: false },
     { title: "CAREERS", hasDropdown: false },
     { title: "CONTACT US", hasDropdown: false },
   ];
@@ -53,10 +55,10 @@ export const Footer = () => {
   return (
     <>
       <footer className="bg-[#1a1a1a] text-gray-300 py-12 px-6 md:px-16 lg:px-24 font-sans border-t border-gray-700">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-12">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:flex gap-12">
 
           {/* Left Column: Branding & Contact */}
-          <div className="md:col-span-4 space-y-8">
+          <div className="md:col-span-4 space-y-4 md:w-1/2">
             <div className="space-y-2">
               <Image
                 src="/new-silverstar-logo.png"
@@ -67,6 +69,38 @@ export const Footer = () => {
               />
             </div>
 
+            <div className='md:flex items-center gap-4'>
+              <div className='space-y-4'>
+              <p className='text-sm font-medium text-gray-400'>Our Office</p>
+              <div className="space-x-2">
+                <MapPin size={16} className="mb-2 flex-shrink-0 text-white" />
+                <p>Coca-cola Road, Mwenge, Dar es Salaam, Tanzania</p>
+              </div>
+
+              <div className="space-x-2">
+                <Mailbox size={16} className="mb-2 flex-shrink-0 text-white" />
+                <p>P. O. Box 11451</p>
+              </div>
+            </div>
+
+            
+
+            <div className="space-y-4">
+              <p className="text-sm font-medium text-gray-400">Contact us</p>
+              <div className="space-y-3 text-sm">
+                <div className="space-x-2">
+                  <Phone size={16} className="mb-2 flex-shrink-0 text-white" />
+                  <p>Technical Services at <a href='tel:+255787788288' className='font-bold'>+255 787 788 288</a></p>
+                </div>
+                <div className="flex items-start space-x-2">
+                  <p>Engineer at <a href='tel:+255716733283' className='font-bold'>+255 716 733 283</a></p>
+                </div>
+                <div className="flex items-start space-x-2">
+                  <p>General Enquiries at <a href='tel:+255713484175' className='font-bold'>+255 713 484 175</a> / <a href='tel:+255764009008' className='font-bold'>+255 764 009 008</a></p>
+                </div>
+              </div>
+            </div>
+            </div>
             <div className="space-y-4">
               <p className="text-sm font-medium text-gray-400">Follow us</p>
               <div className="flex space-x-3">
@@ -87,23 +121,10 @@ export const Footer = () => {
                 </a>
               </div>
             </div>
-
-            <div className="space-y-4 pt-4">
-              <p className="text-sm font-medium text-gray-400">Contact us</p>
-              <div className="space-y-3 text-sm">
-                <div className="flex items-start space-x-2">
-                  <Phone size={16} className="mt-1 flex-shrink-0 text-white" />
-                  <p>Technical Services at +255 787 788 288</p>
-                </div>
-                <div className="pl-6">
-                  <p>General Enquiries at +255 713 484 175 / +255 764 009 008</p>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Middle Column: Primary Links */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-4 md:w-1/4">
             {menuSections.map((section) => {
               const baseHref = `/${toSlug(section.title)}`;
               return (
@@ -129,15 +150,15 @@ export const Footer = () => {
                     </a>
                   )}
 
-                 
-                 
+
+
                 </div>
               );
             })}
           </div>
 
           {/* Right Column: Secondary Links */}
-          <div className="md:col-span-4">
+          <div className="md:col-span-4 md:w-1/4">
             {rightSections.map((section) => {
               const baseHref = `/${toSlug(section.title)}`;
               return (

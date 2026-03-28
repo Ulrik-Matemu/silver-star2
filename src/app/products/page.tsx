@@ -52,7 +52,7 @@ export default async function ProductsPage() {
         {
             title: "Waterproofing",
             image: "/product-category-images/waterproof.jpg",
-            href: "/products/waterproofing.jpg",
+            href: "/products/waterproofing",
             accentColor: "#2563eb"
         }
     ];

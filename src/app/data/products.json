@@ -1153,6 +1153,105 @@
     "specs": {"packaging":"20kg bag"}
   },
   {
+    "id": "mapecoat-pu33",
+    "name": "MAPECOAT PU33",
+    "line": "wall-paints-coatings",
+    "description": "Flexible coating based on two-component polyurethane resins",
+    "imageUrl": "/products/4_2007-mapecoat-pu33-a-b-buckets-20-7-2-3kg_08ad98f99a00469b91b5d75a0916a100.png",
+    "specs": {
+      "packaging": "23 kg units",
+      "storage":"24 months",
+      "consumption": "1.15 kg/m²"
+    },
+    "features": {
+      "Where To Use": "Especially suitable for the protection of concrete, and as a watertight protection of flat and inclined civil and industrial coverings.",
+      "Cleaning": "Brushes, rollers and airless spray guns must be cleaned with Mapei’s Thinner for Adhesives before Mapecoat PU33 dries.",
+      "Technical Characteristic": "Mapecoat PU33 is highly resistant to industrial pollution and atmospheric agents in general, is highly flexibile, is highly resistant to tear and to substrate micro-cracks, waterproof to water but permeable to steam, excellently retains colours and is easy to apply."
+    }
+  },
+  {
+    "id": "mapecoat-pu33-n",
+    "name": "MAPECOAT PU 33 N",
+    "line": "wall-paints-coatings",
+    "description": "Flexible coating based on polyurethane resin",
+    "imageUrl": "/products/4_6645-mapecoat-pu33-n-a-b-buckets-20-2-2-8kg_1e812f4b82b74f018e9d65e483517148.png",
+    "specs": {
+      "packaging": "23 kg units",
+      "consumption": "~  0.420 kg/m² for 2 coats",
+      "storage":"24 months"
+    },
+    "features": {
+      "Where To Use": "Especially suitable as protective coating for concrete in civil and industrial works and infrastructures such as bridges and viaducts",
+      "Technical Characteristic": "Mapecoat PU 33 N is highly flexibile, resistant to tear and to cracks, is highly resistant to atmospheric agents and industral envionments, is waterproof, excellently retains colours and is easy to apply. Once completely hardened, Mapecoat PU 33 N can resist the aggressive action of ultraviolet rays and block CO₂ penetration. Mapecoat PU 33 N resists frost and gives a pleasant appearance to the surfaces.",
+      "Cleaning": "Remove Mapecoat PU 33 N from brushes, rollers or (airless) spray equipment with MAPEI Thinner PU before it dries"
+    }
+  },
+  {
+    "id": "mapefloor-fc-200-me",
+    "name": "MAPEFLOOR FC 200 ME",
+    "line": "cementitious-resin-flooring",
+    "description": "High build epoxy resin floor coating",
+    "imageUrl": "/products/4_mapefloor-fc-200-me-uae_6520197d8bc245a187fe685ccd31dd77.png",
+    "specs": {
+      "packaging": "25.5 kg kits (component A = 22 kg; component B = 3.5 kg) in containers.",
+      "storage":"24 months"
+    },
+    "features": {
+      "Where To Use": "Mapefloor FC 200 ME is a two-component epoxy formulation with high solid content used to create multilayered resin coatings with a non-slip, or roll coat/ structured finish.",
+      "Cleaning": "Tools used to prepare and apply Mapefloor FC 200 ME with ethanol or thinners immediately after use. Once hardened, the product may only be removed using mechanical means."
+    }
+  },
+  {
+    "id": "mapefloor-i-300-sl-me",
+    "name": "MAPEFLOOR I 300 SL ME",
+    "line": "cementitious-resin-flooring",
+    "description": "Three-component multi-purpose coloured epoxy formulate for industrial floor coatings from 2 to 4 mm thick",
+    "imageUrl": "/products/4_mapefloor-i300-sl-me-uae_0b4efba6244b4ca198c3960faf46f754.png",
+    "specs": {
+      "consumption": "Smooth self-levelling average thickness 2mm Primers SN (A+B) : 0.3 kg/m²",
+      "storage":"24 months",
+      "packaging": " 47 kg kits (component A=17 kg + component B=5 kg + component C=25 kg)."
+    },
+    "features": {
+      "Where To Use": "Mapefloor I 300 SL ME is a three-component epoxy formulate with high solid content used to create selflevelling resin coatings with an attractive smooth surface",
+      "Yield": "47 kg units will yield 25.4 liters of mixed materials",
+      "Technical Characteristic": "Mapefloor I 300 SL ME is a three-component, nonylphenol-free, fillerized epoxy resin-based formulate with high solid content according to a formula developed in the MAPEI R&D Laboratories. Mapefloor I 300 SL ME is versatile and may be applied in layers from 2 to 4 mm thick. Mapefloor I 300 SL ME is used to create seamless coatings with an attractive finish. Mapefloor I 300 SL ME has good resistance to chemical products and abrasion and may be used in both selflevelling and multi-layered systems."
+    }
+  },
+  {
+    "id": "mapefloor-i-300-sl-trp",
+    "name": "MAPEFLOOR I 300 SL TRP",
+    "line": "cementitious-resin-flooring",
+    "description": "Two-component, transparent, non-yellowing epoxy coatings applied at a thickness of 1 mm for finishing coats on epoxy resin systems.",
+    "imageUrl": "/products/4_2051-mapefloor-i-300-sl-trp-18kg-int_3694932e8c2b4ddaa1baac296c75636e.png",
+    "specs": {
+      "packaging": "18 kg kits (A+B)",
+      "consumption": "approx. 1-1 kg/m² to form a 1 mm thick coat.",
+      "storage": "12 months"
+    },
+    "features": {
+      "Where To Use": "Mapefloor I 300 SL TRP is used to finish off decorative floors in civil environments subjected to pedestrian traffic such as shops and hotel lobbies. Thanks to its impermeability to liquids and resistance to chemical products and abrasion, Mapefloor I 300 SL TRP may also be used to finish off decorative floors in restaurants, bars, show-rooms, etc.",
+      "Technical Characteristic": "Mapefloor I 300 SL TRP is a two-component, transparent, low-yellowing epoxy formulate with 100% solids content according to a formulation developed in the MAPEI Research & Development laboratories. Mapefloor I 300 SL TRP is suitable for making highly attractive, decorative floors and for treating the surface of finishes and, apart from making floors more resistant, it also creates a “lens effect” on the surface. Once Mapefloor I 300 SL TRP has hardened, surfaces have good resistance to chemical products and abrasion, are resistant to alcohol and diluted alkalis and are also easy to clean."
+    }
+  },
+  {
+    "id": "mapefloor-pu-460",
+    "name": "MAPEFLOOR PU 460",
+    "line": "cementitious-resin-flooring",
+    "description": "Two-component elastic, coloured, aromatic, selflevelling polyurethane resin used to create Mapefloor Comfort System AR and Mapefloor Comfort System AR/X",
+    "imageUrl": "/products/4_6713-mapefloor-pu-460-a-b-b-14-4-5kg_470960bad59d416c83929de881e33664.png",
+    "specs": {
+      "consumption": "~ 2.5 kg/m² to form a 2 mm thick layer",
+      "packaging": "20 kg unit: component A: 15 kg; component B: 5 kg.",
+      "storage": "12 months"
+    },
+    "features": {
+      "Where To Use": "The resin systems made with with Mapefloor PU 460 are particularly recommended for internal flooring in the residential and tertiary sectors.",
+      "Technical Characteristic": "The resin systems made with Mapefloor PU 460 are elastic, UV resistant, impermeable to liquid in general, resistant to pedestrian traffic and minimal chemical aggressions. It can be used combined with the rubber granule mat of 4 mm thickness Mapecomfort FL to make Mapefloor Comfort System AR/X, characterized by high walking comfort and reduction of impact noise and noise transmission (16 dB according to EN ISO 10140). Mapefloor PU 460 complies with the principles defined by EN 13813 “Screeds and materials for screeds - Properties and requirements”, which specifies the requirements for screed materials used in the construction of internal floors",
+      "Advantage": "easy to work; ▪ does not smell unpleasant during the application; ▪ high aesthetic attractiveness of the treated surfaces, thanks also to the wide choice of colours available ▪ low VOC emission; ▪ it creates smooth, seamless and joint-free surfaces (except on the structural joints of the substrate), easy to clean and maintain; ▪ sustainability: it can contribute to LEED credits. EPD (Environmental Product Declaration) compliant"
+    }
+  },
+  {
     "id": "",
     "name": "",
     "line": "",
