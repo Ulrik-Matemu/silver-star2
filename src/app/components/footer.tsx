@@ -69,26 +69,24 @@ export const Footer = () => {
               />
             </div>
 
-            <div className='md:flex items-center gap-4'>
+            <div className='md:flex items-center gap-6'>
               <div className='space-y-4'>
-              <p className='text-sm font-medium text-gray-400'>Our Office</p>
-              <div className="space-x-2">
+              <p className='text-lg font-bold text-gray-400'>Our Office</p>
+              <div className="space-x-2 min-w-max">
                 <MapPin size={16} className="mb-2 flex-shrink-0 text-white" />
-                <p>Coca-cola Road, Mwenge, Dar es Salaam, Tanzania</p>
+                <p>Coca-cola Road, Mwenge,</p>
+                <p>Dar es Salaam, Tanzania</p>
                 <p>P. O. Box 11451</p>
                 <p><b>Email:</b> info@silverstars.co.tz</p>
               </div>
 
-              <div className="space-x-2">
-
-              </div>
             </div>
 
             
 
             <div className="space-y-4">
-              <p className="text-sm font-medium text-gray-400">Contact us</p>
-              <div className="space-y-3 text-sm">
+              <p className="text-lg font-bold text-gray-400">Contact Us</p>
+              <div className="space-y-3 text-sm md:min-w-max">
                 <div className="space-x-2">
                   <Phone size={16} className="mb-2 flex-shrink-0 text-white" />
                   <p>Technical Services at <a href='tel:+255787788288' className='font-bold'>+255 787 788 288</a></p>
@@ -102,8 +100,8 @@ export const Footer = () => {
               </div>
             </div>
             </div>
-            <div className="space-y-4">
-              <p className="text-sm font-medium text-gray-400">Follow us</p>
+            <div className="space-y-4 mt-8">
+              <p className="text-lg font-bold text-gray-400">Follow Us</p>
               <div className="flex space-x-3">
                 <a href='https://www.facebook.com/share/1HP4SuTDfp/'>
                   <SocialIcon icon={<Facebook size={18} />} />
